@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     #region Private Variables
     
     private PlayerDirection _playerDirection;
-    private PlayerAction _playerAction;
+    private PlayerStates _playerStates;
     
     [SerializeField] private Vector2 _moveInput;
     public Vector2 MoveInput => _moveInput;
@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         _playerDirection = GetComponent<PlayerDirection>();
-        _playerAction = GetComponent<PlayerAction>();
+        _playerStates = GetComponent<PlayerStates>();
         
         _currentSpeed = walkingSpeed;
     }
@@ -73,12 +73,12 @@ public class PlayerController : MonoBehaviour
         Vector2 targetVelocity = _moveInput * _currentSpeed;
         Vector2 currentVelocity = _rb.linearVelocity;
 
-        if (_playerAction.GetCurrentActionState() != PlayerActionState.Default)
+        if (_playerStates.GetCurrentActionState() != PlayerActionState.Default)
         {
             targetVelocity = Vector2.zero;
         }
         
-        if (_playerAction.GetCurrentActionState() == PlayerActionState.Rolling) return;
+        if (_playerStates.GetCurrentActionState() == PlayerActionState.Rolling) return;
         
         _rb.linearVelocity = Vector2.Lerp(currentVelocity, targetVelocity, Time.fixedDeltaTime * accelerationTime);
     }
@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour
         _moveInput = input;
         _lastGivenInput = input;
      
-        if (_playerAction.GetCurrentActionState() != PlayerActionState.Default)
+        if (_playerStates.GetCurrentActionState() != PlayerActionState.Default)
         {
             _moveInput = Vector2.zero;
         }

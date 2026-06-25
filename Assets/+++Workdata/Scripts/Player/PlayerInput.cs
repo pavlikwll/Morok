@@ -11,6 +11,8 @@ public class PlayerInput : MonoBehaviour
     private InputSystem_Actions _inputActions;
     private InputAction _moveAction;
     private InputAction _interactAction;
+
+    private InputAction _changeWorldAction;
     
     
     #endregion
@@ -24,6 +26,8 @@ public class PlayerInput : MonoBehaviour
         _inputActions = new InputSystem_Actions();
         _moveAction = _inputActions.Player.Move;
         _interactAction = _inputActions.Player.Interact;
+
+        _changeWorldAction = _inputActions.Player.ChangeWorld;
     }
 
     private void OnEnable()
@@ -34,6 +38,8 @@ public class PlayerInput : MonoBehaviour
         _moveAction.canceled += Move;
 
         _interactAction.performed += Interact;
+
+        _changeWorldAction.performed += ChangeWorld;
     }
     
     private void OnDisable()
@@ -44,6 +50,8 @@ public class PlayerInput : MonoBehaviour
         _moveAction.canceled -= Move;
         
         _interactAction.performed -= Interact;
+        
+        _changeWorldAction.performed -= ChangeWorld;
     }
     
     #endregion
@@ -73,6 +81,11 @@ public class PlayerInput : MonoBehaviour
     private void Interact(InputAction.CallbackContext ctx)
     {
         PlayerInteraction.OnInteract?.Invoke();
+    }
+
+    private void ChangeWorld(InputAction.CallbackContext ctx)
+    {
+        PlayerAbilityChangeWorld.OnChangeWorld?.Invoke();
     }
 
     #endregion

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerAction : MonoBehaviour
+public class PlayerStates : MonoBehaviour
 {
     [SerializeField] PlayerActionState playerActionState;
 

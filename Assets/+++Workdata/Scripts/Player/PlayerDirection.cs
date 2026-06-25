@@ -7,11 +7,11 @@ public class PlayerDirection : MonoBehaviour
     public static Action<Vector2> SetDirection;
     [SerializeField] PlayerDirectionState _playerDirectionState;
 
-    private PlayerAction _playerAction;
+    private PlayerStates _playerStates;
 
     private void Awake()
     {
-        _playerAction = GetComponent<PlayerAction>();
+        _playerStates = GetComponent<PlayerStates>();
     }
     
     private void OnEnable()
@@ -32,7 +32,7 @@ public class PlayerDirection : MonoBehaviour
 
     public void SetPlayerDirection(Vector2 moveInput)
     {
-        if (_playerAction.GetCurrentActionState() != PlayerActionState.Default) return;
+        if (_playerStates.GetCurrentActionState() != PlayerActionState.Default) return;
         
         
         if (moveInput.x < 0)
