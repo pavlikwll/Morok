@@ -461,6 +461,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Questlog",
+                    "type": "Button",
+                    "id": "e629ee94-ee2d-42c5-aa55-8c05d4e92756",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -906,23 +915,23 @@
                 },
                 {
                     "name": "",
-                    "id": "8681a3ec-023f-43e3-9993-029b46d29e58",
-                    "path": "<Keyboard>/tab",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Inventory",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "8440cb11-6dfd-4618-99e5-c4060734b88e",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "PauseGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "18be552f-22b9-4bfe-9547-858f1fe909cf",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Questlog",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

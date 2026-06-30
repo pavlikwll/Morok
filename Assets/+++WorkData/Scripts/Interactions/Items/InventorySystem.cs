@@ -14,6 +14,8 @@ public class InventorySystem : MonoBehaviour
     public List<Item> items;
 
     public GameObject inventoryContainer;
+
+    public static bool inventoryOpen;
     
 
     [Header("Item Informations")]
@@ -55,10 +57,46 @@ public class InventorySystem : MonoBehaviour
     public void ChangeInventoryState()
     {
         itemInformationContainer.SetActive(false);
-        
-        inventoryContainer.SetActive(!inventoryContainer.activeSelf);
+  
+        OpenCloseInventory();
+        print("inventar");
+  
         InventoryManager.Instance.SetInventoryItems(items);
     }
+    public void OpenCloseInventory()
+    {
+        if (PauseMenu_UIManager.isPaused == false && QuestlogSystem.questlogOpen == false)
+        {
+            inventoryOpen = !inventoryOpen;
+            
+            if (inventoryOpen)
+            {
+                OpenInventory();
+            }
+            else 
+            { 
+                CloseInventory();
+            }
+        }
+        
+    }
+    private void OpenInventory()
+    {
+        GameObject.Find("Player").GetComponent<PlayerController>().enabled = false;
+        //GameObject.Find("Manager").GetComponent<UIInput>().enabled = false;
+        inventoryContainer.SetActive(true);
+        Time.timeScale = 0f;
+    }
+    public void CloseInventory()
+    {
+        GameObject.Find("Player").GetComponent<PlayerController>().enabled = true;
+        //GameObject.Find("Manager").GetComponent<UIInput>().enabled = true;
+        inventoryContainer.SetActive(false);
+        Time.timeScale = 1f;
+  
+        inventoryOpen = false;
+    }
+
     
     public Item GetItem(string id)
     {
@@ -72,12 +110,10 @@ public class InventorySystem : MonoBehaviour
 
         return null;
     }
-    
     public void Add(ItemDefinition itemDefinition, int amount)
     {
         Add(itemDefinition.id, amount);
     }
-
     public void Add(string itemId, int amount = 1)
     {
         if (!ValidateItem(itemId, amount)) return;
@@ -96,7 +132,6 @@ public class InventorySystem : MonoBehaviour
         //TODO: Quest System hinzufuegen
 
     }
-
     private bool ValidateItem(string itemId, int amount)
     {
         if (string.IsNullOrWhiteSpace(itemId) || string.IsNullOrEmpty(itemId))

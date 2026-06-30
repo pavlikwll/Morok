@@ -9,6 +9,8 @@ public class UIInput : MonoBehaviour
     private InputSystem_Actions _inputActions;
     private InputAction _pauseAction;
     private InputAction _inventoryAction;
+
+    private InputAction _questlogAction;
     
     #endregion
     
@@ -18,6 +20,7 @@ public class UIInput : MonoBehaviour
         _inputActions = new InputSystem_Actions();
         _pauseAction = _inputActions.UI.PauseGame;
         _inventoryAction = _inputActions.UI.Inventory;
+        _questlogAction = _inputActions.UI.Questlog;
     }
 
     private void OnEnable()
@@ -25,6 +28,8 @@ public class UIInput : MonoBehaviour
         _inputActions.Enable();
         _pauseAction.performed += PauseGame;
         _inventoryAction.performed += Inventory;
+
+        _questlogAction.performed += Questlog;
     }
 
     private void OnDisable()
@@ -32,6 +37,8 @@ public class UIInput : MonoBehaviour
         _inputActions.Disable();
         _pauseAction.performed -= PauseGame;
         _inventoryAction.performed -= Inventory;
+        
+        _questlogAction.performed -= Questlog;
     }
     #endregion
     
@@ -45,6 +52,11 @@ public class UIInput : MonoBehaviour
     private void Inventory(InputAction.CallbackContext ctx)
     {
         InventorySystem.OnChangeInventory?.Invoke();
+    }
+
+    private void Questlog(InputAction.CallbackContext ctx)
+    {
+        QuestlogSystem.OnChangeQuestlog?.Invoke();
     }
     
     #endregion

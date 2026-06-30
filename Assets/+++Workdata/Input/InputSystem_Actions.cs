@@ -547,6 +547,15 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Questlog"",
+                    ""type"": ""Button"",
+                    ""id"": ""e629ee94-ee2d-42c5-aa55-8c05d4e92756"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -992,23 +1001,23 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""8681a3ec-023f-43e3-9993-029b46d29e58"",
-                    ""path"": ""<Keyboard>/tab"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Inventory"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""8440cb11-6dfd-4618-99e5-c4060734b88e"",
                     ""path"": ""<Keyboard>/escape"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""PauseGame"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""18be552f-22b9-4bfe-9547-858f1fe909cf"",
+                    ""path"": ""<Keyboard>/j"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Questlog"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1100,6 +1109,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_UI_TrackedDeviceOrientation = m_UI.FindAction("TrackedDeviceOrientation", throwIfNotFound: true);
         m_UI_Inventory = m_UI.FindAction("Inventory", throwIfNotFound: true);
         m_UI_PauseGame = m_UI.FindAction("PauseGame", throwIfNotFound: true);
+        m_UI_Questlog = m_UI.FindAction("Questlog", throwIfNotFound: true);
     }
 
     ~@InputSystem_Actions()
@@ -1344,6 +1354,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_UI_TrackedDeviceOrientation;
     private readonly InputAction m_UI_Inventory;
     private readonly InputAction m_UI_PauseGame;
+    private readonly InputAction m_UI_Questlog;
     /// <summary>
     /// Provides access to input actions defined in input action map "UI".
     /// </summary>
@@ -1403,6 +1414,10 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "UI/PauseGame".
         /// </summary>
         public InputAction @PauseGame => m_Wrapper.m_UI_PauseGame;
+        /// <summary>
+        /// Provides access to the underlying input action "UI/Questlog".
+        /// </summary>
+        public InputAction @Questlog => m_Wrapper.m_UI_Questlog;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -1465,6 +1480,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @PauseGame.started += instance.OnPauseGame;
             @PauseGame.performed += instance.OnPauseGame;
             @PauseGame.canceled += instance.OnPauseGame;
+            @Questlog.started += instance.OnQuestlog;
+            @Questlog.performed += instance.OnQuestlog;
+            @Questlog.canceled += instance.OnQuestlog;
         }
 
         /// <summary>
@@ -1512,6 +1530,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @PauseGame.started -= instance.OnPauseGame;
             @PauseGame.performed -= instance.OnPauseGame;
             @PauseGame.canceled -= instance.OnPauseGame;
+            @Questlog.started -= instance.OnQuestlog;
+            @Questlog.performed -= instance.OnQuestlog;
+            @Questlog.canceled -= instance.OnQuestlog;
         }
 
         /// <summary>
@@ -1751,5 +1772,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnPauseGame(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Questlog" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnQuestlog(InputAction.CallbackContext context);
     }
 }

@@ -8,7 +8,7 @@ public class PauseMenu_UIManager : MonoBehaviour
     private InputSystem_Actions _inputActions;
     private InputAction _pauseAction;
 
-    private static bool isPaused;
+    public static bool isPaused;
     
     private void Awake()
     {
@@ -31,31 +31,37 @@ public class PauseMenu_UIManager : MonoBehaviour
 
     public void OpenPauseMenu(InputAction.CallbackContext ctx)
     {
-        isPaused = !isPaused;
-
-        if (isPaused)
+        if (InventorySystem.inventoryOpen == false && QuestlogSystem.questlogOpen == false)
         {
-            PauseGame();
+            isPaused = !isPaused;
+            
+            if (isPaused)
+            {
+                PauseGame();
+            }
+            else
+            { 
+                ResumeGame();
+            }
         }
-        else
-        {
-            ResumeGame();
-        }
+        
     }
 
     private void PauseGame()
     {
         GameObject.Find("Player").GetComponent<PlayerInput>().enabled = false;
+        //GameObject.Find("Manager").GetComponent<UIInput>().enabled = false;
         pauseMenuContainer.SetActive(true);
-        //Time.timeScale = 0f;
+        Time.timeScale = 0f;
 
         isPaused = true;
     }
     public void ResumeGame()
     {
         GameObject.Find("Player").GetComponent<PlayerInput>().enabled = true;
+        //GameObject.Find("Manager").GetComponent<UIInput>().enabled = true;
         pauseMenuContainer.SetActive(false);
-        //Time.timeScale = 1f;
+        Time.timeScale = 1f;
         
         isPaused = false;
     }
