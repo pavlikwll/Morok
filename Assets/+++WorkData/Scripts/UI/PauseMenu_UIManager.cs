@@ -9,6 +9,13 @@ public class PauseMenu_UIManager : MonoBehaviour
     private InputAction _pauseAction;
 
     public static bool isPaused;
+    
+    private GameObject _currentMenu;
+
+    public GameObject optionsContainer;
+    public GameObject radioContainer;
+    public GameObject inventoryContainer;
+    public GameObject questlogContainer;
 
     #region UniyEvents
      private void Awake()
@@ -16,6 +23,8 @@ public class PauseMenu_UIManager : MonoBehaviour
             pauseMenuContainer.SetActive(false);
             
             _inputActions = new InputSystem_Actions();
+
+            _currentMenu = pauseMenuContainer;
         }
     
         private void OnEnable()
@@ -70,7 +79,40 @@ public class PauseMenu_UIManager : MonoBehaviour
     
     #region PauseMenuFunctions
 
-    
+    public void OpenPauseMenu()
+    {
+        _currentMenu.SetActive(false);
+        pauseMenuContainer.SetActive(true);
+        _currentMenu = pauseMenuContainer;
+    }
+
+    public void OpenOptionsMenu()
+    {
+        _currentMenu.SetActive(false);
+        optionsContainer.SetActive(true);
+        _currentMenu = optionsContainer;
+    }
+
+    public void OpenRadio()
+    {
+        _currentMenu.SetActive(false);
+        radioContainer.SetActive(true);
+        _currentMenu = radioContainer;
+    }
+
+    public void OpenInventory()
+    {
+        _currentMenu.SetActive(false);
+        inventoryContainer.SetActive(true);
+        _currentMenu = inventoryContainer;
+    }
+
+    public void OpenQuestlog()
+    {
+        _currentMenu.SetActive(false);
+        questlogContainer.SetActive(true);
+        _currentMenu = questlogContainer;
+    }
 
     #endregion
 }

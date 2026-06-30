@@ -19,4 +19,29 @@ public class PauseMenu_ButtonManager : MonoBehaviour
     {
         Application.Quit();
     }
+    
+    public void Button_OpenPauseMenu()
+    {
+        pauseMenuUIManager.OpenPauseMenu();
+    }
+
+    public void Button_OpenOptions()
+    {
+        pauseMenuUIManager.OpenOptionsMenu();
+    }
+
+    public void Button_OpenRadio()
+    {
+        pauseMenuUIManager.OpenRadio();
+    }
+
+    public void Button_OpenInventory()
+    {
+        pauseMenuUIManager.OpenInventory();
+    }
+
+    public void Button_OpenQuestlog()
+    {
+        pauseMenuUIManager.OpenQuestlog();
+    }
 }
