@@ -10,6 +10,11 @@ public class MainMenu_ButtonManager : MonoBehaviour
         mainMenuUIManager.OpenMainMenu();
     }
 
+    public void Button_OpenLoadGame()
+    {
+        mainMenuUIManager.OpenLoadGame();
+    }
+
     public void Button_OpenOptions()
     {
         mainMenuUIManager.OpenOptions();
@@ -18,6 +23,11 @@ public class MainMenu_ButtonManager : MonoBehaviour
     public void Button_OpenCredits()
     {
         mainMenuUIManager.OpenCredits();
+    }
+
+    public void Button_QuitConfirm()
+    {
+        mainMenuUIManager.OpenQuitConfirm();
     }
 
     public void Button_LoadSceneByName(string sceneName)

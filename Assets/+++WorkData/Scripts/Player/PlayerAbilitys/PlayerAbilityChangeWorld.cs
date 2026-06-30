@@ -35,15 +35,15 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
     {
         if (_inWorldOne)
         {
-            _worldLoadUnloadManager.Load(2);
-            _worldLoadUnloadManager.Unload(1);
+            _worldLoadUnloadManager.Load(3);
+            _worldLoadUnloadManager.Unload(2);
 
             _inWorldOne = false;
         }
         else if (!_inWorldOne)
         {
-            _worldLoadUnloadManager.Load(1);
-            _worldLoadUnloadManager.Unload(2);
+            _worldLoadUnloadManager.Load(2);
+            _worldLoadUnloadManager.Unload(3);
 
             _inWorldOne = true;
         }

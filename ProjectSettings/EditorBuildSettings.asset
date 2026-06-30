@@ -6,13 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/+++Workdata/Scenes/TEST - BaseMechanics/TEST - AlwaysActive.unity
+    path: Assets/+++WorkData/Scenes/TEST - BaseMechanics/MainMenu.unity
+    guid: 51e1bbb90d85d61468b447a6e8a04d65
+  - enabled: 1
+    path: Assets/+++WorkData/Scenes/TEST - BaseMechanics/TEST - AlwaysActive.unity
     guid: 01d9494aac56b5e4495e26d88674a5a7
   - enabled: 1
-    path: Assets/+++Workdata/Scenes/TEST - BaseMechanics/TEST - Scene1.unity
+    path: Assets/+++WorkData/Scenes/TEST - BaseMechanics/TEST - Scene1.unity
     guid: 61b91eadb6b6841489f15c2c5df6b466
   - enabled: 1
-    path: Assets/+++Workdata/Scenes/TEST - BaseMechanics/TEST - Scene2.unity
+    path: Assets/+++WorkData/Scenes/TEST - BaseMechanics/TEST - Scene2.unity
     guid: 320441765444e17498a65b4abfb70e2e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
