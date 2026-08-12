@@ -25,7 +25,7 @@ public class UIInput : MonoBehaviour
 
     private void OnEnable()
     {
-        _inputActions.Enable();
+        EnableInput();
         _pauseAction.performed += PauseGame;
         _inventoryAction.performed += Inventory;
 
@@ -34,7 +34,7 @@ public class UIInput : MonoBehaviour
 
     private void OnDisable()
     {
-        _inputActions.Disable();
+        DisableInput();
         _pauseAction.performed -= PauseGame;
         _inventoryAction.performed -= Inventory;
         
@@ -61,4 +61,19 @@ public class UIInput : MonoBehaviour
     
     #endregion
 
+    
+    
+    
+    
+    
+    
+    public void EnableInput()
+    {
+        _inputActions.Enable();
+    }
+
+    public void DisableInput()
+    {
+        _inputActions.Disable();
+    }
 }

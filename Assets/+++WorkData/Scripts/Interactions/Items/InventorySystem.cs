@@ -12,7 +12,7 @@ public class InventorySystem : MonoBehaviour
     public static Action OnChangeInventory;
     
     public List<Item> items;
-
+    
     public GameObject inventoryContainer;
 
     public static bool inventoryOpen;
@@ -31,6 +31,8 @@ public class InventorySystem : MonoBehaviour
         OnChangeInventory += ChangeInventoryState;
         
         OnItemSelected += SetItemInformation;
+        
+        inventoryOpen = false;
     }
 
     private void OnDisable()
@@ -39,8 +41,6 @@ public class InventorySystem : MonoBehaviour
         OnChangeInventory -= ChangeInventoryState;
         
         OnItemSelected -= SetItemInformation;
-        
-        //inventoryContainer.SetActive(false);
     }
 
     private void SetItemInformation(ItemDefinition itemDefinition)
@@ -59,6 +59,7 @@ public class InventorySystem : MonoBehaviour
         itemInformationContainer.SetActive(false);
   
         OpenCloseInventory();
+        
         print("inventar");
   
         InventoryManager.Instance.SetInventoryItems(items);
@@ -82,21 +83,20 @@ public class InventorySystem : MonoBehaviour
     }
     private void OpenInventory()
     {
-        GameObject.Find("Player").GetComponent<PlayerController>().enabled = false;
-        //GameObject.Find("Manager").GetComponent<UIInput>().enabled = false;
+        GameObject.Find("Player").GetComponent<PlayerInput>().enabled = false;
         inventoryContainer.SetActive(true);
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
+
+        inventoryOpen = true;
     }
     public void CloseInventory()
     {
-        GameObject.Find("Player").GetComponent<PlayerController>().enabled = true;
-        //GameObject.Find("Manager").GetComponent<UIInput>().enabled = true;
+        GameObject.Find("Player").GetComponent<PlayerInput>().enabled = true;
         inventoryContainer.SetActive(false);
-        Time.timeScale = 1f;
+        //Time.timeScale = 1f;
   
         inventoryOpen = false;
     }
-
     
     public Item GetItem(string id)
     {
@@ -107,13 +107,14 @@ public class InventorySystem : MonoBehaviour
                 return item;
             }
         }
-
         return null;
     }
+    
     public void Add(ItemDefinition itemDefinition, int amount)
     {
         Add(itemDefinition.id, amount);
     }
+    
     public void Add(string itemId, int amount = 1)
     {
         if (!ValidateItem(itemId, amount)) return;
@@ -128,10 +129,8 @@ public class InventorySystem : MonoBehaviour
         {
             newItem.amount += amount;
         }
-        
-        //TODO: Quest System hinzufuegen
-
     }
+    
     private bool ValidateItem(string itemId, int amount)
     {
         if (string.IsNullOrWhiteSpace(itemId) || string.IsNullOrEmpty(itemId))

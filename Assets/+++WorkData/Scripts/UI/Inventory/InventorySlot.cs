@@ -26,6 +26,8 @@ public class InventorySlot : MonoBehaviour
     
     public void ResetInventorySlot()
     {
+        _inventorySlotButton = GetComponent<Button>();
+        
         _currentItemDefinition = null;
         itemDisplay.sprite = null;
         itemDisplay.GetComponent<CanvasGroup>().alpha = 0;
@@ -37,14 +39,11 @@ public class InventorySlot : MonoBehaviour
     {
         _currentItemDefinition = itemDefinition;
         
+        _inventorySlotButton = GetComponent<Button>();
+        
         itemDisplay.GetComponent<CanvasGroup>().alpha = 1;
         itemDisplay.sprite = itemDefinition.sprite;
         itemAmountText.SetText(amount.ToString());
         _inventorySlotButton.interactable = true;
-    }
-
-    public void RemoveItemFromSlot()
-    {
-        
     }
 }

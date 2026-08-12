@@ -14,6 +14,7 @@ public class PauseMenu_UIManager : MonoBehaviour
      private void Awake()
         {
             pauseMenuContainer.SetActive(false);
+            isPaused = false;
             
             _inputActions = new InputSystem_Actions();
         }
@@ -21,13 +22,13 @@ public class PauseMenu_UIManager : MonoBehaviour
         private void OnEnable()
         {
             _pauseAction = _inputActions.UI.PauseGame;
-            _inputActions.Enable();
+            EnableInput();
     
             _pauseAction.performed += OpenPauseMenu;
         }
         private void OnDisable()
         {
-            _inputActions.Disable();
+            DisableInput();
         }
     #endregion
     
@@ -51,18 +52,16 @@ public class PauseMenu_UIManager : MonoBehaviour
         private void PauseGame()
         {
             GameObject.Find("Player").GetComponent<PlayerInput>().enabled = false;
-            //GameObject.Find("Manager").GetComponent<UIInput>().enabled = false;
             pauseMenuContainer.SetActive(true);
-            Time.timeScale = 0f;
+            //Time.timeScale = 0f;
     
             isPaused = true;
         }
         public void ResumeGame()
         {
             GameObject.Find("Player").GetComponent<PlayerInput>().enabled = true;
-            //GameObject.Find("Manager").GetComponent<UIInput>().enabled = true;
             pauseMenuContainer.SetActive(false);
-            Time.timeScale = 1f;
+            //Time.timeScale = 1f;
             
             isPaused = false;
         }
@@ -73,4 +72,17 @@ public class PauseMenu_UIManager : MonoBehaviour
     
 
     #endregion
+    
+    
+    
+     
+    public void EnableInput()
+    {
+        _inputActions.Enable();
+    }
+
+    public void DisableInput()
+    {
+        _inputActions.Disable();
+    }
 }

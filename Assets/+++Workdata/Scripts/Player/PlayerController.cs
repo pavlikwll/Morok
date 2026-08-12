@@ -88,12 +88,20 @@ public class PlayerController : MonoBehaviour
         _moveInput = input;
         _lastGivenInput = input;
      
+        if (_moveInput == Vector2.zero)
+        {
+            PlayerStates.Instance.SetMovementState(PlayerMovementState.Idle);
+        }
+        else
+        {
+            PlayerStates.Instance.SetMovementState(PlayerMovementState.Walking);
+        }
+        
+        
         if (_playerStates.GetCurrentActionState() != PlayerActionState.Default)
         {
             _moveInput = Vector2.zero;
         }
-        
-            
         
         if (_moveInput.x > 0)
         {
@@ -103,6 +111,7 @@ public class PlayerController : MonoBehaviour
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
         }
+        
     }
 
     #endregion

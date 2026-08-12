@@ -14,6 +14,7 @@ public class DialogueController : MonoBehaviour
 {
     public static Action<string, int> OnAddState;
     public static Action<string> OnGetState;
+    public static Action<DialogueInteractable> OnDialogueStarted;
     
     private const string SpeakerSeparator = ":";
     private const string EscapedColon = "::";
@@ -46,6 +47,8 @@ public class DialogueController : MonoBehaviour
     #endregion
 
     private Story inkStory;
+    
+    private DialogueInteractable _currentDialogueInteractable;
     //private GameState gameState;
     
     
@@ -60,6 +63,7 @@ public class DialogueController : MonoBehaviour
     {
         DialogueBox.DialogueContinued += OnDialogueContinued;
         DialogueBox.ChoiceSelected += OnChoiceSelected;
+        OnDialogueStarted += SetCurrentDialogue;
     }
 
     private void Start()
@@ -71,6 +75,7 @@ public class DialogueController : MonoBehaviour
     {
         DialogueBox.DialogueContinued -= OnDialogueContinued;
         DialogueBox.ChoiceSelected -= OnChoiceSelected;
+        OnDialogueStarted -= SetCurrentDialogue;
     }
 
     private void OnDestroy()
@@ -106,6 +111,9 @@ public class DialogueController : MonoBehaviour
         StartCoroutine(DelayDialogueEndEvent());
         
         DialogueClosed?.Invoke();
+
+        if (!_currentDialogueInteractable) return;
+        _currentDialogueInteractable.TrySelected();
     }
 
     private IEnumerator DelayDialogueEndEvent()
@@ -154,6 +162,11 @@ public class DialogueController : MonoBehaviour
     {
         inkStory.ChooseChoiceIndex(choiceIndex);
         ContinueDialogue();
+    }
+
+    private void SetCurrentDialogue(DialogueInteractable newDialogueInteractable)
+    {
+        _currentDialogueInteractable = newDialogueInteractable;
     }
 
     #endregion
