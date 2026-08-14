@@ -1,13 +1,15 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class InventorySystem : MonoBehaviour
 {
-    public static Action<ItemDefinition> OnItemSelected;
+    public static Action StateChanged;
     
+    public static Action<ItemDefinition> OnItemSelected;
     public static Action<ItemDefinition, int> OnAddItem;
     public static Action OnChangeInventory;
     
@@ -129,6 +131,7 @@ public class InventorySystem : MonoBehaviour
         {
             newItem.amount += amount;
         }
+        StateChanged?.Invoke();
     }
     
     private bool ValidateItem(string itemId, int amount)
@@ -149,4 +152,27 @@ public class InventorySystem : MonoBehaviour
         
         return true;
     }
+
+    public bool CheckConditions(List<Condition> itemConditions)
+    {
+        bool conditionApplied = false;
+        foreach (var condition in itemConditions)
+        {
+            Item item = items.FirstOrDefault(iteminInv=>
+                condition.itemDefinition.id.Contains(iteminInv.id) && condition.amount <= iteminInv.amount);
+
+            if (item != null)
+            {
+                conditionApplied = true;
+            }
+            else
+            {
+                conditionApplied = false;
+                break;
+            }
+        }
+        
+        return conditionApplied;
+    }
+    
 }

@@ -9,6 +9,16 @@ public class PauseMenu_ButtonManager : MonoBehaviour
     {
         pauseMenuUIManager.ResumeGame();
     }
+
+    public void Button_OpenOptions()
+    {
+        pauseMenuUIManager.OpenOptionsMenu();
+    }
+
+    public void Button_CloseOptions()
+    {
+        pauseMenuUIManager.CloseOptionsMenu();
+    }
     
     public void Button_LoadSceneByName(string sceneName)
     {
@@ -19,4 +29,6 @@ public class PauseMenu_ButtonManager : MonoBehaviour
     {
         Application.Quit();
     }
+    
+    
 }

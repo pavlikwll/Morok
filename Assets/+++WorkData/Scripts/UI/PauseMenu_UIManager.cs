@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 public class PauseMenu_UIManager : MonoBehaviour
 {
     public GameObject pauseMenuContainer;
+    public GameObject optionsContainer;
+    
     
     private InputSystem_Actions _inputActions;
     private InputAction _pauseAction;
@@ -62,20 +64,35 @@ public class PauseMenu_UIManager : MonoBehaviour
             GameObject.Find("Player").GetComponent<PlayerInput>().enabled = true;
             pauseMenuContainer.SetActive(false);
             //Time.timeScale = 1f;
+
+            CloseOptionsMenu();
             
             isPaused = false;
         }
     #endregion
-    
-    #region PauseMenuFunctions
 
     
+    #region Options
+    
+    public void OpenOptionsMenu()
+    {
+        optionsContainer.SetActive(true);
+    }
 
+    public void CloseOptionsMenu()
+    {
+        optionsContainer.SetActive(false);
+    }
+    
     #endregion
     
     
     
-     
+    
+    
+    
+    
+    
     public void EnableInput()
     {
         _inputActions.Enable();

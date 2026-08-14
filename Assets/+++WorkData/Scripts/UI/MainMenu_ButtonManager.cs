@@ -1,10 +1,17 @@
+using System;
 using UnityEngine;
 
 public class MainMenu_ButtonManager : MonoBehaviour
 {
     public MainMenu_UIManager mainMenuUIManager;
     public SceneLoaderManager sceneLoaderManager;
-     
+    public SceneLoaderWithLoadingScreenManager sceneLoaderWithLoadingScreenManager;
+
+    private void Awake()
+    {
+        sceneLoaderWithLoadingScreenManager = GameObject.Find("LoadingScreenManager").GetComponent<SceneLoaderWithLoadingScreenManager>();
+    }
+
     public void Button_OpenMainMenu()
     {
         mainMenuUIManager.OpenMainMenu();
@@ -32,7 +39,7 @@ public class MainMenu_ButtonManager : MonoBehaviour
 
     public void Button_LoadSceneByName(string sceneName)
     {
-        sceneLoaderManager.loadScene(sceneName);
+        sceneLoaderWithLoadingScreenManager.loadScene(sceneName);
     }
 
     public void Button_QuitGame()
