@@ -31,7 +31,7 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
         OnChangeWorld -= ChangeWorld;
     }
 
-    private void ChangeWorld()
+    public void ChangeWorld()
     {
         if (_inWorldOne)
         {

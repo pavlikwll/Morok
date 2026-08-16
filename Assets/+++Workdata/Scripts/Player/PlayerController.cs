@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
             targetVelocity = Vector2.zero;
         }
         
-        if (_playerStates.GetCurrentActionState() == PlayerActionState.Rolling) return;
+        //if (_playerStates.GetCurrentActionState() == PlayerActionState.Rolling) return;
         
         _rb.linearVelocity = Vector2.Lerp(currentVelocity, targetVelocity, Time.fixedDeltaTime * accelerationTime);
     }
