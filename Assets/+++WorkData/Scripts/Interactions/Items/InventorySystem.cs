@@ -1,12 +1,15 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Ink.Parsed;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class InventorySystem : MonoBehaviour
 {
+    public static InventorySystem Instance;
+    
     public static Action StateChanged;
     
     public static Action<ItemDefinition> OnItemSelected;
@@ -26,6 +29,12 @@ public class InventorySystem : MonoBehaviour
     [SerializeField] private TextMeshProUGUI itemDescription;
     [SerializeField] private TextMeshProUGUI itemId;
     [SerializeField] private Image itemImage;
+
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void OnEnable()
     {
@@ -174,5 +183,16 @@ public class InventorySystem : MonoBehaviour
         
         return conditionApplied;
     }
-    
+
+
+    public List<Item> GetAllItems()
+    {
+        return items;
+    }
+
+    public void SetAllItems(List<Item> items)
+    {
+        this.items = items;
+    }
+
 }

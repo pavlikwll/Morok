@@ -10,7 +10,17 @@ public class Interaction : MonoBehaviour
     [SerializeField] private InteractionGroup[] interactionGroups;
     [SerializeField] private int interactionIndex;
     #endregion
-    
+
+    private void OnEnable()
+    {
+        if (PlayerPrefs.HasKey(interactableId))
+        {
+            LoadInteractionIndex();
+        }
+       
+    }
+
+
     #region Interaction Functions
     public void Execute()
     {
@@ -25,7 +35,8 @@ public class Interaction : MonoBehaviour
         currentInteraction.onInteracted?.Invoke();
         if (currentInteraction.nextInteraction != -1)
         {
-            interactionIndex = currentInteraction.nextInteraction;
+            
+            SetInteractionIndex(currentInteraction.nextInteraction);
         }
     }
 
@@ -36,6 +47,7 @@ public class Interaction : MonoBehaviour
     public void SetInteractionIndex(int interactIndex)
     {
         interactionIndex = interactIndex;
+        SaveInteractionIndex();
     }
     
     /// <summary>
@@ -50,6 +62,27 @@ public class Interaction : MonoBehaviour
     
     
     #endregion
+
+    #region Save
+
+    public void SaveInteractionIndex()
+    {
+        PlayerPrefs.SetInt(interactableId, interactionIndex);
+        PlayerPrefs.Save();
+    }
+
+    public void LoadInteractionIndex()
+    {
+        interactionIndex = PlayerPrefs.GetInt(interactableId);
+    }
+
+    public void DeletePlayerPrefs()
+    {
+        PlayerPrefs.DeleteAll();
+    }
+
+    #endregion
+    
 }
 [Serializable]
 public class InteractionGroup

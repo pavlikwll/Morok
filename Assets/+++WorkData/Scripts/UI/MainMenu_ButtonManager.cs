@@ -42,6 +42,11 @@ public class MainMenu_ButtonManager : MonoBehaviour
         sceneLoaderWithLoadingScreenManager.loadScene(sceneName);
     }
 
+    public void Button_NewGame(string sceneName)
+    {
+        sceneLoaderWithLoadingScreenManager.StartNewGame_LoadScene(sceneName);
+    }
+
     public void Button_QuitGame()
     {
         Application.Quit();

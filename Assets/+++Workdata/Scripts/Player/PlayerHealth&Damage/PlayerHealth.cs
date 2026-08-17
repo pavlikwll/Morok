@@ -15,7 +15,9 @@ public class PlayerHealth : MonoBehaviour
     
     private PlayerController _pc;
     
-    //public GameOver_UIManager gameOverUIManager;
+    public UIInput uiInput;
+    public GameOver_UIManager gameOverUIManager;
+    public PauseMenu_UIManager pauseMenuUIManager;
     
     private bool _isDead;
     
@@ -28,6 +30,7 @@ public class PlayerHealth : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _pc = GetComponent<PlayerController>();
         _coll = GetComponent<Collider2D>();
+        
         
         _player = GameObject.Find("Player");
     }
@@ -59,8 +62,10 @@ public class PlayerHealth : MonoBehaviour
         _anim.SetTrigger("onDeath");
         GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
         _pc.enabled = false;
+        uiInput.enabled = false;
+        pauseMenuUIManager.enabled = false;
         _isDead = true;
-        //gameOverUIManager.UIGameOver();
+        gameOverUIManager.UIGameOver();
         _rb.bodyType = RigidbodyType2D.Kinematic;
         _coll.enabled = false;
     }
@@ -80,7 +85,6 @@ public class PlayerHealth : MonoBehaviour
         //gameOverUIManager.Revive();
     }
     */
-    
     
     public void InstantDeath()
     {

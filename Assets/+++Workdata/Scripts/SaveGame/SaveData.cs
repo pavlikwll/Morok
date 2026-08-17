@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -5,4 +6,12 @@ using UnityEngine;
 public class SaveData
 {
     public Vector3 playerPosition;
+    
+    //_____________________________________
+    public float playerHealth;
+    
+    
+    public List<Item> items;
+    
+    
 }
