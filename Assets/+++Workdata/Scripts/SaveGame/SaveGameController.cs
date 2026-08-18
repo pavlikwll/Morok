@@ -23,14 +23,11 @@ public class SaveGameController : MonoBehaviour
 
         saveData.items = InventorySystem.Instance.GetAllItems();
         
-        
-        //______________________
         saveData.playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().currentHealth;
-        //_________________________
-        
         
         
         File.WriteAllText(saveLocation, JsonUtility.ToJson(saveData));
+        
     }
 
     public void LoadGame()
@@ -39,26 +36,18 @@ public class SaveGameController : MonoBehaviour
         {
             SaveData saveData = JsonUtility.FromJson<SaveData>(File.ReadAllText(saveLocation));
             
+            
             GameObject.FindGameObjectWithTag("Player").transform.position = saveData.playerPosition;
-
-
-            //________
-            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().currentHealth = saveData.playerHealth;
-
+            
             InventorySystem.Instance.SetAllItems(saveData.items);
-            //_______________
-
-
-
+            
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>().currentHealth = saveData.playerHealth;
+            
+            
         }
         else
         {
             SaveGame();
         }
-    }
-
-    public void DeleteSaveData()
-    {
-        File.Delete(Application.persistentDataPath + "saveData.json");
     }
 }

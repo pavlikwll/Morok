@@ -7,11 +7,8 @@ public class SaveData
 {
     public Vector3 playerPosition;
     
-    //_____________________________________
     public float playerHealth;
     
-    
     public List<Item> items;
-    
     
 }

@@ -76,11 +76,6 @@ public class Interaction : MonoBehaviour
         interactionIndex = PlayerPrefs.GetInt(interactableId);
     }
 
-    public void DeletePlayerPrefs()
-    {
-        PlayerPrefs.DeleteAll();
-    }
-
     #endregion
     
 }

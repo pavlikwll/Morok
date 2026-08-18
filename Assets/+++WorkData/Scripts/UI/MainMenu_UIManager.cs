@@ -22,13 +22,6 @@ public class MainMenu_UIManager : MonoBehaviour
         mainMenuContainer.SetActive(true);
         _currentMenu = mainMenuContainer;
     }
-
-    public void OpenLoadGame()
-    {
-        _currentMenu.SetActive(false);
-        loadGameContainer.SetActive(true);
-        _currentMenu = loadGameContainer;
-    }
     public void OpenOptions()
     {
         _currentMenu.SetActive(false);

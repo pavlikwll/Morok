@@ -5,10 +5,18 @@ using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
 {
+    public static OptionsMenu Instance;
+    
     public TMPro.TMP_Dropdown resolutionDropdown;
     
     Resolution[] resolutions;
-    
+
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     private void Start()
     {
         resolutions = Screen.resolutions;
@@ -20,7 +28,7 @@ public class OptionsMenu : MonoBehaviour
         int currentResolutionIndex = 0;
         for (int i = 0; i < resolutions.Length; i++)
         {
-            string option = resolutions[i].width + " x " + resolutions[i].height;
+            string option = resolutions[i].width + " x " + resolutions[i].height + "  -  " + resolutions[i].refreshRateRatio;
             options.Add(option);
 
             if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
@@ -50,10 +58,5 @@ public class OptionsMenu : MonoBehaviour
     public void SetFullscreen(bool isFullscreen)
     {
         Screen.fullScreen = isFullscreen;
-    }
-
-    public void SetBrightness(int brightnessIndex)
-    {
-        
     }
 }
