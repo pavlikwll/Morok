@@ -43,7 +43,7 @@ public class PlayerHealth : MonoBehaviour
         if (currentHealth > 0)
         {
             _anim.SetTrigger("onDamage");
-            //GetComponent<PlayerStates>().SetActionStateDefault();
+            GetComponent<PlayerStates>().SetActionStateDefault();
         }
         else
         {

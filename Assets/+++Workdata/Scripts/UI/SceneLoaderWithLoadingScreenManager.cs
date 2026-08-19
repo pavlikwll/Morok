@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class SceneLoaderWithLoadingScreenManager : MonoBehaviour
 {
+    
     public static  SceneLoaderWithLoadingScreenManager Instance;
     
     [SerializeField] private GameObject loadingScreenCanvas;

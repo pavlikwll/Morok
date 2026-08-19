@@ -28,7 +28,7 @@ public class EnemyInformation : MonoBehaviour
         
         _agent = GetComponent<NavMeshAgent>();
 
-        _enemySpawner = GameObject.Find("EnemySpawner");
+        //_enemySpawner = GameObject.Find("EnemySpawner");
 
     }
 
@@ -51,7 +51,7 @@ public class EnemyInformation : MonoBehaviour
             
             //_enemySpawner.GetComponent<EnemySpawner>().SpawnEnemy();
             
-            Destroy(GameObject.Find("EnemyContainer(Clone)"),2f);
+            Destroy(GameObject.Find("EnemyContainer"),2f);
         }
     }
 }
