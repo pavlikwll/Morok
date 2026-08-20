@@ -3,8 +3,6 @@ using UnityEngine;
 public class MainMenu_UIManager : MonoBehaviour
 {
     public GameObject mainMenuContainer;
-    public GameObject loadGameContainer;
-    public GameObject optionsContainer;
     public GameObject creditsContainer;
     public GameObject quitConfirmContainer;
 
@@ -21,12 +19,6 @@ public class MainMenu_UIManager : MonoBehaviour
         _currentMenu.SetActive(false);
         mainMenuContainer.SetActive(true);
         _currentMenu = mainMenuContainer;
-    }
-    public void OpenOptions()
-    {
-        _currentMenu.SetActive(false);
-        optionsContainer.SetActive(true);
-        _currentMenu = optionsContainer;
     }
     public void OpenCredits()
     {

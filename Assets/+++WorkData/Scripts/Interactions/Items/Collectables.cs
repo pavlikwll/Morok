@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -22,6 +23,7 @@ public class Collectable : MonoBehaviour
         InventorySystem.OnAddItem?.Invoke(itemDefinition, amount);
 
         onCollected?.Invoke();
+        
         
         if (destroyObj)
         {

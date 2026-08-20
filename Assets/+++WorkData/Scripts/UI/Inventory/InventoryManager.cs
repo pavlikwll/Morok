@@ -36,7 +36,7 @@ public class InventoryManager : MonoBehaviour
     int currentNoteIndex = 0;
     int currentPhotographItemIndex = 0;
     
-    /*
+    
     foreach (var currentItemInInventory in allItemsInInventory)
     {
         ItemDefinition matchingGameItem = allItemsInGame.Find(item => item.id == currentItemInInventory.id);
@@ -77,7 +77,7 @@ public class InventoryManager : MonoBehaviour
                 }
                 break;
         }
-    }*/
+    }
 }
 
 }

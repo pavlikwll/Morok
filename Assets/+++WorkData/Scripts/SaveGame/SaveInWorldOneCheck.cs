@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class SaveInWorldOneCheck : MonoBehaviour
 {
-    [SerializeField] private GameObject cantSaveWarning;
+    [SerializeField] private GameObject cantSaveWarningContainer;
+    [SerializeField] private GameObject gameSaveSuccessfulContainer;
 
     public GameObject player;
     
@@ -14,10 +15,11 @@ public class SaveInWorldOneCheck : MonoBehaviour
         if (player.GetComponent<PlayerAbilityChangeWorld>()._inWorldOne)
         {
             GetComponent<SaveGameController>().SaveGame();
+            gameSaveSuccessfulContainer.SetActive(true);
         }
         else
         {
-            cantSaveWarning.SetActive(true);
+            cantSaveWarningContainer.SetActive(true);
         }
     }
 }

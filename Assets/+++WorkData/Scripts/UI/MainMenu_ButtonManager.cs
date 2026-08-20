@@ -17,11 +17,6 @@ public class MainMenu_ButtonManager : MonoBehaviour
         mainMenuUIManager.OpenMainMenu();
     }
 
-    public void Button_OpenOptions()
-    {
-        mainMenuUIManager.OpenOptions();
-    }
-
     public void Button_OpenCredits()
     {
         mainMenuUIManager.OpenCredits();

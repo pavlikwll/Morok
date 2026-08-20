@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using UnityEditor.UIElements;
 using UnityEngine;
 
 public class PlayerAbilityChangeWorld : MonoBehaviour
@@ -7,19 +9,21 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
 
     private WorldTransitionAbilityCooldown _worldTransitionAbilityCooldown;
     
-    
     [SerializeField] private int actionId;
     
     private PlayerStates _playerStates;
 
     public WorldLoadUnloadManager _worldLoadUnloadManager;
 
+    private SortItemsToWorlds _sortItemsToWorlds;
+    
     public bool _inWorldOne;
 
     private void Awake()
     {
         _playerStates = GetComponent<PlayerStates>();
         _worldTransitionAbilityCooldown = GetComponent<WorldTransitionAbilityCooldown>();
+        _sortItemsToWorlds = GetComponent<SortItemsToWorlds>();
 
         _inWorldOne = true;
     }
@@ -36,6 +40,7 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
 
     public void ChangeWorld()
     {
+        
         if (_inWorldOne && GetComponent<PlayerAbilityChangeWorld>().enabled)
         {
             _worldLoadUnloadManager.Load(3);
@@ -44,6 +49,9 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
             _inWorldOne = false;
             GetComponent<PlayerAbilityChangeWorld>().enabled = false;
             _worldTransitionAbilityCooldown.ChangeWorldCooldown();
+            
+            _sortItemsToWorlds.DeactivateNormalWorldObjects();
+            _sortItemsToWorlds.ActivateSecondWorldObjects();
         }
         else if (!_inWorldOne && GetComponent<PlayerAbilityChangeWorld>().enabled)
         {
@@ -53,6 +61,9 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
             _inWorldOne = true;
             GetComponent<PlayerAbilityChangeWorld>().enabled = false;
             _worldTransitionAbilityCooldown.ChangeWorldCooldown();
+            
+            _sortItemsToWorlds.ActivateNormalWorldObjects();
+            _sortItemsToWorlds.DeactivateSecondWorldObjects();
         }
         
 

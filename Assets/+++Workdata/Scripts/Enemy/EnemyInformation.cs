@@ -22,7 +22,7 @@ public class EnemyInformation : MonoBehaviour
     {
         _currentLifePoints = enemyMaxLifePoints;
         
-        _coll = GetComponent<Collider2D>();
+        _coll = GetComponentInChildren<Collider2D>();
         _rb = GetComponent<Rigidbody2D>();
         _anim = GetComponentInChildren<Animator>();
         
