@@ -59,7 +59,7 @@ public class SortItemsToWorlds : MonoBehaviour
     
     public void RemoveSecondWorldItemFromList(GameObject obj)
     {
-        normalWorldItems.Remove(obj);
+        secondWorldItems.Remove(obj);
     }
     
 }

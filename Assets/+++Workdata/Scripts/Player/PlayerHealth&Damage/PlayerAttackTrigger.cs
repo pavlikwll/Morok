@@ -4,11 +4,12 @@ using UnityEngine;
 public class PlayerAttackTrigger : MonoBehaviour
 {
     [SerializeField] private int attackDamage;
+    //[SerializeField] private int attackForce;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Enemy"))
         {
-            other.GetComponent<EnemyInformation>().SetDamage(attackDamage);
+            other.GetComponent<EnemyInformation>().SetDamage(attackDamage /*, attackForce*/);
         }
     }
 }

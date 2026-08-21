@@ -26,9 +26,10 @@ public class PlayerAbilityAttack : MonoBehaviour
 
     private void SetAttack1Input()
     {
-        print("attack");
-        if (_playerStates.GetCurrentActionState() == PlayerActionState.Default)
+        if (_playerStates.GetCurrentActionState() == PlayerActionState.Default && _playerStates.GetCurrentMovementState() == PlayerMovementState.Idle)
         {
+            print("attack");
+            
             PlayerAnimation.OnAction?.Invoke(actionId);
         }
     }

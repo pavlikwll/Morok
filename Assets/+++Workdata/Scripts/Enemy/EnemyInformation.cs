@@ -16,7 +16,9 @@ public class EnemyInformation : MonoBehaviour
     
     private NavMeshAgent _agent;
 
-    private GameObject _enemySpawner;
+    //private GameObject _enemySpawner;
+
+    private NavMeshEnemy _navMeshEnemy;
     
     private void Awake()
     {
@@ -28,13 +30,38 @@ public class EnemyInformation : MonoBehaviour
         
         _agent = GetComponent<NavMeshAgent>();
 
+        //_navMeshEnemy = GetComponent<NavMeshEnemy>();
+
         //_enemySpawner = GameObject.Find("EnemySpawner");
 
     }
 
-    public void SetDamage(int dmg)
+    public void SetDamage(int dmg /*, float force*/)
     {
         _currentLifePoints -= dmg;
+
+        /*
+        Vector2 forceDir = Vector2.zero;
+        switch (_navMeshEnemy.GetCurrentFacingDirection())
+        {
+            case EnemyFacingDirection.Down:
+                forceDir = Vector2.down;
+                break;
+            
+            case EnemyFacingDirection.Up:
+                forceDir = Vector2.up;
+                break;
+            
+            case EnemyFacingDirection.Left:
+                forceDir = Vector2.left;
+                break;
+            
+            case EnemyFacingDirection.Right:
+                forceDir = Vector2.right;
+                break;
+        }
+        _rb.AddForce(forceDir * force, ForceMode2D.Impulse);
+        */
 
         if (_currentLifePoints > 0)
         {
@@ -45,13 +72,46 @@ public class EnemyInformation : MonoBehaviour
             _coll.enabled = false;
             _rb.bodyType = RigidbodyType2D.Kinematic;
             _anim.SetTrigger("onDeath");
-            Destroy(GameObject.FindWithTag("EnemyHealthbar"));
+            //Destroy(GameObject.FindWithTag("EnemyHealthbar"));
 
             _agent.speed = 0;
             
             //_enemySpawner.GetComponent<EnemySpawner>().SpawnEnemy();
             
-            Destroy(GameObject.Find("EnemyContainer"),2f);
+            Destroy(gameObject,2f);
+            //Destroy(GameObject.Find("EnemyContainer"),2f);
         }
     }
+    
+    
+    /*
+    #region Physics
+    
+    private void SetForce(float force)
+    {
+        Vector2 forceDir = Vector2.zero;
+        switch (_navMeshEnemy.GetCurrentFacingDirection())
+        {
+            case EnemyFacingDirection.Down:
+                forceDir = Vector2.down;
+                break;
+            
+            case EnemyFacingDirection.Up:
+                forceDir = Vector2.up;
+                break;
+            
+            case EnemyFacingDirection.Left:
+                forceDir = Vector2.left;
+                break;
+            
+            case EnemyFacingDirection.Right:
+                forceDir = Vector2.right;
+                break;
+        }
+        _rb.AddForce(forceDir * force, ForceMode2D.Impulse);
+    }
+    
+    #endregion
+    */
+    
 }

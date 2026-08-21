@@ -358,4 +358,9 @@ public class NavMeshEnemy : MonoBehaviour
     }
     
     #endregion
+    
+    public EnemyFacingDirection GetCurrentFacingDirection()
+    {
+        return enemyFacingDirection;
+    }
 }

@@ -10,6 +10,9 @@ public class PlayerHealth : MonoBehaviour
     private Animator _anim;
     private Rigidbody2D _rb;
     private Collider2D _coll;
+
+    private PlayerAbilityAttack _paAttack;
+    //private PlayerAbilityChangeWorld _paChangeWorld;
     
     private GameObject _player;
     
@@ -30,6 +33,9 @@ public class PlayerHealth : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _pc = GetComponent<PlayerController>();
         _coll = GetComponent<Collider2D>();
+
+        _paAttack = GetComponent<PlayerAbilityAttack>();
+        //_paChangeWorld = GetComponent<PlayerAbilityChangeWorld>();
         
         
         _player = GameObject.Find("Player");
@@ -68,6 +74,8 @@ public class PlayerHealth : MonoBehaviour
         gameOverUIManager.UIGameOver();
         _rb.bodyType = RigidbodyType2D.Kinematic;
         _coll.enabled = false;
+
+        _paAttack.enabled = false;
     }
 
     /*
