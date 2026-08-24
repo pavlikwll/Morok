@@ -27,6 +27,80 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-5947039504083547435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Morok
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Music/Morok
+  Guid:
+    Data1: -16494754
+    Data2: 1087816034
+    Data3: -749489262
+    Data4: -1360377964
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44400
+--- !u!114 &-4220894181044026679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/SecondLayer
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambience/SecondLayer
+  Guid:
+    Data1: -1003105234
+    Data2: 1329353566
+    Data3: -1553326710
+    Data4: -779103753
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 69060
+--- !u!114 &-3136607966719763922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639231650267877077
+  FileSizes:
+  - Name: Desktop
+    Value: 1028
+  Exists: 1
 --- !u!114 &-3135900698280936948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,6 +121,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 890
   Exists: 1
+--- !u!114 &-2500347016521184921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/FinalConfrontation
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Music/FinalConfrontation
+  Guid:
+    Data1: 909417491
+    Data2: 1312359667
+    Data3: 2028433314
+    Data4: -954361918
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 128000
 --- !u!114 &-635371999956134261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,26 +208,89 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EventCache
   EditorBanks:
-  - {fileID: -3135900698280936948}
-  - {fileID: -635371999956134261}
+  - {fileID: -3136607966719763922}
+  - {fileID: 8743344372634595417}
   EditorEvents:
-  - {fileID: -78544921448653020}
-  - {fileID: 7138156701492604567}
-  - {fileID: -8663897672660700756}
+  - {fileID: -2500347016521184921}
+  - {fileID: -4220894181044026679}
+  - {fileID: 7272548882483571009}
+  - {fileID: -5947039504083547435}
+  - {fileID: 2761207808405597109}
+  - {fileID: 371492321947506538}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -635371999956134261}
+  - {fileID: 8743344372634595417}
   StringsBanks:
-  - {fileID: -3135900698280936948}
+  - {fileID: -3136607966719763922}
   cacheVersion: 131860
-  cacheTime: 639184951251487059
+  cacheTime: 639231650267877077
   SerializableEventsDict:
-  - key: event:/Ambience/Overworld_Ambience
+  - key: event:/Music/FinalConfrontation
     index: 0
-  - key: event:/Music/Jack
+  - key: event:/Ambience/SecondLayer
     index: 1
-  - key: event:/Music/Morok
+  - key: event:/Music/Jack
     index: 2
+  - key: event:/Music/Morok
+    index: 3
+  - key: event:/Ambience/MainLayer
+    index: 4
+  - key: event:/FootstepSounds
+    index: 5
+--- !u!114 &371492321947506538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FootstepSounds
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/FootstepSounds
+  Guid:
+    Data1: -848788246
+    Data2: 1106862631
+    Data3: -524716359
+    Data4: -586282548
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2761207808405597109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/MainLayer
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambience/MainLayer
+  Guid:
+    Data1: -1929829730
+    Data2: 1326211198
+    Data3: 1284127400
+    Data4: -831563703
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7138156701492604567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,3 +318,50 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 43500
+--- !u!114 &7272548882483571009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Jack
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Music/Jack
+  Guid:
+    Data1: 172070482
+    Data2: 1080995572
+    Data3: 1014587313
+    Data4: -1665713426
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 43000
+--- !u!114 &8743344372634595417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639231650267831324
+  FileSizes:
+  - Name: Desktop
+    Value: 7026208
+  Exists: 1
