@@ -46,6 +46,37 @@ public class PlayerAnimation : MonoBehaviour
                 anims[i].SetFloat(_hashxDir, _playerController.MoveInput.x);
                 anims[i].SetFloat(_hashyDir, _playerController.MoveInput.y);
             }
+
+        }
+    }
+
+    public void SetAnimIdleValues() //0.7071
+    {
+        for (int i = 0; i < anims.Length; i++)
+        {
+            float dirX = 0;
+            float dirY = 0;
+            switch (PlayerDirection.Instance.playerDirectionState)
+            {
+                case PlayerDirectionState.Down:
+                    dirY = -1;
+                    break;
+
+                case PlayerDirectionState.Up:
+                    dirY = 1;
+                    break;
+
+                case PlayerDirectionState.Left:
+                    dirX = -1;
+                    break;
+
+                case PlayerDirectionState.Right:
+                    dirX = 1;
+                    break;
+            }
+
+            anims[i].SetFloat(_hashxDir, dirX);
+            anims[i].SetFloat(_hashyDir, dirY);
         }
     }
 

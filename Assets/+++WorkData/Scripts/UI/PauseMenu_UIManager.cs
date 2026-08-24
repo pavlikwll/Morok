@@ -5,7 +5,7 @@ public class PauseMenu_UIManager : MonoBehaviour
 {
     public GameObject pauseMenuContainer;
     public GameObject optionsContainer;
-    
+    public GameObject mapContainer;
     
     private InputSystem_Actions _inputActions;
     private InputAction _pauseAction;
@@ -66,11 +66,11 @@ public class PauseMenu_UIManager : MonoBehaviour
             //Time.timeScale = 1f;
 
             CloseOptionsMenu();
+            CloseMap();
             
             isPaused = false;
         }
     #endregion
-
     
     #region Options
     
@@ -86,11 +86,19 @@ public class PauseMenu_UIManager : MonoBehaviour
     
     #endregion
     
+    #region Map
     
+    public void OpenMap()
+    {
+        mapContainer.SetActive(true);
+    }
+
+    public void CloseMap()
+    {
+        mapContainer.SetActive(false);
+    }
     
-    
-    
-    
+    #endregion
     
     
     public void EnableInput()

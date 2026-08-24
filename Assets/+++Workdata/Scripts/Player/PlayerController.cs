@@ -146,7 +146,7 @@ public class PlayerController : MonoBehaviour
     
     #region InputMethodRegion
 
-    private void SetLastGivenInput()
+    public void SetLastGivenInput()
     {
         SetMoveInput(_lastGivenInput);
     }

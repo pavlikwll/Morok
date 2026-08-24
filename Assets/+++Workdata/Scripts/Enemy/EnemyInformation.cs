@@ -36,32 +36,9 @@ public class EnemyInformation : MonoBehaviour
 
     }
 
-    public void SetDamage(int dmg /*, float force*/)
+    public void SetDamage(int dmg)
     {
         _currentLifePoints -= dmg;
-
-        /*
-        Vector2 forceDir = Vector2.zero;
-        switch (_navMeshEnemy.GetCurrentFacingDirection())
-        {
-            case EnemyFacingDirection.Down:
-                forceDir = Vector2.down;
-                break;
-            
-            case EnemyFacingDirection.Up:
-                forceDir = Vector2.up;
-                break;
-            
-            case EnemyFacingDirection.Left:
-                forceDir = Vector2.left;
-                break;
-            
-            case EnemyFacingDirection.Right:
-                forceDir = Vector2.right;
-                break;
-        }
-        _rb.AddForce(forceDir * force, ForceMode2D.Impulse);
-        */
 
         if (_currentLifePoints > 0)
         {
@@ -83,35 +60,5 @@ public class EnemyInformation : MonoBehaviour
         }
     }
     
-    
-    /*
-    #region Physics
-    
-    private void SetForce(float force)
-    {
-        Vector2 forceDir = Vector2.zero;
-        switch (_navMeshEnemy.GetCurrentFacingDirection())
-        {
-            case EnemyFacingDirection.Down:
-                forceDir = Vector2.down;
-                break;
-            
-            case EnemyFacingDirection.Up:
-                forceDir = Vector2.up;
-                break;
-            
-            case EnemyFacingDirection.Left:
-                forceDir = Vector2.left;
-                break;
-            
-            case EnemyFacingDirection.Right:
-                forceDir = Vector2.right;
-                break;
-        }
-        _rb.AddForce(forceDir * force, ForceMode2D.Impulse);
-    }
-    
-    #endregion
-    */
     
 }

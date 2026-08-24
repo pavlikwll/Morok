@@ -15,6 +15,11 @@ public class PauseMenu_ButtonManager : MonoBehaviour
         pauseMenuUIManager.OpenOptionsMenu();
     }
 
+    public void Button_OpenMap()
+    {
+        pauseMenuUIManager.OpenMap();
+    }
+
     public void Button_CloseOptions()
     {
         pauseMenuUIManager.CloseOptionsMenu();
