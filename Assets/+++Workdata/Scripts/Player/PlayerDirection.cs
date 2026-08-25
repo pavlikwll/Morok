@@ -1,16 +1,18 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PlayerDirection : MonoBehaviour
 {
-
+    public static PlayerDirection Instance;
     public static Action<Vector2> SetDirection;
-    [SerializeField] PlayerDirectionState _playerDirectionState;
+    public PlayerDirectionState playerDirectionState;
 
     private PlayerStates _playerStates;
 
     private void Awake()
     {
+        Instance = this;
         _playerStates = GetComponent<PlayerStates>();
     }
     
@@ -27,7 +29,7 @@ public class PlayerDirection : MonoBehaviour
 
     public void SetPlayerDirection(PlayerDirectionState newPlayerDirectionState)
     {
-        _playerDirectionState = newPlayerDirectionState;
+        playerDirectionState = newPlayerDirectionState;
     }
 
     public void SetPlayerDirection(Vector2 moveInput)
@@ -37,24 +39,24 @@ public class PlayerDirection : MonoBehaviour
         
         if (moveInput.x < 0)
         {
-            _playerDirectionState = PlayerDirectionState.Left;
+            playerDirectionState = PlayerDirectionState.Left;
         }
         else if (moveInput.x > 0)
         {
-            _playerDirectionState = PlayerDirectionState.Right;
+            playerDirectionState = PlayerDirectionState.Right;
         }
         else if (moveInput.y < 0)
         {
-            _playerDirectionState = PlayerDirectionState.Down;
+            playerDirectionState = PlayerDirectionState.Down;
         }
         else if (moveInput.y > 0)
         {
-            _playerDirectionState = PlayerDirectionState.Up;
+            playerDirectionState = PlayerDirectionState.Up;
         }
     }
 
     public PlayerDirectionState GetPlayerDirection()
     {
-        return _playerDirectionState;
+        return playerDirectionState;
     }
 }

@@ -12,6 +12,7 @@ public class PlayerInput : MonoBehaviour
     private InputAction _moveAction;
     private InputAction _interactAction;
     private InputAction _attackAction;
+    private InputAction _dashAction;
 
     private InputAction _changeWorldAction;
     
@@ -28,6 +29,7 @@ public class PlayerInput : MonoBehaviour
         _moveAction = _inputActions.Player.Move;
         _interactAction = _inputActions.Player.Interact;
         _attackAction = _inputActions.Player.Attack;
+        _dashAction = _inputActions.Player.Dash;
 
         _changeWorldAction = _inputActions.Player.ChangeWorld;
     }
@@ -41,6 +43,7 @@ public class PlayerInput : MonoBehaviour
 
         _interactAction.performed += Interact;
         _attackAction.performed += Attack;
+        _dashAction.performed += Dash;
 
         _changeWorldAction.performed += ChangeWorld;
     }
@@ -54,6 +57,7 @@ public class PlayerInput : MonoBehaviour
         
         _interactAction.performed -= Interact;
         _attackAction.performed -= Attack;
+        _dashAction.performed -= Dash;
         
         _changeWorldAction.performed -= ChangeWorld;
     }
@@ -79,7 +83,10 @@ public class PlayerInput : MonoBehaviour
         if (ctx.performed)
         {
             PlayerDirection.SetDirection?.Invoke(ctx.ReadValue<Vector2>());
+            return;
         }
+        
+        GetComponent<PlayerAnimation>().SetAnimIdleValues();
     }
 
     private void Interact(InputAction.CallbackContext ctx)
@@ -95,6 +102,11 @@ public class PlayerInput : MonoBehaviour
     private void Attack(InputAction.CallbackContext ctx)
     {
         PlayerAbilityAttack.OnAttackInput?.Invoke();
+    }
+    
+    private void Dash(InputAction.CallbackContext ctx)
+    {
+        PlayerAbilityDash.OnDashInput?.Invoke();
     }
 
     #endregion
