@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9173235111393342001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Grassland Ambience
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Grassland Ambience
+  Guid:
+    Data1: -95070331
+    Data2: 1238542793
+    Data3: -401495880
+    Data4: 835806095
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30100
 --- !u!114 &-8663897672660700756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27,6 +54,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7549978285926898294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Cemetery
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambience/Cemetery
+  Guid:
+    Data1: -1821906563
+    Data2: 1274646147
+    Data3: 1149943688
+    Data4: -1705874748
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 41500
 --- !u!114 &-5947039504083547435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53,7 +107,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 44400
+  Length: 51600
 --- !u!114 &-4220894181044026679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,6 +135,58 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 69060
+--- !u!114 &-3910068272299405896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cave Ambience
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Cave Ambience
+  Guid:
+    Data1: 2107480002
+    Data2: 1302371391
+    Data3: -1262535542
+    Data4: 631272964
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2406806358294746587}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 38000
+--- !u!114 &-3346969328821950140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambience Controller/AmbienceBlend
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: AmbienceBlend
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3661096930
+    data2: 3648331070
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3136607966719763922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,10 +202,10 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639231650267877077
+  lastModified: 639231758942322020
   FileSizes:
   - Name: Desktop
-    Value: 1028
+    Value: 1330
   Exists: 1
 --- !u!114 &-3135900698280936948
 MonoBehaviour:
@@ -147,7 +253,31 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 128000
+  Length: 126000
+--- !u!114 &-2406806358294746587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cave Ambience/AmbienceBlend
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: AmbienceBlend
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3661096930
+    data2: 3648331070
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-635371999956134261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,6 +298,34 @@ MonoBehaviour:
   - Name: Desktop
     Value: 607296
   Exists: 1
+--- !u!114 &-235026236664278480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience Controller
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambience Controller
+  Guid:
+    Data1: 1005381248
+    Data2: 1270722653
+    Data3: 1784607134
+    Data4: 384806329
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -3346969328821950140}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 163500
 --- !u!114 &-78544921448653020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,14 +374,19 @@ MonoBehaviour:
   - {fileID: 7272548882483571009}
   - {fileID: -5947039504083547435}
   - {fileID: 2761207808405597109}
-  - {fileID: 371492321947506538}
+  - {fileID: 7939537160999140064}
+  - {fileID: -7549978285926898294}
+  - {fileID: 5699043239684975093}
+  - {fileID: -235026236664278480}
+  - {fileID: -9173235111393342001}
+  - {fileID: -3910068272299405896}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8743344372634595417}
   StringsBanks:
   - {fileID: -3136607966719763922}
   cacheVersion: 131860
-  cacheTime: 639231650267877077
+  cacheTime: 639231758942322020
   SerializableEventsDict:
   - key: event:/Music/FinalConfrontation
     index: 0
@@ -235,35 +398,18 @@ MonoBehaviour:
     index: 3
   - key: event:/Ambience/MainLayer
     index: 4
-  - key: event:/FootstepSounds
+  - key: event:/SFX/2ndLayerEnter
     index: 5
---- !u!114 &371492321947506538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/FootstepSounds
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/FootstepSounds
-  Guid:
-    Data1: -848788246
-    Data2: 1106862631
-    Data3: -524716359
-    Data4: -586282548
-  Banks:
-  - {fileID: 8743344372634595417}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  - key: event:/Ambience/Cemetery
+    index: 6
+  - key: event:/SFX/FootstepSounds
+    index: 7
+  - key: event:/Ambience Controller
+    index: 8
+  - key: event:/Grassland Ambience
+    index: 9
+  - key: event:/Cave Ambience
+    index: 10
 --- !u!114 &2761207808405597109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,6 +428,33 @@ MonoBehaviour:
     Data2: 1326211198
     Data3: 1284127400
     Data4: -831563703
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 163500
+--- !u!114 &5699043239684975093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/FootstepSounds
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/FootstepSounds
+  Guid:
+    Data1: -848788246
+    Data2: 1106862631
+    Data3: -524716359
+    Data4: -586282548
   Banks:
   - {fileID: 8743344372634595417}
   IsStream: 0
@@ -345,6 +518,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 43000
+--- !u!114 &7939537160999140064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/2ndLayerEnter
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/2ndLayerEnter
+  Guid:
+    Data1: 555062033
+    Data2: 1143304580
+    Data3: -161530715
+    Data4: -753256440
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5568
 --- !u!114 &8743344372634595417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,8 +560,8 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639231650267831324
+  lastModified: 639231758942154871
   FileSizes:
   - Name: Desktop
-    Value: 7026208
+    Value: 22361280
   Exists: 1
