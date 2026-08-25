@@ -42,7 +42,7 @@ public class PlayerHealth : MonoBehaviour
     }
 
     #region Damage
-    public void TakeDamageFromEnemy(float _damage, Vector2 dmgDirectionForce)
+    public void TakeDamageFromEnemy(float _damage /*, Vector2 dmgDirectionForce*/)
     {
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, maxHealth);
 
@@ -58,7 +58,7 @@ public class PlayerHealth : MonoBehaviour
                 Death();
             }
         }
-        //_playerController.SetDirectionForce(dmgDirectionForce);
+        //_pc.SetForce(dmgDirectionForce);
     }
     #endregion
     

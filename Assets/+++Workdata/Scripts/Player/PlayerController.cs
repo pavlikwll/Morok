@@ -118,7 +118,7 @@ public class PlayerController : MonoBehaviour
     
     #region Physics
     
-    private void SetForce(float force)
+    public void SetForce(float force)
     {
         Vector2 forceDir = Vector2.zero;
         switch (_playerDirection.GetPlayerDirection())
