@@ -6,6 +6,9 @@ public class Enemy04AttackBehaviour : MonoBehaviour
     public GameObject projectile;
     public Transform projPos;
 
+    public float attackDistance;
+    public float shootSpeed;
+
     private float timer;
     private GameObject _player;
 
@@ -19,11 +22,11 @@ public class Enemy04AttackBehaviour : MonoBehaviour
     {
         float distance = Vector2.Distance(transform.position, _player.transform.position);
 
-        if (distance < 5)
+        if (distance < attackDistance)
         {
             timer += Time.deltaTime;
             
-            if (timer >= 2f)
+            if (timer >= shootSpeed)
             { 
                 timer = 0;
                 Shoot();
