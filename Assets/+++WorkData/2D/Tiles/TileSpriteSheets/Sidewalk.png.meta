@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0353c6b6d3b78b84e901bc18a35f7517
+guid: c5f90154682080e4281d0d89a4e3c4c5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2052263028172461416
-    second: Grocerie Store Tiles Sprite Sheet_0
+      213: -1134441375532829494
+    second: Sidewalk_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,183 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grocerie Store Tiles Sprite Sheet_0
+      name: Sidewalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac43cd85497a140f0800000000000000
+      internalID: -1134441375532829494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidewalk_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d625df78a3675e44ebdcd93e24528748
+      internalID: 1757772375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidewalk_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9e5c01e105c674a8ed3d0a2226acc0
+      internalID: 1217668427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidewalk_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedb41d36b88e7b438f7d478fe1f3648
+      internalID: -145637854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidewalk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f90bbb6869319489c4cb62a1c7a428
+      internalID: 1090442186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidewalk_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca0003e511236e42971810bf3e4b265
+      internalID: -76950495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidewalk_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6773e964d2c110f4888c4b2e18a88373
+      internalID: -919364942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidewalk_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac3836659014b849a401eb03d8a93de
+      internalID: -1148954587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sidewalk_8
       rect:
         serializedVersion: 2
         x: 0
@@ -126,16 +302,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 86513ebc95a1b7c10800000000000000
-      internalID: 2052263028172461416
+      spriteID: 2810b8d0a72312b4f9b37f13cc47eb2f
+      internalID: -1359168577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grocerie Store Tiles Sprite Sheet_1
+      name: Sidewalk_9
       rect:
         serializedVersion: 2
         x: 32
@@ -150,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2899c708ea1ea64b90a3088ec23d043
-      internalID: 1009167191
+      spriteID: 4190d0488dc64ef4a9603d475636122c
+      internalID: -738891173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grocerie Store Tiles Sprite Sheet_2
+      name: Sidewalk_10
       rect:
         serializedVersion: 2
         x: 64
@@ -172,14 +348,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf9c5470b7a01024098fc0196d470343
-      internalID: -293209534
+      spriteID: f875cb7b89191eb40bd4f8aa0f96af9d
+      internalID: 579046291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grocerie Store Tiles Sprite Sheet_3
+      name: Sidewalk_11
       rect:
         serializedVersion: 2
         x: 96
@@ -194,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37ed7b6fb69bb2d4982aee20de4728fa
-      internalID: 1352188588
+      spriteID: a5e1f04c945345a4296a24556ed836b8
+      internalID: 1560980687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Grocerie Store Tiles Sprite Sheet_4
+      name: Sidewalk_12
       rect:
         serializedVersion: 2
         x: 0
@@ -216,30 +392,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6358abae2a96ccd49a367b19ad5f5359
-      internalID: 2129369435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Grocerie Store Tiles Sprite Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5669861fd0d25334f8d64949cccff905
-      internalID: -1154171941
+      spriteID: 07561321741ef674e94320ea4edecba0
+      internalID: 55519477
       vertices: []
       indices: 
       edges: []
@@ -248,7 +402,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ca316c9905c159b4a95002398ee3f32b
+    spriteID: e16788094f52b0c4292daa2816a62d93
     internalID: 0
     vertices: []
     indices: 
@@ -260,12 +414,19 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Grocerie Store Tiles Sprite Sheet_0: 2052263028172461416
-      Grocerie Store Tiles Sprite Sheet_1: 1009167191
-      Grocerie Store Tiles Sprite Sheet_2: -293209534
-      Grocerie Store Tiles Sprite Sheet_3: 1352188588
-      Grocerie Store Tiles Sprite Sheet_4: 2129369435
-      Grocerie Store Tiles Sprite Sheet_5: -1154171941
+      Sidewalk_0: -1134441375532829494
+      Sidewalk_1: 1757772375
+      Sidewalk_10: 579046291
+      Sidewalk_11: 1560980687
+      Sidewalk_12: 55519477
+      Sidewalk_2: 1217668427
+      Sidewalk_3: -145637854
+      Sidewalk_4: 1090442186
+      Sidewalk_5: -76950495
+      Sidewalk_6: -919364942
+      Sidewalk_7: -1148954587
+      Sidewalk_8: -1359168577
+      Sidewalk_9: -738891173
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
