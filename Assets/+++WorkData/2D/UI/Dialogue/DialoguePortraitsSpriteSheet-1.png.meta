@@ -26,6 +26,12 @@ TextureImporter:
   - first:
       213: -4978952045200179586
     second: DialoguePortraitsSpriteSheet-1_7
+  - first:
+      213: 9177115529523521589
+    second: DialoguePortraitsSpriteSheet-1_8
+  - first:
+      213: -3528706289332033139
+    second: DialoguePortraitsSpriteSheet-1_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -310,10 +316,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 083ec86aa4cb1c24b8cfa25cbebd6095
-      internalID: 64545374
+      spriteID: 53868ff93f9ab5f70800000000000000
+      internalID: 9177115529523521589
       vertices: []
       indices: 
       edges: []
@@ -332,10 +338,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a3c74282cb230ab40aaeb1442857401c
-      internalID: 2055655388
+      spriteID: d896da36354870fc0800000000000000
+      internalID: -3528706289332033139
       vertices: []
       indices: 
       edges: []
@@ -356,8 +362,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 570054696f810524cbf66672cc3e1df2
-      internalID: 818099447
+      spriteID: 9fca847a1548b334988f8f64689c2e22
+      internalID: 1847700367
       vertices: []
       indices: 
       edges: []
@@ -378,8 +384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b18eb03322b2d87408269b5a5a93f3eb
-      internalID: -1760571104
+      spriteID: 9b703529b45f47e4fa7ae2b47a2853c1
+      internalID: 977072898
       vertices: []
       indices: 
       edges: []
@@ -400,8 +406,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29462ff490b03a94e8ac0e04fa737192
-      internalID: 1472451162
+      spriteID: 26fe8e3ad544be64d9318bb199a7b586
+      internalID: 1759520695
       vertices: []
       indices: 
       edges: []
@@ -422,8 +428,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccbdb01106c27a74f898c889b311d9c6
-      internalID: 1431152924
+      spriteID: f007254b5e2b4414dbeaaf55fcc757ac
+      internalID: 1563693048
       vertices: []
       indices: 
       edges: []
@@ -444,8 +450,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a41b09c4f6a82d544ac0257d5e2d9909
-      internalID: -682111380
+      spriteID: 272b967ee91fc024ab979974edf36800
+      internalID: 2065968696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialoguePortraitsSpriteSheet-1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9de4cf37ca355246b4f6a8de22fa6ad
+      internalID: -530911132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DialoguePortraitsSpriteSheet-1_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311d2e3488b3846498d77af6bc2c66c2
+      internalID: 166389369
       vertices: []
       indices: 
       edges: []
@@ -454,7 +504,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a76f0158b0f22634c85fced96aaa03d7
+    spriteID: 26b9f9b27c34dfa4aa836e5ca5092069
     internalID: 0
     vertices: []
     indices: 
@@ -468,19 +518,21 @@ TextureImporter:
     nameFileIdTable:
       DialoguePortraitsSpriteSheet-1_0: 2349344280030101066
       DialoguePortraitsSpriteSheet-1_1: -7993818719700251513
-      DialoguePortraitsSpriteSheet-1_10: 818099447
-      DialoguePortraitsSpriteSheet-1_11: -1760571104
-      DialoguePortraitsSpriteSheet-1_12: 1472451162
-      DialoguePortraitsSpriteSheet-1_13: 1431152924
-      DialoguePortraitsSpriteSheet-1_14: -682111380
+      DialoguePortraitsSpriteSheet-1_10: 1847700367
+      DialoguePortraitsSpriteSheet-1_11: 977072898
+      DialoguePortraitsSpriteSheet-1_12: 1759520695
+      DialoguePortraitsSpriteSheet-1_13: 1563693048
+      DialoguePortraitsSpriteSheet-1_14: 2065968696
+      DialoguePortraitsSpriteSheet-1_15: -530911132
+      DialoguePortraitsSpriteSheet-1_16: 166389369
       DialoguePortraitsSpriteSheet-1_2: 7484287185808339882
       DialoguePortraitsSpriteSheet-1_3: -6753709085261763909
       DialoguePortraitsSpriteSheet-1_4: -4133213178128356066
       DialoguePortraitsSpriteSheet-1_5: -965785195859673397
       DialoguePortraitsSpriteSheet-1_6: -8177366192311384469
       DialoguePortraitsSpriteSheet-1_7: -4978952045200179586
-      DialoguePortraitsSpriteSheet-1_8: 64545374
-      DialoguePortraitsSpriteSheet-1_9: 2055655388
+      DialoguePortraitsSpriteSheet-1_8: 9177115529523521589
+      DialoguePortraitsSpriteSheet-1_9: -3528706289332033139
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

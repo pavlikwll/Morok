@@ -6,7 +6,7 @@ using UnityEngine.AI;
 //Organisiert die Lebenspunkte und ggf. das Sterben des Gegners.
 public class EnemyInformation : MonoBehaviour
 {
-    [SerializeField] private int enemyMaxLifePoints = 3;
+    public int enemyMaxLifePoints;
     
     public float _currentLifePoints;
 
@@ -55,7 +55,7 @@ public class EnemyInformation : MonoBehaviour
             
             //_enemySpawner.GetComponent<EnemySpawner>().SpawnEnemy();
             
-            Destroy(gameObject,2f);
+            Destroy(gameObject,1f);
             //Destroy(GameObject.Find("EnemyContainer"),2f);
         }
     }
