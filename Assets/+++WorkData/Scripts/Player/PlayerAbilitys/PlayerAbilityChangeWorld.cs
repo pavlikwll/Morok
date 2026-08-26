@@ -17,6 +17,8 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
     
     public bool _inWorldOne;
 
+    public bool worldChangeAllowed;
+
     private void Awake()
     {
         _playerStates = GetComponent<PlayerStates>();
@@ -24,6 +26,7 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
         _sortItemsToWorlds = GetComponent<SortItemsToWorlds>();
 
         _inWorldOne = true;
+        worldChangeAllowed  = true;
     }
     
     private void OnEnable()
@@ -38,6 +41,7 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
 
     public void ChangeWorld()
     {
+        if (!worldChangeAllowed) return;
         
         if (_inWorldOne && GetComponent<PlayerAbilityChangeWorld>().enabled)
         {
@@ -71,5 +75,15 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
             PlayerAnimation.OnAction?.Invoke(actionId);
         }
         */
+    }
+
+    public void WorldChangeAllowed()
+    {
+        worldChangeAllowed = true;
+    }
+
+    public void WorldChangeDenied()
+    {
+        worldChangeAllowed = false;
     }
 }
