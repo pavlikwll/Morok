@@ -50,6 +50,24 @@ TextureImporter:
   - first:
       213: -430266390758087672
     second: EnemyDeathSpriteSheet-1_15
+  - first:
+      213: 5640054961460961651
+    second: EnemyDeathSpriteSheet-1_16
+  - first:
+      213: -6464036017427757631
+    second: EnemyDeathSpriteSheet-1_17
+  - first:
+      213: -7260553491955999971
+    second: EnemyDeathSpriteSheet-1_18
+  - first:
+      213: -2523266159241672651
+    second: EnemyDeathSpriteSheet-1_19
+  - first:
+      213: 8955216051382244300
+    second: EnemyDeathSpriteSheet-1_20
+  - first:
+      213: -7144008824863527754
+    second: EnemyDeathSpriteSheet-1_21
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,19 +159,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -162,7 +167,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
+        y: 1216
         width: 64
         height: 64
       alignment: 9
@@ -184,7 +189,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 128
+        y: 1216
         width: 64
         height: 64
       alignment: 9
@@ -206,7 +211,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 128
+        y: 1216
         width: 64
         height: 64
       alignment: 9
@@ -228,7 +233,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 128
+        y: 1216
         width: 64
         height: 64
       alignment: 9
@@ -250,7 +255,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 128
+        y: 1216
         width: 64
         height: 64
       alignment: 9
@@ -272,7 +277,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 320
-        y: 128
+        y: 1216
         width: 64
         height: 64
       alignment: 9
@@ -294,7 +299,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 384
-        y: 128
+        y: 1216
         width: 64
         height: 64
       alignment: 9
@@ -316,7 +321,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
+        y: 1152
         width: 64
         height: 64
       alignment: 9
@@ -338,7 +343,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 64
+        y: 1152
         width: 64
         height: 64
       alignment: 9
@@ -360,7 +365,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 64
+        y: 1152
         width: 64
         height: 64
       alignment: 9
@@ -382,7 +387,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 64
+        y: 1152
         width: 64
         height: 64
       alignment: 9
@@ -404,7 +409,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 64
+        y: 1152
         width: 64
         height: 64
       alignment: 9
@@ -426,7 +431,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 320
-        y: 64
+        y: 1152
         width: 64
         height: 64
       alignment: 9
@@ -448,7 +453,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 384
-        y: 64
+        y: 1152
         width: 64
         height: 64
       alignment: 9
@@ -470,7 +475,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 1088
         width: 64
         height: 64
       alignment: 9
@@ -492,7 +497,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
+        y: 1088
         width: 64
         height: 64
       alignment: 9
@@ -514,7 +519,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 0
+        y: 1088
         width: 64
         height: 64
       alignment: 9
@@ -523,10 +528,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: da298c34eefbbbb418486caeb3dad6cf
-      internalID: -1710720759
+      spriteID: 3716f8bea10854e40800000000000000
+      internalID: 5640054961460961651
       vertices: []
       indices: 
       edges: []
@@ -536,7 +541,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 0
+        y: 1088
         width: 64
         height: 64
       alignment: 9
@@ -545,10 +550,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e6c533f7171c0a74ba962e367ec3be3b
-      internalID: 1858816951
+      spriteID: 1c543e57d712b46a0800000000000000
+      internalID: -6464036017427757631
       vertices: []
       indices: 
       edges: []
@@ -558,7 +563,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 0
+        y: 1088
         width: 64
         height: 64
       alignment: 9
@@ -567,10 +572,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d70151c7e5012eb45af7cad9838982e6
-      internalID: 974106334
+      spriteID: d1b9d3f21155d3b90800000000000000
+      internalID: -7260553491955999971
       vertices: []
       indices: 
       edges: []
@@ -580,7 +585,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 320
-        y: 0
+        y: 1088
         width: 64
         height: 64
       alignment: 9
@@ -589,10 +594,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1015f65967c3ff44eab482c69428c1cd
-      internalID: 774555284
+      spriteID: 538c2a80cce8bfcd0800000000000000
+      internalID: -2523266159241672651
       vertices: []
       indices: 
       edges: []
@@ -602,7 +607,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 384
-        y: 0
+        y: 1088
         width: 64
         height: 64
       alignment: 9
@@ -611,10 +616,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 22afafc88793ea043af93d0195e51c36
-      internalID: 2033632764
+      spriteID: cc3d38d4d81574c70800000000000000
+      internalID: 8955216051382244300
       vertices: []
       indices: 
       edges: []
@@ -624,7 +629,29 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 448
-        y: 0
+        y: 1088
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bce0c903d16bdc90800000000000000
+      internalID: -7144008824863527754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeathSpriteSheet-1_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
         width: 64
         height: 64
       alignment: 9
@@ -635,8 +662,184 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f51fccdd344ccf446ad6cc6f7543a0a3
-      internalID: -292862039
+      spriteID: 18dae2bb89c50b54a9a8f8d61488dce9
+      internalID: 1346331086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeathSpriteSheet-1_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84095c80860ff99459d69f079f231d83
+      internalID: 369615400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeathSpriteSheet-1_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7949f6c9f16984990a6526c41e3c00
+      internalID: -892356572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeathSpriteSheet-1_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90b5d10e0039e34fb04dc49280c3fb2
+      internalID: -976064509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeathSpriteSheet-1_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447cd041bde157e449d34a2108350153
+      internalID: 1187805323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeathSpriteSheet-1_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25aa80a33a5497e4d9775619c64d0232
+      internalID: -305647964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeathSpriteSheet-1_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedd1ec8e8c2fa74f89fd9e2071209bc
+      internalID: -1271514060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeathSpriteSheet-1_29
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27daf9f2bca0b1c49a4930b95c3c0af5
+      internalID: 200921105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyDeathSpriteSheet-1_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f041da61b37b404b98bdfdd7e592c38
+      internalID: -1918837069
       vertices: []
       indices: 
       edges: []
@@ -645,7 +848,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ca655ec8afaf9e94d9c34c39dff56925
+    spriteID: 65c1ff6e315639b4483e9361d6bbaa6b
     internalID: 0
     vertices: []
     indices: 
@@ -665,14 +868,23 @@ TextureImporter:
       EnemyDeathSpriteSheet-1_13: 6659161152995099545
       EnemyDeathSpriteSheet-1_14: -1754392893875586891
       EnemyDeathSpriteSheet-1_15: -430266390758087672
-      EnemyDeathSpriteSheet-1_16: -1710720759
-      EnemyDeathSpriteSheet-1_17: 1858816951
-      EnemyDeathSpriteSheet-1_18: 974106334
-      EnemyDeathSpriteSheet-1_19: 774555284
+      EnemyDeathSpriteSheet-1_16: 5640054961460961651
+      EnemyDeathSpriteSheet-1_17: -6464036017427757631
+      EnemyDeathSpriteSheet-1_18: -7260553491955999971
+      EnemyDeathSpriteSheet-1_19: -2523266159241672651
       EnemyDeathSpriteSheet-1_2: -6252329123287765589
-      EnemyDeathSpriteSheet-1_20: 2033632764
-      EnemyDeathSpriteSheet-1_21: -292862039
+      EnemyDeathSpriteSheet-1_20: 8955216051382244300
+      EnemyDeathSpriteSheet-1_21: -7144008824863527754
+      EnemyDeathSpriteSheet-1_22: 1346331086
+      EnemyDeathSpriteSheet-1_23: 369615400
+      EnemyDeathSpriteSheet-1_24: -892356572
+      EnemyDeathSpriteSheet-1_25: -976064509
+      EnemyDeathSpriteSheet-1_26: 1187805323
+      EnemyDeathSpriteSheet-1_27: -305647964
+      EnemyDeathSpriteSheet-1_28: -1271514060
+      EnemyDeathSpriteSheet-1_29: 200921105
       EnemyDeathSpriteSheet-1_3: -2497434764768276105
+      EnemyDeathSpriteSheet-1_30: -1918837069
       EnemyDeathSpriteSheet-1_4: 1891707509182318988
       EnemyDeathSpriteSheet-1_5: 6800589347810041350
       EnemyDeathSpriteSheet-1_6: 4644724778466643899
