@@ -54,6 +54,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7583244180048913962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 639233864081583439
+  FileSizes:
+  - Name: Desktop
+    Value: 3077248
+  Exists: 1
 --- !u!114 &-7549978285926898294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,6 +101,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 41500
+--- !u!114 &-6824166267797966509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambience Controller/AmbienceBlend
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: AmbienceBlend
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3661096930
+    data2: 3648331070
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-5947039504083547435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,14 +144,41 @@ MonoBehaviour:
     Data3: -749489262
     Data4: -1360377964
   Banks:
-  - {fileID: 8743344372634595417}
+  - {fileID: -7583244180048913962}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 51600
+  Length: 49025
+--- !u!114 &-5026218776718357903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/VoiceLine
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Dialogue/VoiceLine
+  Guid:
+    Data1: 1320181135
+    Data2: 1143345728
+    Data3: 491962034
+    Data4: 1511519103
+  Banks:
+  - {fileID: 8005726737739344265}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10950
 --- !u!114 &-4220894181044026679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,30 +234,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 38000
---- !u!114 &-3346969328821950140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Ambience Controller/AmbienceBlend
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
-  Name: AmbienceBlend
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3661096930
-    data2: 3648331070
-  Type: 0
-  IsGlobal: 0
-  Labels: []
-  Exists: 1
 --- !u!114 &-3136607966719763922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,10 +249,10 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639231758942322020
+  lastModified: 639233836842553533
   FileSizes:
   - Name: Desktop
-    Value: 1330
+    Value: 1544
   Exists: 1
 --- !u!114 &-3135900698280936948
 MonoBehaviour:
@@ -246,14 +293,14 @@ MonoBehaviour:
     Data3: 2028433314
     Data4: -954361918
   Banks:
-  - {fileID: 8743344372634595417}
+  - {fileID: -7583244180048913962}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 126000
+  Length: 121000
 --- !u!114 &-2406806358294746587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -278,6 +325,26 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-1009018143240845488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 639232666368016801
+  FileSizes:
+  - Name: Desktop
+    Value: 139648
+  Exists: 1
 --- !u!114 &-635371999956134261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,34 +365,6 @@ MonoBehaviour:
   - Name: Desktop
     Value: 607296
   Exists: 1
---- !u!114 &-235026236664278480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambience Controller
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/Ambience Controller
-  Guid:
-    Data1: 1005381248
-    Data2: 1270722653
-    Data3: 1784607134
-    Data4: 384806329
-  Banks:
-  - {fileID: 8743344372634595417}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -3346969328821950140}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 163500
 --- !u!114 &-78544921448653020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368,6 +407,9 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -3136607966719763922}
   - {fileID: 8743344372634595417}
+  - {fileID: 8005726737739344265}
+  - {fileID: -7583244180048913962}
+  - {fileID: -1009018143240845488}
   EditorEvents:
   - {fileID: -2500347016521184921}
   - {fileID: -4220894181044026679}
@@ -377,16 +419,18 @@ MonoBehaviour:
   - {fileID: 7939537160999140064}
   - {fileID: -7549978285926898294}
   - {fileID: 5699043239684975093}
-  - {fileID: -235026236664278480}
   - {fileID: -9173235111393342001}
   - {fileID: -3910068272299405896}
+  - {fileID: 7355328733388073102}
+  - {fileID: 2709068600040879877}
+  - {fileID: -5026218776718357903}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8743344372634595417}
   StringsBanks:
   - {fileID: -3136607966719763922}
   cacheVersion: 131860
-  cacheTime: 639231758942322020
+  cacheTime: 639233864081583439
   SerializableEventsDict:
   - key: event:/Music/FinalConfrontation
     index: 0
@@ -404,12 +448,43 @@ MonoBehaviour:
     index: 6
   - key: event:/SFX/FootstepSounds
     index: 7
-  - key: event:/Ambience Controller
-    index: 8
   - key: event:/Grassland Ambience
-    index: 9
+    index: 8
   - key: event:/Cave Ambience
+    index: 9
+  - key: event:/Ambience/Ambience Controller
     index: 10
+  - key: event:/Music/Ashwick
+    index: 11
+  - key: event:/Dialogue/VoiceLine
+    index: 12
+--- !u!114 &2709068600040879877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Ashwick
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Music/Ashwick
+  Guid:
+    Data1: 319871854
+    Data2: 1324624108
+    Data3: 1508060342
+    Data4: -654297734
+  Banks:
+  - {fileID: -7583244180048913962}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30000
 --- !u!114 &2761207808405597109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -431,12 +506,12 @@ MonoBehaviour:
   Banks:
   - {fileID: 8743344372634595417}
   IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
+  Is3D: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 163500
+  Length: 30100
 --- !u!114 &5699043239684975093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -456,7 +531,7 @@ MonoBehaviour:
     Data3: -524716359
     Data4: -586282548
   Banks:
-  - {fileID: 8743344372634595417}
+  - {fileID: -1009018143240845488}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -510,7 +585,7 @@ MonoBehaviour:
     Data3: 1014587313
     Data4: -1665713426
   Banks:
-  - {fileID: 8743344372634595417}
+  - {fileID: -7583244180048913962}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -518,6 +593,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 43000
+--- !u!114 &7355328733388073102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Ambience Controller
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/Ambience/Ambience Controller
+  Guid:
+    Data1: 1005381248
+    Data2: 1270722653
+    Data3: 1784607134
+    Data4: 384806329
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6824166267797966509}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 163500
 --- !u!114 &7939537160999140064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,7 +640,7 @@ MonoBehaviour:
     Data3: -161530715
     Data4: -753256440
   Banks:
-  - {fileID: 8743344372634595417}
+  - {fileID: -1009018143240845488}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -545,6 +648,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5568
+--- !u!114 &8005726737739344265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
+  Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Dialogue.bank
+  Name: Dialogue
+  StudioPath: bank:/Dialogue
+  lastModified: 639233661570122111
+  FileSizes:
+  - Name: Desktop
+    Value: 1452832
+  Exists: 1
 --- !u!114 &8743344372634595417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,8 +683,8 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639231758942154871
+  lastModified: 639233836842511359
   FileSizes:
   - Name: Desktop
-    Value: 22361280
+    Value: 19916256
   Exists: 1
