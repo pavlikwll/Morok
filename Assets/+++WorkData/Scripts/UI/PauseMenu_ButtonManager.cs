@@ -25,6 +25,16 @@ public class PauseMenu_ButtonManager : MonoBehaviour
         pauseMenuUIManager.CloseOptionsMenu();
     }
     
+    public void Button_OpenQuitConfirm()
+    {
+        pauseMenuUIManager.OpenQuitConfirm();
+    }
+    
+    public void Button_CloseQuitConfirm()
+    {
+        pauseMenuUIManager.CloseQuitConfirm();
+    }
+    
     public void Button_LoadSceneByName(string sceneName)
     {
         sceneLoaderManager.loadScene(sceneName);
