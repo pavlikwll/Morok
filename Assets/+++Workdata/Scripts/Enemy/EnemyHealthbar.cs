@@ -10,10 +10,10 @@ public class EnemyHealthbar : MonoBehaviour
     [SerializeField] private Image currentHealthbar;
     private void Start()
     {
-        totalHealthbar.fillAmount = _enemyInformation._currentLifePoints / 3;
+        totalHealthbar.fillAmount = _enemyInformation._currentLifePoints / _enemyInformation.enemyMaxLifePoints;
     }
     private void Update()
     {
-        currentHealthbar.fillAmount = _enemyInformation._currentLifePoints / 3;
+        currentHealthbar.fillAmount = _enemyInformation._currentLifePoints / _enemyInformation.enemyMaxLifePoints;
     }
 }

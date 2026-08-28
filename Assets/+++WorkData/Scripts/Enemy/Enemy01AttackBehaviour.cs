@@ -32,7 +32,8 @@ public class Enemy01AttackBehaviour : MonoBehaviour
             _anim.SetBool("e1Transformed", _isTransformed);
         }
     }
-    
+    //__________________________
+    //nutzt auch Enemy04Attack, hier nur Transformation
     
     public void EnterAttackDistance()
     {

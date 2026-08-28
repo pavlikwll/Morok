@@ -6,6 +6,7 @@ public class PauseMenu_UIManager : MonoBehaviour
     public GameObject pauseMenuContainer;
     public GameObject optionsContainer;
     public GameObject mapContainer;
+    public GameObject quitConfirmContainer;
     
     private InputSystem_Actions _inputActions;
     private InputAction _pauseAction;
@@ -99,6 +100,23 @@ public class PauseMenu_UIManager : MonoBehaviour
     }
     
     #endregion
+    
+    
+    #region QuitConfirm
+    
+    public void OpenQuitConfirm()
+    {
+        quitConfirmContainer.SetActive(true);
+    }
+
+    public void CloseQuitConfirm()
+    {
+        quitConfirmContainer.SetActive(false);
+    }
+    
+    #endregion
+    
+    
     
     
     public void EnableInput()

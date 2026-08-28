@@ -15,6 +15,6 @@ MonoBehaviour:
   itemType: 2
   id: TESTNotesItem
   stackingCap: 10
-  sprite: {fileID: 4316801800756556857, guid: bb13b9803eaf0c04786225f6878b0be6, type: 3}
+  sprite: {fileID: 2349344280030101066, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
   displayName: Notes
   description: notes item

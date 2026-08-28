@@ -15,6 +15,6 @@ MonoBehaviour:
   itemType: 1
   id: TESTPuzzleItem1
   stackingCap: 10
-  sprite: {fileID: 21300000, guid: 4b0c97733855bfa41af827f6dce39742, type: 3}
+  sprite: {fileID: 1671439518011357495, guid: 4214b005d869dad4db7a38719015dcba, type: 3}
   displayName: Puzzle1
   description: puzzle item1

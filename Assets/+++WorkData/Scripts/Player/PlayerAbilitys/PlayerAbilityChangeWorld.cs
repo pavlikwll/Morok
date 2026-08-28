@@ -11,11 +11,15 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
     
     private PlayerStates _playerStates;
 
+    public GameObject blackscreen;
+
     public WorldLoadUnloadManager _worldLoadUnloadManager;
 
     private SortItemsToWorlds _sortItemsToWorlds;
     
     public bool _inWorldOne;
+
+    public bool worldChangeAllowed;
 
     private void Awake()
     {
@@ -24,6 +28,7 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
         _sortItemsToWorlds = GetComponent<SortItemsToWorlds>();
 
         _inWorldOne = true;
+        worldChangeAllowed  = true;
     }
     
     private void OnEnable()
@@ -38,9 +43,12 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
 
     public void ChangeWorld()
     {
+        if (!worldChangeAllowed) return;
         
         if (_inWorldOne && GetComponent<PlayerAbilityChangeWorld>().enabled)
         {
+            blackscreen.SetActive(true);
+            
             _worldLoadUnloadManager.Load(3);
             _worldLoadUnloadManager.Unload(2);
 
@@ -53,6 +61,8 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
         }
         else if (!_inWorldOne && GetComponent<PlayerAbilityChangeWorld>().enabled)
         {
+            blackscreen.SetActive(true);
+            
             _worldLoadUnloadManager.Load(2);
             _worldLoadUnloadManager.Unload(3);
 
@@ -71,5 +81,15 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
             PlayerAnimation.OnAction?.Invoke(actionId);
         }
         */
+    }
+
+    public void WorldChangeAllowed()
+    {
+        worldChangeAllowed = true;
+    }
+
+    public void WorldChangeDenied()
+    {
+        worldChangeAllowed = false;
     }
 }
