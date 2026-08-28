@@ -204,7 +204,7 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639234322478285974
+  lastModified: 639234344487339554
   FileSizes:
   - Name: Desktop
     Value: 1616
@@ -297,7 +297,6 @@ MonoBehaviour:
   - {fileID: 7272548882483571009}
   - {fileID: -5947039504083547435}
   - {fileID: 2761207808405597109}
-  - {fileID: 7939537160999140064}
   - {fileID: -7549978285926898294}
   - {fileID: 7355328733388073102}
   - {fileID: 2709068600040879877}
@@ -306,13 +305,14 @@ MonoBehaviour:
   - {fileID: 4527622756737131685}
   - {fileID: 4219513658460600206}
   - {fileID: 2559985741230716839}
+  - {fileID: 6090781222709754294}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8743344372634595417}
   StringsBanks:
   - {fileID: -3136607966719763922}
   cacheVersion: 131860
-  cacheTime: 639234322478285974
+  cacheTime: 639234344487339554
   SerializableEventsDict:
   - key: event:/Ambience/SecondLayer
     index: 0
@@ -322,23 +322,23 @@ MonoBehaviour:
     index: 2
   - key: event:/Ambience/MainLayer
     index: 3
-  - key: event:/SFX/2ndLayerEnter
-    index: 4
   - key: event:/Ambience/Cemetery
-    index: 5
+    index: 4
   - key: event:/Ambience/Ambience Controller
-    index: 6
+    index: 5
   - key: event:/Music/Ashwick
-    index: 7
+    index: 6
   - key: event:/Dialogue/VoiceLine
-    index: 8
+    index: 7
   - key: event:/Music/Battle
-    index: 9
+    index: 8
   - key: event:/SFX/SFX DoorOpen
-    index: 10
+    index: 9
   - key: event:/SFX/Jack/Footsteps
-    index: 11
+    index: 10
   - key: event:/SFX/Jack/PhotoAttack
+    index: 11
+  - key: event:/SFX/Jack/2ndLayerEnter
     index: 12
 --- !u!114 &2559985741230716839
 MonoBehaviour:
@@ -476,6 +476,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 475
+--- !u!114 &6090781222709754294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Jack/2ndLayerEnter
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/Jack/2ndLayerEnter
+  Guid:
+    Data1: 555062033
+    Data2: 1143304580
+    Data3: -161530715
+    Data4: -753256440
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5568
 --- !u!114 &6640740212034105935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -585,33 +612,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 163500
---- !u!114 &7939537160999140064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/SFX/2ndLayerEnter
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
-  Path: event:/SFX/2ndLayerEnter
-  Guid:
-    Data1: 555062033
-    Data2: 1143304580
-    Data3: -161530715
-    Data4: -753256440
-  Banks:
-  - {fileID: 8743344372634595417}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5568
 --- !u!114 &8005726737739344265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -647,7 +647,7 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639234322478260740
+  lastModified: 639234344487299405
   FileSizes:
   - Name: Desktop
     Value: 15560864
