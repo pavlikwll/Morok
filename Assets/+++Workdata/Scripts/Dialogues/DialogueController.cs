@@ -226,7 +226,7 @@ public class DialogueController : MonoBehaviour
         {
             for (int i = 0; i < tags.Count; i++)
             {
-                if (tags[i].Contains("portrait"))
+                if (tags[i].Contains("avatar"))
                 {
                     List<string> avatar = tags[i].Split(SpeakerSeparator).ToList();
                     line.speakerImage = GetAvatar(avatar[1]);
