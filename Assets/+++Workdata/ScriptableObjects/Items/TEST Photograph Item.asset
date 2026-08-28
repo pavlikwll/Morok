@@ -15,6 +15,6 @@ MonoBehaviour:
   itemType: 3
   id: TESTPhotographItem
   stackingCap: 10
-  sprite: {fileID: -1058056661296721355, guid: 17af3af99ac3e2c4599766c4e78444d6, type: 3}
+  sprite: {fileID: 3388254563885850365, guid: 4214b005d869dad4db7a38719015dcba, type: 3}
   displayName: Photograph
   description: photograph item

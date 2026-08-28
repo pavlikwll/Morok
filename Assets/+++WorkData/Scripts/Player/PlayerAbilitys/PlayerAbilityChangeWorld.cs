@@ -11,6 +11,8 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
     
     private PlayerStates _playerStates;
 
+    public GameObject blackscreen;
+
     public WorldLoadUnloadManager _worldLoadUnloadManager;
 
     private SortItemsToWorlds _sortItemsToWorlds;
@@ -45,6 +47,8 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
         
         if (_inWorldOne && GetComponent<PlayerAbilityChangeWorld>().enabled)
         {
+            blackscreen.SetActive(true);
+            
             _worldLoadUnloadManager.Load(3);
             _worldLoadUnloadManager.Unload(2);
 
@@ -57,6 +61,8 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
         }
         else if (!_inWorldOne && GetComponent<PlayerAbilityChangeWorld>().enabled)
         {
+            blackscreen.SetActive(true);
+            
             _worldLoadUnloadManager.Load(2);
             _worldLoadUnloadManager.Unload(3);
 

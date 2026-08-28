@@ -18,18 +18,24 @@ test:6
 test:7
 # portrait:zlo2
 test:8
-# portrait:measures1
+# portrait:zlo3
 test:9
-# portrait:measures2
+# portrait:deadGrandpa1
 test:10
-# portrait:stor1
+# portrait:deadGrandpa2
 test:11
-# portrait:stor2
+# portrait:grandpa1
 test:12
-# portrait:girl1
+# portrait:grandpa2
 test:13
-# portrait:girl2
+# portrait:girl1
 test:14
+# portrait:girl2
+test:15
+# portrait:twins1
+test:16
+# portrait:twins2
+test:17
 ->END
 
 

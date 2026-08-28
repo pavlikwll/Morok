@@ -40,11 +40,11 @@ public class SceneLoaderWithLoadingScreenManager : MonoBehaviour
         loadingScreenCanvas.SetActive(true);
         
         do {
-            await Task.Delay(100);  //ZUM TESTEN ____________________________________________________________________________________________________________________
+            await Task.Delay(100);  //fakeTime
             _target = scene.progress;
         } while(scene.progress < 0.9f);
         
-        await Task.Delay(1000);   //ZUM TESTEN ____________________________________________________________________________________________________________________
+        await Task.Delay(1000);   //fakeTime
         
         scene.allowSceneActivation = true;
         loadingScreenCanvas.SetActive(false);
@@ -68,11 +68,11 @@ public class SceneLoaderWithLoadingScreenManager : MonoBehaviour
         loadingScreenCanvas.SetActive(true);
         
         do {
-            await Task.Delay(100);  //ZUM TESTEN ____________________________________________________________________________________________________________________
+            await Task.Delay(100);  //fakeTime
             _target = scene.progress;
         } while(scene.progress < 0.9f);
         
-        await Task.Delay(1000);   //ZUM TESTEN ____________________________________________________________________________________________________________________
+        await Task.Delay(1000);   //fakeTime
         
         scene.allowSceneActivation = true;
         loadingScreenCanvas.SetActive(false);

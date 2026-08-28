@@ -9,6 +9,7 @@ public class WorldTransitionAbilityCooldown : MonoBehaviour
     private PlayerAbilityChangeWorld _playerAbilityChangeWorld;
     
     public GameObject timerVisual;
+    public GameObject timerVisual2;
     
     private Coroutine _changeWorldCooldown;
 
@@ -26,6 +27,7 @@ public class WorldTransitionAbilityCooldown : MonoBehaviour
     {
         Debug.Log("start");
         timerVisual.SetActive(true);
+        timerVisual2.SetActive(true);
         yield return new WaitForSeconds(5);
         Debug.Log("end");
         _playerAbilityChangeWorld.enabled = true;
