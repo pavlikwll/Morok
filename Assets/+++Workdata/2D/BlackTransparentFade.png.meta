@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f07ea938b21a9734e8b5cd1a91d58e45
+guid: 966721fbc12e66046a93bf266b081eec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1086370848679615739
-    second: MainMenuBGPlaceholder_0
+      213: -2272337578642208539
+    second: BlackTransparentFade_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MainMenuBGPlaceholder_0
+      name: BlackTransparentFade_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 81
-        width: 627
-        height: 378
+        y: 0
+        width: 500
+        height: 478
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 503ac1e087f6ce0f0800000000000000
-      internalID: -1086370848679615739
+      spriteID: 5e88247f2090770e0800000000000000
+      internalID: -2272337578642208539
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7410dd05cc6198b43bbea5b1fc887e62
+    spriteID: 4e1e88e57aebe284c95b4ca2a7a9cb95
     internalID: 0
     vertices: []
     indices: 
@@ -148,9 +148,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":627.0,"y":378.0},"gridSpriteOffset":{"x":0.0,"y":43.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":500.0,"y":478.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      MainMenuBGPlaceholder_0: -1086370848679615739
+      BlackTransparentFade_0: -2272337578642208539
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
