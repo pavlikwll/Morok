@@ -926,6 +926,17 @@
                 },
                 {
                     "name": "",
+                    "id": "04d83a5c-a1ae-4115-b826-265c7add09b8",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Inventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "8440cb11-6dfd-4618-99e5-c4060734b88e",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
@@ -943,28 +954,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "PauseGame",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "18be552f-22b9-4bfe-9547-858f1fe909cf",
-                    "path": "<Keyboard>/j",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Questlog",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "7fce7b38-966d-4e45-8ddd-72ce7c7866cc",
-                    "path": "<Gamepad>/dpad/right",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Questlog",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
