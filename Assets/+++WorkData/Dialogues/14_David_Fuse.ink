@@ -1,6 +1,6 @@
 === david_fuse ===
 = start
-Father: Jack. Could you pop down and buy a replacement fuse? I’ll pay you back. #avatar:father
+Father: Jack. Could you pop down and buy a replacement fuse? I’ll pay you back. #avatar:father #voice:father_016
 ~ Event("objective_buy_replacement_fuse")
 ~ Event("david_fuse_quest_started")
 ~ Event("unlock_replacement_fuse_at_harris")
@@ -29,16 +29,16 @@ Father: Jack. Could you pop down and buy a replacement fuse? I’ll pay you back
 -> END
 
 = complete
-Father: You fixed it? Nice work. #avatar:father
+Father: You fixed it? Nice work. #avatar:father #voice:father_017
 ~ Add_State("money_pence", 300)
 ~ Event("receive_three_pounds_from_david")
 ~ Event("david_fuse_quest_complete")
 -> END
 
 = radio_afterward
-Radio: He sounded surprised. #avatar:radio
+Radio: He sounded surprised. #avatar:radio #voice:radio_061
 Jack: He said I did well. #avatar:jack
-Radio: He did. #avatar:radio
+Radio: He did. #avatar:radio #voice:radio_062
 ~ Event("pause_short")
-Radio: Like he wasn’t expecting you to. #avatar:radio
+Radio: Like he wasn’t expecting you to. #avatar:radio #voice:radio_063
 -> END

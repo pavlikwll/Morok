@@ -1,11 +1,11 @@
 === town ===
 = edith_intro
-Edith: You’re the boy from the old Hale House. #avatar:edith
-Jack: The what? #avatar:jack
-Edith: …Did I say Hale? #avatar:edith
-Jack: Yeah. #avatar:jack
-Edith: How very odd. #avatar:edith
-Edith: Never mind me, dear. #avatar:edith
+Edith: You’re the boy from the old Hale House. #avatar:edith #voice:edith_001
+Jack: The what? #avatar:jack #voice:jack_027
+Edith: …Did I say Hale? #avatar:edith #voice:edith_002
+Jack: Yeah. #avatar:jack #voice:jack_028
+Edith: How very odd. #avatar:edith #voice:edith_003
+Edith: Never mind me, dear. #avatar:edith #voice:edith_004
 ~ Event("edith_intro_complete")
 ~ Event("first_hale_house_hint_discovered")
 -> END
@@ -14,7 +14,7 @@ Edith: Never mind me, dear. #avatar:edith
 = introduction
 Harris: Afternoon. #avatar:harris
 Harris: You must be the new family. #avatar:harris
-Jack: Is it really that obvious? #avatar:jack
+Jack: Is it really that obvious? #avatar:jack #voice:jack_029
 Harris: Son, I know everyone in Ashwick. #avatar:harris
 Harris: Well… almost everyone. #avatar:harris
 ~ Event("harris_intro_complete")
@@ -22,12 +22,12 @@ Harris: Well… almost everyone. #avatar:harris
 -> END
 
 = examine_batteries
-Jack: These ought to do. #avatar:jack
+Jack: These ought to do. #avatar:jack #voice:jack_030
 ~ Event("batteries_discovered")
 -> END
 
 = examine_telescope_aerial
-Jack: Close enough. #avatar:jack
+Jack: Close enough. #avatar:jack #voice:jack_031
 ~ Event("telescope_aerial_discovered")
 -> END
 

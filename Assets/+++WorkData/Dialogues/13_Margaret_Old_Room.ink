@@ -1,31 +1,31 @@
 === margaret_old_room ===
 = start
-Mother: Jack? #avatar:mother
-Jack: Yeah? #avatar:jack
-Mother: I’m looking for a little brass key. #avatar:mother
-Mother: It should be in one of the kitchen boxes. #avatar:mother
-Jack: Which one? #avatar:jack
-Mother: I wish I knew. #avatar:mother
+Mother: Jack? #avatar:mother #voice:mother_022
+Jack: Yeah? #avatar:jack #voice:jack_087
+Mother: I’m looking for a little brass key. #avatar:mother #voice:mother_023
+Mother: It should be in one of the kitchen boxes. #avatar:mother #voice:mother_024
+Jack: Which one? #avatar:jack #voice:jack_088
+Mother: I wish I knew. #avatar:mother #voice:mother_025
 ~ Event("objective_find_margarets_brass_key")
 ~ Event("margaret_old_room_quest_started")
 ~ Event("unlock_boarded_room_interaction")
 -> END
 
 = david_warning
-David: Leave that room alone. #avatar:father
-Jack: Why? #avatar:jack
-David: The floor might not be safe. #avatar:father
-Jack: Did you check? #avatar:jack
-David: Jack, leave it. #avatar:father
+Father: Leave that room alone. #avatar:father #voice:father_013
+Jack: Why? #avatar:jack #voice:jack_089
+Father: The floor might not be safe. #avatar:father #voice:father_014
+Jack: Did you check? #avatar:jack #voice:jack_090
+Father: Jack, leave it. #avatar:father #voice:father_015
 ~ Event("david_warned_about_old_room")
 -> END
 
 = radio_warning
-Radio: He’s probably right. #avatar:radio
-Jack: About the room? #avatar:jack
-Radio: You shouldn’t go in there. #avatar:radio
-Jack: Why does that sound like a challenge? #avatar:jack
-Radio: Does it? #avatar:radio
+Radio: He’s probably right. #avatar:radio #voice:radio_050
+Jack: About the room? #avatar:jack #voice:jack_091
+Radio: You shouldn’t go in there. #avatar:radio #voice:radio_051
+Jack: Why does that sound like a challenge? #avatar:jack #voice:jack_092
+Radio: Does it? #avatar:radio #voice:radio_052
 ~ Event("unlock_old_room_echo_route")
 -> END
 
@@ -50,18 +50,18 @@ Radio: Does it? #avatar:radio
 
 = return_key
 ~ Add_State("margaret_brass_key", -1)
-Mother: Where did you find it? #avatar:mother
-Jack: In the boarded-up room. #avatar:jack
-Mother: Your father told you to stay out of there. #avatar:mother
-Jack: I was helping you. #avatar:jack
-Mother: And I’m trying to keep you safe. #avatar:mother
+Mother: Where did you find it? #avatar:mother #voice:mother_026
+Jack: In the boarded-up room. #avatar:jack #voice:jack_093
+Mother: Your father told you to stay out of there. #avatar:mother #voice:mother_027
+Jack: I was helping you. #avatar:jack #voice:jack_094
+Mother: And I’m trying to keep you safe. #avatar:mother #voice:mother_028
 ~ Add_State("money_pence", 100)
 ~ Event("receive_one_pound_from_margaret")
 ~ Event("margaret_old_room_quest_complete")
 -> END
 
 = radio_afterward
-Radio: You helped her. #avatar:radio
-Jack: She was worried. #avatar:jack
-Radio: Of course. She just has a quiet way of showing it. #avatar:radio
+Radio: You helped her. #avatar:radio #voice:radio_053
+Jack: She was worried. #avatar:jack #voice:jack_095
+Radio: Of course. She just has a quiet way of showing it. #avatar:radio #voice:radio_054
 -> END
