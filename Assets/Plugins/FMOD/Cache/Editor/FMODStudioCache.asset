@@ -204,7 +204,7 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639234344487339554
+  lastModified: 639235227501092807
   FileSizes:
   - Name: Desktop
     Value: 1616
@@ -312,7 +312,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -3136607966719763922}
   cacheVersion: 131860
-  cacheTime: 639234344487339554
+  cacheTime: 639235227501092807
   SerializableEventsDict:
   - key: event:/Ambience/SecondLayer
     index: 0
@@ -627,10 +627,10 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Dialogue.bank
   Name: Dialogue
   StudioPath: bank:/Dialogue
-  lastModified: 639234317601774885
+  lastModified: 639235227494717920
   FileSizes:
   - Name: Desktop
-    Value: 1571104
+    Value: 5725600
   Exists: 1
 --- !u!114 &8743344372634595417
 MonoBehaviour:
@@ -647,7 +647,7 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639234344487299405
+  lastModified: 639235227501052284
   FileSizes:
   - Name: Desktop
     Value: 15560864
