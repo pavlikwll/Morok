@@ -83,6 +83,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 41500
+--- !u!114 &-7165508502441812308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EchoAttack
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/EchoAttack
+  Guid:
+    Data1: -1411715635
+    Data2: 1169182374
+    Data3: 191795893
+    Data4: -1659828371
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 880
 --- !u!114 &-6824166267797966509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,10 +231,10 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639235227501092807
+  lastModified: 639236094908886594
   FileSizes:
   - Name: Desktop
-    Value: 1616
+    Value: 1700
   Exists: 1
 --- !u!114 &-3135900698280936948
 MonoBehaviour:
@@ -306,13 +333,15 @@ MonoBehaviour:
   - {fileID: 4219513658460600206}
   - {fileID: 2559985741230716839}
   - {fileID: 6090781222709754294}
+  - {fileID: 9051849765404045527}
+  - {fileID: -7165508502441812308}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8743344372634595417}
   StringsBanks:
   - {fileID: -3136607966719763922}
   cacheVersion: 131860
-  cacheTime: 639235227501092807
+  cacheTime: 639236370557065575
   SerializableEventsDict:
   - key: event:/Ambience/SecondLayer
     index: 0
@@ -340,6 +369,10 @@ MonoBehaviour:
     index: 11
   - key: event:/SFX/Jack/2ndLayerEnter
     index: 12
+  - key: event:/SFX/RadioSwitch
+    index: 13
+  - key: event:/SFX/EchoAttack
+    index: 14
 --- !u!114 &2559985741230716839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -627,10 +660,10 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Dialogue.bank
   Name: Dialogue
   StudioPath: bank:/Dialogue
-  lastModified: 639235227494717920
+  lastModified: 639236370557065575
   FileSizes:
   - Name: Desktop
-    Value: 5725600
+    Value: 7288320
   Exists: 1
 --- !u!114 &8743344372634595417
 MonoBehaviour:
@@ -647,8 +680,35 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639235227501052284
+  lastModified: 639236094908851373
   FileSizes:
   - Name: Desktop
-    Value: 15560864
+    Value: 15584864
   Exists: 1
+--- !u!114 &9051849765404045527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/RadioSwitch
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/RadioSwitch
+  Guid:
+    Data1: 1142820462
+    Data2: 1112001711
+    Data3: -922881648
+    Data4: 1610571000
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1013
