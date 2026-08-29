@@ -1870,7 +1870,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 140.75, y: 62.700195}
+  m_AnchoredPosition: {x: 140.75, y: 62.69995}
   m_SizeDelta: {x: 900.01, y: 115.434}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &131752804
@@ -7096,17 +7096,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
-      propertyPath: voicePlayer
-      value: 
-      objectReference: {fileID: 1728122164}
-    - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
       propertyPath: inkAssets.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
       propertyPath: 'inkAssets.Array.data[0]'
       value: 
-      objectReference: {fileID: 4900000, guid: a69378cf1ef8ec6448e72aab08ef151c, type: 3}
+      objectReference: {fileID: 4900000, guid: 33b9b86a0151742f0993672500cddb38, type: 3}
     - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
       propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -8942,7 +8938,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 165, y: 29.726074}
+  m_AnchoredPosition: {x: 165, y: 29.725952}
   m_SizeDelta: {x: -610, y: -259.454}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &626515811
@@ -19140,7 +19136,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 165, y: 29.726074}
+  m_AnchoredPosition: {x: 165, y: 29.725952}
   m_SizeDelta: {x: -610, y: -259.454}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1350672923
@@ -22400,7 +22396,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 165, y: 29.726074}
+  m_AnchoredPosition: {x: 165, y: 29.725952}
   m_SizeDelta: {x: -610, y: -259.454}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1551132743
@@ -24196,7 +24192,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -506.02734, y: 0}
+  m_AnchoredPosition: {x: -506.02774, y: 0}
   m_SizeDelta: {x: -1012.056, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1715109066
@@ -24571,57 +24567,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9035c791211a51d418f0b771756a37d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlot
---- !u!1 &1728122163
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1728122165}
-  - component: {fileID: 1728122164}
-  m_Layer: 0
-  m_Name: DialogueAudio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1728122164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728122163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c036ee756e07c514ea47436520e99c11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DialogueVoicePlayer
-  dialogueEvent:
-    Guid:
-      Data1: 1320181135
-      Data2: 1143345728
-      Data3: 491962034
-      Data4: 1511519103
-    Path: event:/Dialogue/VoiceLine
---- !u!4 &1728122165
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728122163}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.49483, y: 0.23023, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1730916345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29204,7 +29149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 165, y: 29.726074}
+  m_AnchoredPosition: {x: 165, y: 29.725952}
   m_SizeDelta: {x: -610, y: -259.454}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2018805776
@@ -31567,4 +31512,3 @@ SceneRoots:
   - {fileID: 1542206062}
   - {fileID: 533292729}
   - {fileID: 480573278}
-  - {fileID: 1728122165}

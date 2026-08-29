@@ -16,11 +16,11 @@ public class DialogueController : MonoBehaviour
     public static Action<string> OnGetState;
     public static Action<DialogueInteractable> OnDialogueStarted;
     public static DialogueController Instance { get; private set; }
-    
+
     private const string SpeakerSeparator = ":";
     private const string EscapedColon = "::";
     private const string EscapedColonPlaceholder = "§";
-    
+
     public static event Action DialogueClosed;
 
     ///<summary>Generic Ink event supplying an identifier.</summary>
@@ -29,36 +29,38 @@ public class DialogueController : MonoBehaviour
     #region Inspector
 
     [Header("Ink")]
-
     [SerializeField] private TextAsset[] inkAssets;
 
     [SerializeField] private int languageIndex;
-    
-    [Header("UI")]
 
+    [Header("UI")]
     [SerializeField] private DialogueBox dialogueBox;
+
+    [Header("Voice")]
+    [SerializeField] private DialogueVoicePlayer voicePlayer;
 
     [Header("Dialogue")]
     [SerializeField] private UnityEvent onDialogueStarted;
     [SerializeField] private UnityEvent onDialogueEnd;
-    
-    [Header("Avatar")] 
+
+    [Header("Avatar")]
     [SerializeField] private DialogueAvatar[] avatars;
+
     [Serializable]
     public class DialogueAvatar
     {
         public string avatarId;
         public Sprite[] avatarFrames;
     }
-    
+
     #endregion
 
     private Story inkStory;
-    
+
     private DialogueInteractable _currentDialogueInteractable;
     //private GameState gameState;
-    
-    
+
+
     #region Unity Event Functions
 
     private void Awake()
@@ -68,11 +70,12 @@ public class DialogueController : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
         Instance = this;
-        
+
         SetLanguage(languageIndex);
     }
-    
+
     private void OnEnable()
     {
         DialogueBox.DialogueContinued += OnDialogueContinued;
@@ -103,6 +106,8 @@ public class DialogueController : MonoBehaviour
         {
             inkStory.onError -= OnInkError;
         }
+
+        voicePlayer?.StopVoice();
     }
 
     #endregion
@@ -127,14 +132,18 @@ public class DialogueController : MonoBehaviour
 
     private void CloseDialogue()
     {
+        voicePlayer?.StopVoice();
+
         EventSystem.current.SetSelectedGameObject(null);
         dialogueBox.gameObject.SetActive(false);
 
         StartCoroutine(DelayDialogueEndEvent());
-        
+
         DialogueClosed?.Invoke();
 
-        if (!_currentDialogueInteractable) return;
+        if (!_currentDialogueInteractable)
+            return;
+
         _currentDialogueInteractable.TrySelected();
     }
 
@@ -153,15 +162,17 @@ public class DialogueController : MonoBehaviour
         }
 
         DialogueLine line;
+
         if (CanContinue())
         {
-            // Player: I can not do that.
             string inkLine = inkStory.Continue();
+
             if (string.IsNullOrWhiteSpace(inkLine))
             {
                 ContinueDialogue();
                 return;
             }
+
             line = ParseText(inkLine, inkStory.currentTags);
         }
         else
@@ -172,6 +183,13 @@ public class DialogueController : MonoBehaviour
         line.choices = inkStory.currentChoices;
 
         dialogueBox.DisplayText(line);
+
+        voicePlayer?.StopVoice();
+
+        if (!string.IsNullOrWhiteSpace(line.voiceId))
+        {
+            voicePlayer?.PlayVoice(line.voiceId);
+        }
     }
 
     private void OnDialogueContinued(DialogueBox _)
@@ -198,24 +216,24 @@ public class DialogueController : MonoBehaviour
     public void SetLanguage(int languageIndex)
     {
         this.languageIndex = languageIndex;
-        
-        // Initialize Ink.
+
         inkStory = new Story(inkAssets[languageIndex].text);
-        // Add error handling.
+
         inkStory.onError += OnInkError;
-        // Connect an ink function to a C# function.
+
         inkStory.BindExternalFunction<string>("Event", Event);
         inkStory.BindExternalFunction<string>("Get_State", Get_State, true);
         inkStory.BindExternalFunction<string, int>("Add_State", Add_State);
     }
-    
+
     private DialogueLine ParseText(string inkLine, List<string> tags)
     {
         DialogueLine line = new DialogueLine();
-                                // ::          ->    §
+
         inkLine = inkLine.Replace(EscapedColon, EscapedColonPlaceholder);
-                                        //   : 
-        List<string> parts = inkLine.Split(SpeakerSeparator).ToList();
+
+        List<string> parts =
+            inkLine.Split(SpeakerSeparator).ToList();
 
         string speaker;
         string text;
@@ -226,38 +244,64 @@ public class DialogueController : MonoBehaviour
                 speaker = null;
                 text = parts[0];
                 break;
+
             case 2:
                 speaker = parts[0];
                 text = parts[1];
                 break;
+
             default:
-                Debug.LogWarning($"Ink dialogue line was split at more {SpeakerSeparator} than expected." +
-                                 $" Please make sure to use {EscapedColon} for {SpeakerSeparator} inside text");
+                Debug.LogWarning(
+                    $"Ink dialogue line was split at more {SpeakerSeparator} than expected." +
+                    $" Please make sure to use {EscapedColon} for {SpeakerSeparator} inside text"
+                );
+
                 goto case 2;
         }
 
         line.speaker = speaker?.Trim();
-        line.text = text.Trim().Replace(EscapedColonPlaceholder, SpeakerSeparator);
-        //parts Element 1 = Hallo:Player
+
+        line.text =
+            text.Trim().Replace(
+                EscapedColonPlaceholder,
+                SpeakerSeparator
+            );
+
         if (tags.Contains("thought"))
         {
             line.text = $"<i>{line.text}</i>";
         }
 
-        if (parts.Count > 1 )
+        if (parts.Count > 1)
         {
             for (int i = 0; i < tags.Count; i++)
             {
                 string tag = tags[i];
 
-                if (tag.StartsWith("avatar:") || tag.StartsWith("portrait:"))
+                if (
+                    tag.StartsWith("avatar:") ||
+                    tag.StartsWith("portrait:")
+                )
                 {
-                    string avatarId = tag.Substring(tag.IndexOf(':') + 1).Trim();
-                    line.speakerAvatarFrames = GetAvatarFrames(avatarId);
+                    string avatarId =
+                        tag.Substring(
+                            tag.IndexOf(':') + 1
+                        ).Trim();
+
+                    line.speakerAvatarFrames =
+                        GetAvatarFrames(avatarId);
+                }
+
+                if (tag.StartsWith("voice:"))
+                {
+                    line.voiceId =
+                        tag.Substring(
+                            "voice:".Length
+                        ).Trim();
                 }
             }
-
         }
+
         return line;
     }
 
@@ -270,10 +314,10 @@ public class DialogueController : MonoBehaviour
                 return avatars[i].avatarFrames;
             }
         }
+
         return null;
     }
 
-    
     private bool CanContinue()
     {
         return inkStory.canContinue;
@@ -289,20 +333,30 @@ public class DialogueController : MonoBehaviour
         return !CanContinue() && !HasChoices();
     }
 
-    private void OnInkError(string message, ErrorType type)
+    private void OnInkError(
+        string message,
+        ErrorType type
+    )
     {
         switch (type)
         {
             case ErrorType.Author:
                 break;
+
             case ErrorType.Warning:
                 Debug.LogWarning(message);
                 break;
+
             case ErrorType.Error:
                 Debug.LogError(message);
                 break;
+
             default:
-                throw new ArgumentOutOfRangeException(nameof(type), type, null);
+                throw new ArgumentOutOfRangeException(
+                    nameof(type),
+                    type,
+                    null
+                );
         }
     }
 
@@ -316,7 +370,10 @@ public class DialogueController : MonoBehaviour
         OnGetState?.Invoke(id);
     }
 
-    private void Add_State(string id, int amount)
+    private void Add_State(
+        string id,
+        int amount
+    )
     {
         OnAddState?.Invoke(id, amount);
     }
@@ -330,6 +387,7 @@ public struct DialogueLine
     public string text;
     public List<Choice> choices;
 
-    // Here we can also add other information like speaker images or sounds.
     public Sprite[] speakerAvatarFrames;
+
+    public string voiceId;
 }
