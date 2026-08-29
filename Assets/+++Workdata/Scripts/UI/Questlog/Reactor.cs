@@ -11,17 +11,17 @@ public class Reactor : MonoBehaviour
 {
     #region Inspector
 
-    [Tooltip("AND connected conditions that all need to be fulfilled.")]
-    [SerializeField] private List<Condition> conditions;
+    [Tooltip("AND connected conditions that all need to be fulfilled.")] [SerializeField]
+    private List<Condition> conditions;
 
-    [Tooltip("Invoked when all the conditions become fulfilled.")]
-    [SerializeField] private UnityEvent onFulfilled;
+    [Tooltip("Invoked when all the conditions become fulfilled.")] [SerializeField]
+    private UnityEvent onFulfilled;
 
-    [Tooltip("Invoked when any of the conditions return to being unfulfilled.")]
-    [SerializeField] private UnityEvent onUnfulfilled;
+    [Tooltip("Invoked when any of the conditions return to being unfulfilled.")] [SerializeField]
+    private UnityEvent onUnfulfilled;
 
-    [Tooltip("Optional field to reference a QuestEntry, if this reactor represents a quest.")]
-    [SerializeField] private QuestEntry questEntry;
+    [Tooltip("Optional field to reference a QuestEntry, if this reactor represents a quest.")] [SerializeField]
+    private QuestEntry questEntry;
 
     #endregion
 
@@ -29,7 +29,7 @@ public class Reactor : MonoBehaviour
     private bool fulfilled = false;
 
     private InventorySystem _inventorySystem;
-   
+
 
     #region Unity Event Functions
 
@@ -41,14 +41,16 @@ public class Reactor : MonoBehaviour
 
     private void OnEnable()
     {
+        _inventorySystem ??= FindFirstObjectByType<InventorySystem>();
+
+        fulfilled = _inventorySystem.CheckConditions(conditions);
+
         if (questEntry != null)
         {
             questEntry.gameObject.SetActive(true);
-            // Make sure the quest is not fulfilled when the activated.
-            questEntry.SetQuestStatus(false);
+            questEntry.SetQuestStatus(fulfilled);
         }
-        // Manually check conditions when the reactor is enabled, in case the conditions are already true on activation.
-        CheckConditions();
+
         InventorySystem.StateChanged += CheckConditions;
     }
 
@@ -58,6 +60,7 @@ public class Reactor : MonoBehaviour
         {
             questEntry.gameObject.SetActive(false);
         }
+
         InventorySystem.StateChanged -= CheckConditions;
     }
 
@@ -68,62 +71,36 @@ public class Reactor : MonoBehaviour
     /// </summary>
     private void CheckConditions()
     {
-        // Check the conditions against the gameState and save the result locally if the conditions are fulfilled.
         bool newFulfilled = _inventorySystem.CheckConditions(conditions);
 
-        // Compare the locally saved result against the previous to detect a change
-        // From false -> true
         if (!fulfilled && newFulfilled)
         {
+            fulfilled = true;
+
             if (questEntry != null)
             {
                 questEntry.SetQuestStatus(true);
             }
-            onFulfilled.Invoke();
+
+            onFulfilled?.Invoke();
         }
-        // From true -> false
         else if (fulfilled && !newFulfilled)
         {
-            if (questEntry != null)
-            {
-                questEntry.SetQuestStatus(false);
-            }
-            onUnfulfilled.Invoke();
-        }
-        else if (!fulfilled && !newFulfilled)
-        {
-            if (questEntry != null)
-            {
-                questEntry.SetQuestStatus(false);
-            }
-            onUnfulfilled.Invoke();
-        }
-        else if (fulfilled && newFulfilled)
-        {
-            print(4);
-            if (questEntry != null)
-            {
-                questEntry.SetQuestStatus(true);
-            }
-            onFulfilled.Invoke();
-        }
-        else
-        {
-            if (questEntry != null)
-            {
-                questEntry.SetQuestStatus(false);
-            }
-            onUnfulfilled.Invoke();
-        }
+            fulfilled = false;
 
-        // Overwrite the old result with the new for the next invocation of this function.
-        fulfilled = newFulfilled;
+            if (questEntry != null)
+            {
+                questEntry.SetQuestStatus(false);
+            }
+
+            onUnfulfilled?.Invoke();
+        }
     }
-}
 
-[Serializable]
-public class Condition
-{
-    public ItemDefinition itemDefinition;
-    public int amount;
+    [Serializable]
+    public class Condition
+    {
+        public ItemDefinition itemDefinition;
+        public int amount;
+    }
 }

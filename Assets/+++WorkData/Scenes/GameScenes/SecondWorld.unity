@@ -2767,6 +2767,755 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.35}
   m_Radius: 1
+--- !u!1 &1353866692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1353866694}
+  - component: {fileID: 1353866693}
+  m_Layer: 0
+  m_Name: InkEvents - Echo world
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1353866693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353866692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3440223540ba754e83441e6818c3a55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InkEvents
+  inkEvents:
+  - name: ashwick_school_entered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: attach_telescope_aerial
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: attic_hatch_examined
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: batteries_discovered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: box_01_delivered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: box_02_delivered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: box_03_delivered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: box_04_delivered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: broken_quartz_voice_crystal_added
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: cassette_recording_distorts
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: cassette_recording_start
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: echo_symbol_appears_on_wall
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: edith_intro_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: emily_blue_sketchbook_added
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: emily_met
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: emily_sketchbook_quest_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: emily_sketchbook_quest_started
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: enable_first_reality_shift
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: enter_echo_world_first_time
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: father_attic_warning_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: father_finishes_current_task
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: first_hale_house_hint_discovered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: first_radio_contact_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: first_reality_shift_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: focus_mh_locker_initials
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: focus_unlabelled_cassette
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: give_sketchbook_to_emily
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: harris_intro_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: household_shopping_purchased
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: insert_radio_batteries
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: jack_picks_up_old_radio
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: jack_walks_away_from_emily
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: mh_initials_discovered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: mh_locker_looted
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_hale_name_discovered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_warning_note_added
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: mother_allows_attic
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: moving_boxes_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_buy_household_shopping
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_explore_ashwick_school
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_find_emilys_sketchbook
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_find_radio_parts
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_find_your_room
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_help_parents_move
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_return_home
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_return_sketchbook_to_emily
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_return_to_jacks_room
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_talk_to_father
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: old_radio_added
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: old_radio_repaired
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: open_mh_locker
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: open_store_shopping
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: pause_short
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: player_control_off
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: player_control_on
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_after_father_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_after_sketchbook_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_click_off
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_next_morning_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_parts_purchased
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_play_conversation_fragment_01
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_play_conversation_fragment_02
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_play_music_fragment
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_repair_begin
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_static_rises
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_switch_on
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_switches_off_itself
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_turn_knob_01
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_turn_knob_02
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_turn_knob_03
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_voice_very_quiet
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: receive_three_pounds
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: recording_read_several_names
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: recording_silence
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: remove_household_shopping_items
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: school_camera_examined
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: school_camera_is_broken
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: school_holidays_state
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: school_recording_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: second_radio_contact_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: shopping_list_received
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: shopping_quest_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_emily_corridor_drawing
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_michael_warning_note
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_reality_shift_prompt
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: spawn_first_echo_point
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: start_next_morning_transition
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: talk_to_father_about_radio_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: telescope_aerial_discovered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: three_children_faded_photo_added
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlabelled_cassette_added
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_ashwick_school
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_ask_about_attic
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_ask_mother_for_money
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_attic_access
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_examine_emily_drawings
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_mh_locker_echo_world
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_play_school_recording
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_radio_repair
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_radio_second_examination
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_route_to_store
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_school_art_room
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_school_entrance_hall
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_school_lockers
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_school_main_corridor
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_second_radio_contact
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_open_ashwick_cemetery
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: use_mayors_seal
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: open_ashwick_cemetery_gate
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_find_michael_hale_grave
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_michael_hale_gravestone
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_gravestone_echo_symbol
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_voice_michael_clear
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_voice_chorus_overlay
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_echo_cemetery_shift
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: shift_to_echo_cemetery
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: open_michael_grave
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: reveal_staircase_beneath_grave
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_descend_beneath_grave
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: enter_underground_echo_chamber
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: reveal_michael_distorted_form
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_idle_animation_start
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_approach_michael
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_voice_chorus
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_voice_child
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: start_final_combat_sequence
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_remains_idle
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: spawn_nameless_echo_creatures
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: despawn_all_echo_creatures
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_stands_beside_transmitter
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_voice_monster
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: final_combat_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_final_choice_chamber
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: chapter_two_endings_started
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: enable_final_chamber_free_movement
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_choose_michaels_fate
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: enable_remove_michael_nameplate
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: enable_memory_anchor_transmitter
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_remove_nameplate_prompt
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: lock_final_chamber_interactions
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: remove_michael_nameplate
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: disable_all_memory_anchors
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: bad_ending_started
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: chamber_voices_rise
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: jack_hands_turn_transparent
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_disappears
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radios_play_jacks_voice
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: jack_dissolves_into_static
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: drop_michael_nameplate
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_nameplate_michael_hale
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: change_nameplate_to_jack
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: fade_to_black
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: ending_never_alone_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_memory_anchor_slots_empty
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_memory_anchor_slots_one_filled
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_memory_anchor_slots_two_filled
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_memory_anchor_slots_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: insert_music_box_cylinder
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: play_music_box_melody
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: memory_anchor_music_box_activated
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: insert_hale_family_photograph
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_hale_family_photograph_restored
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: memory_anchor_family_photo_activated
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: insert_emily_drawing
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: reveal_figures_on_emily_drawing
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_emily_drawing_remember_us
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: memory_anchor_emily_drawing_activated
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: memory_anchor_inserted
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: all_three_memory_anchors_inserted
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: good_ending_started
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_voice_child_only
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: jack_switches_radio_off
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_click
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_disappears_peacefully
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: ending_remember_me_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: prologue_intro
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!4 &1353866694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353866692}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.90735, y: 0.67494, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1408904497
 GameObject:
   m_ObjectHideFlags: 0
@@ -5013,3 +5762,4 @@ SceneRoots:
   - {fileID: 2060959214}
   - {fileID: 1066254751}
   - {fileID: 615895537}
+  - {fileID: 1353866694}

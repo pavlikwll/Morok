@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Ink.Parsed;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,7 +15,7 @@ public class InventorySystem : MonoBehaviour
     public static Action<ItemDefinition, int> OnAddItem;
     public static Action OnChangeInventory;
     
-    public List<Item> items;
+    public List<Item> items = new List<Item>();
     
     public GameObject inventoryContainer;
 
@@ -162,7 +161,7 @@ public class InventorySystem : MonoBehaviour
         return true;
     }
 
-    public bool CheckConditions(List<Condition> itemConditions)
+    public bool CheckConditions(List<Reactor.Condition> itemConditions)
     {
         bool conditionApplied = false;
         foreach (var condition in itemConditions)

@@ -32,6 +32,8 @@ public class DialogueBox : MonoBehaviour
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
+    
+    private Coroutine avatarAnimationCoroutine;
 
     private string lastSpeaker;
     
@@ -67,14 +69,29 @@ public class DialogueBox : MonoBehaviour
             dialogueSpeaker.SetText(string.Empty);
         }
         
-        if (line.speakerImage != null)
+        bool hasAvatarFrames =
+            line.speakerAvatarFrames != null &&
+            line.speakerAvatarFrames.Length > 0;
+
+        if (hasAvatarFrames)
         {
+            StopAvatarAnimation();
+
             avatarContainer.SetActive(true);
-            avatarImage.sprite = line.speakerImage;
+            avatarImage.sprite = line.speakerAvatarFrames[0];
+
+            if (line.speakerAvatarFrames.Length > 1)
+            {
+                avatarAnimationCoroutine =
+                    StartCoroutine(AnimateAvatar(line.speakerAvatarFrames));
+            }
+
             lastSpeaker = line.speaker;
         }
         else if (lastSpeaker != line.speaker)
         {
+            StopAvatarAnimation();
+
             avatarContainer.SetActive(false);
             avatarImage.sprite = null;
             lastSpeaker = line.speaker;
@@ -85,6 +102,33 @@ public class DialogueBox : MonoBehaviour
         // Read out other information such as a speaker image;
 
         DisplayButtons(line.choices);
+    }
+    
+    private void StopAvatarAnimation()
+    {
+        if (avatarAnimationCoroutine == null)
+            return;
+
+        StopCoroutine(avatarAnimationCoroutine);
+        avatarAnimationCoroutine = null;
+    }
+    
+    private IEnumerator AnimateAvatar(Sprite[] frames)
+    {
+        if (frames == null || frames.Length == 0)
+            yield break;
+        int frameIndex = 0;
+        while (true)
+        {
+            avatarImage.sprite = frames[frameIndex];
+            frameIndex = (frameIndex + 1) % frames.Length;
+            yield return new WaitForSecondsRealtime(0.25f);
+        }
+    }
+    
+    private void OnDisable()
+    {
+        StopAvatarAnimation();
     }
     
     private void DisplayButtons(List<Choice> choices)

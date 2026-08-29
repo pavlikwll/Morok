@@ -170,7 +170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 679621ca03a8ed14d98d25c425bb87b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkAssets: []
+  inkAssets:
+  - {fileID: 4900000, guid: 33b9b86a0151742f0993672500cddb38, type: 3}
   languageIndex: 0
   dialogueBox: {fileID: 1627961446181732375}
   onDialogueStarted:
@@ -252,40 +253,39 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   avatars:
-  - avatarId: player1
-    avatarSprite: {fileID: 2349344280030101066, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: player2
-    avatarSprite: {fileID: -7993818719700251513, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: dad1
-    avatarSprite: {fileID: 7484287185808339882, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: dad2
-    avatarSprite: {fileID: -6753709085261763909, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: mam1
-    avatarSprite: {fileID: -4133213178128356066, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: mam2
-    avatarSprite: {fileID: -965785195859673397, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: zlo1
-    avatarSprite: {fileID: -8177366192311384469, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: zlo2
-    avatarSprite: {fileID: -4978952045200179586, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: zlo3
-    avatarSprite: {fileID: 9177115529523521589, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: deadGrandpa1
-    avatarSprite: {fileID: -3528706289332033139, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: deadGrandpa2
-    avatarSprite: {fileID: 1847700367, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: grandpa1
-    avatarSprite: {fileID: 977072898, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: grandpa2
-    avatarSprite: {fileID: 1759520695, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: girl1
-    avatarSprite: {fileID: 1563693048, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: girl2
-    avatarSprite: {fileID: 2065968696, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: twins1
-    avatarSprite: {fileID: -530911132, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  - avatarId: twins2
-    avatarSprite: {fileID: 166389369, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+  - avatarId: jack
+    avatarFrames:
+    - {fileID: 2349344280030101066, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+    - {fileID: -7993818719700251513, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+  - avatarId: father
+    avatarFrames:
+    - {fileID: 7484287185808339882, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+    - {fileID: -6753709085261763909, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+  - avatarId: mother
+    avatarFrames:
+    - {fileID: -4133213178128356066, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+    - {fileID: -965785195859673397, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+  - avatarId: michael
+    avatarFrames:
+    - {fileID: -8177366192311384469, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+    - {fileID: -4978952045200179586, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+    - {fileID: 9177115529523521589, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+  - avatarId: finch
+    avatarFrames:
+    - {fileID: -3528706289332033139, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+    - {fileID: 1847700367, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+  - avatarId: harris
+    avatarFrames:
+    - {fileID: 977072898, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+    - {fileID: 1759520695, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+  - avatarId: emily
+    avatarFrames:
+    - {fileID: 1563693048, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+    - {fileID: 2065968696, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+  - avatarId: twins
+    avatarFrames:
+    - {fileID: -530911132, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+    - {fileID: 166389369, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
 --- !u!1 &1480401880643714462
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,11 +9,10 @@ public class InkDialogue : MonoBehaviour
     
     #endregion
     
-    private DialogueController _dialogueController;
 
     private void Awake()
     {
-        _dialogueController = FindFirstObjectByType<DialogueController>();
+       
     }
 
     public void StartDialogue(string dialoguePath)
@@ -23,8 +22,6 @@ public class InkDialogue : MonoBehaviour
             Debug.LogWarning("No dialogue path defined", this);
             return;
         }
-        
-        _dialogueController.StartDialogue(dialoguePath);
     }
     
     public void StartDialogue()
@@ -34,7 +31,15 @@ public class InkDialogue : MonoBehaviour
             Debug.LogWarning("No dialogue path defined", this);
             return;
         }
-        
-        FindObjectOfType<GameController>().StartDialogue(dialoguePath);
+
+        if (DialogueController.Instance == null)
+        {
+            Debug.LogError(
+                $"DialogueController.Instance is missing. Cannot start '{dialoguePath}'.",
+                this);
+            return;
+        }
+
+        DialogueController.Instance.StartDialogue(dialoguePath);
     }
 }
