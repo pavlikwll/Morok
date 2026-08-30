@@ -207,7 +207,6 @@ MonoBehaviour:
     Data3: 491962034
     Data4: 1511519103
   Banks:
-  - {fileID: 8005726737739344265}
   - {fileID: 8743344372634595417}
   IsStream: 0
   Is3D: 0
@@ -258,10 +257,10 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639236881297849758
+  lastModified: 639236919891858933
   FileSizes:
   - Name: Desktop
-    Value: 1792
+    Value: 1738
   Exists: 1
 --- !u!114 &-3135900698280936948
 MonoBehaviour:
@@ -372,7 +371,6 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -3136607966719763922}
   - {fileID: 8743344372634595417}
-  - {fileID: 8005726737739344265}
   EditorEvents:
   - {fileID: -4220894181044026679}
   - {fileID: 7272548882483571009}
@@ -397,7 +395,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -3136607966719763922}
   cacheVersion: 131860
-  cacheTime: 639236881297849758
+  cacheTime: 639236919891858933
   SerializableEventsDict:
   - key: event:/Ambience/SecondLayer
     index: 0
@@ -705,26 +703,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 163500
---- !u!114 &8005726737739344265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Dialogue.bank
-  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
-  Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Dialogue.bank
-  Name: Dialogue
-  StudioPath: bank:/Dialogue
-  lastModified: 639236440413771292
-  FileSizes:
-  - Name: Desktop
-    Value: 8528224
-  Exists: 1
 --- !u!114 &8743344372634595417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -740,10 +718,10 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639236881297818975
+  lastModified: 639236919891812035
   FileSizes:
   - Name: Desktop
-    Value: 15620160
+    Value: 24146976
   Exists: 1
 --- !u!114 &9051849765404045527
 MonoBehaviour:

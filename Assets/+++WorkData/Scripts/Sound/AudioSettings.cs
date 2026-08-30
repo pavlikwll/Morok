@@ -4,33 +4,37 @@ using UnityEngine;
 
 public class AudioSettings : MonoBehaviour
 {
-     private FMOD.Studio.EventInstance SFXVolumeTestEvent;
-     private FMOD.Studio.EventInstance VoiceVolumeTestEvent;
+     //private FMOD.Studio.EventInstance SFXVolumeTestEvent;
+     //private FMOD.Studio.EventInstance VoiceVolumeTestEvent;
      
      FMOD.Studio.Bus Music;
      FMOD.Studio.Bus SFX;
      FMOD.Studio.Bus Voice;
+     private FMOD.Studio.Bus Ambience;
      FMOD.Studio.Bus Master;
      float MusicVolume = 1f;
      float SFXVolume = 1f;
      float VoiceVolume = 1f;
+     float AmbienceVolume = 1f;
      float MasterVolume = 1f;
 
      void Awake ()
      {
-          Music = FMODUnity.RuntimeManager.GetBus ("bus:/MusicBus");
-          SFX = FMODUnity.RuntimeManager.GetBus ("bus:/SFXBus");
-          Voice = FMODUnity.RuntimeManager.GetBus ("bus:/VoiceBus");
+          Music = FMODUnity.RuntimeManager.GetBus ("bus:/Music");
+          SFX = FMODUnity.RuntimeManager.GetBus ("bus:/SFX");
+          Voice = FMODUnity.RuntimeManager.GetBus ("bus:/Voice");
+          Ambience = FMODUnity.RuntimeManager.GetBus ("bus:/Ambience");
           Master = FMODUnity.RuntimeManager.GetBus ("bus:/");
 
-          SFXVolumeTestEvent = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/SFXVolumeTestEvent");
-          VoiceVolumeTestEvent = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/VoiceVolumeTestEvent");
+          //SFXVolumeTestEvent = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/SFXVolumeTestEvent");
+          //VoiceVolumeTestEvent = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/VoiceVolumeTestEvent");
      }
 
     void Update () 
      {
           Music.setVolume (MusicVolume);
           SFX.setVolume (SFXVolume);
+          Ambience.setVolume (AmbienceVolume);
           Voice.setVolume (VoiceVolume);
           Master.setVolume (MasterVolume);
      }
@@ -49,23 +53,27 @@ public class AudioSettings : MonoBehaviour
      {
           VoiceVolume = newVoiceVolume;
           
-          FMOD.Studio.PLAYBACK_STATE PbState;
+          /*FMOD.Studio.PLAYBACK_STATE PbState;
           VoiceVolumeTestEvent.getPlaybackState(out PbState);
           if (PbState != FMOD.Studio.PLAYBACK_STATE.PLAYING)
           {
                VoiceVolumeTestEvent.start();
-          }
+          }*/
      }
 
      public void SFXVolumeLevel (float newSFXVolume)
      {
           SFXVolume = newSFXVolume;
 
-          FMOD.Studio.PLAYBACK_STATE PbState;
+          /*FMOD.Studio.PLAYBACK_STATE PbState;
           SFXVolumeTestEvent.getPlaybackState(out PbState);
           if (PbState != FMOD.Studio.PLAYBACK_STATE.PLAYING)
           {
                SFXVolumeTestEvent.start();
-          }
+          }*/
+     }
+     public void AmbienceVolumeLevel (float newAmbienceVolume)
+     {
+          AmbienceVolume = newAmbienceVolume;
      }
 }
