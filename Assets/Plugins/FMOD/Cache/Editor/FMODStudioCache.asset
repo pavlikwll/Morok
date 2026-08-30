@@ -16,7 +16,7 @@ MonoBehaviour:
   StudioPath: 
   Min: 0
   Max: 4
-  Default: 0
+  Default: 3
   ID:
     data1: 3716664506
     data2: 3631189392
@@ -257,7 +257,7 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639236919891858933
+  lastModified: 639236969066911946
   FileSizes:
   - Name: Desktop
     Value: 1738
@@ -395,7 +395,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -3136607966719763922}
   cacheVersion: 131860
-  cacheTime: 639236919891858933
+  cacheTime: 639236969066911946
   SerializableEventsDict:
   - key: event:/Ambience/SecondLayer
     index: 0
@@ -718,7 +718,7 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639236919891812035
+  lastModified: 639236969066829711
   FileSizes:
   - Name: Desktop
     Value: 24146976

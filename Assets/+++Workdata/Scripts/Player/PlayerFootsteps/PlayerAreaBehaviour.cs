@@ -36,13 +36,13 @@ public class PlayerAreaBehaviour : MonoBehaviour
     private void PlayTileSound()
     {
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, 0.02f);
+
         int highestPriority = -1;
-        EnvironmentAreaTrigger selectedArea = null;  
-        
-        
+        EnvironmentAreaTrigger selectedArea = null;
+
         foreach (var hit in hits)
         {
-            EnvironmentAreaTrigger area = hit.GetComponent<EnvironmentAreaTrigger>();  
+            EnvironmentAreaTrigger area = hit.GetComponent<EnvironmentAreaTrigger>();
 
             if (area != null && area.priority > highestPriority)
             {
@@ -51,26 +51,22 @@ public class PlayerAreaBehaviour : MonoBehaviour
             }
         }
 
-        //emitter.Play();
-        FMOD.RESULT result = emitter.EventInstance.setParameterByNameWithLabel("Surface", selectedArea.footstepSoundArea.fmodFootstepEvent);
-        
         if (selectedArea == null)
         {
-            //fallback sound?
-            //FMOD.RESULT defaulResult = emitter.EventInstance.setParameterByNameWithLabel("surface", "Default");
             return;
         }
-        
-        print(selectedArea.footstepSoundArea.fmodFootstepEvent);
-        //PLAY FMOD DEFAULT SOUND 
-        return;
-    }
-    //FMOD.RESULT result = emitter.EventInstance.setParameterByNameWithLabel("surface", selectedArea.footstepSoundArea.fmodFootstepEvent);
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, 0.06f); 
+        emitter.Play();
+
+        FMOD.RESULT result =
+            emitter.EventInstance.setParameterByNameWithLabel(
+                "Surface",
+                selectedArea.footstepSoundArea.fmodFootstepEvent
+            );
+
+        Debug.Log("FMOD Result: " + result);
+
+        print(selectedArea.footstepSoundArea.fmodFootstepEvent);
     }
 }
     
