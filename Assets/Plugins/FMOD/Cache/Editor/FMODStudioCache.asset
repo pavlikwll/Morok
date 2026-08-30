@@ -83,6 +83,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 41500
+--- !u!114 &-7256795714205491497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/ButtonHover
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/UI/ButtonHover
+  Guid:
+    Data1: -1961733670
+    Data2: 1097329992
+    Data3: 2145113502
+    Data4: -543837433
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
 --- !u!114 &-7165508502441812308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,10 +258,10 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639236482091986277
+  lastModified: 639236881297849758
   FileSizes:
   - Name: Desktop
-    Value: 1700
+    Value: 1792
   Exists: 1
 --- !u!114 &-3135900698280936948
 MonoBehaviour:
@@ -256,6 +283,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 890
   Exists: 1
+--- !u!114 &-724609753857485350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/UI/ButtonClick
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/UI/ButtonClick
+  Guid:
+    Data1: 2103353053
+    Data2: 1231178730
+    Data3: -911487831
+    Data4: -965187690
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1250
 --- !u!114 &-635371999956134261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,13 +389,15 @@ MonoBehaviour:
   - {fileID: 6090781222709754294}
   - {fileID: 9051849765404045527}
   - {fileID: -7165508502441812308}
+  - {fileID: -7256795714205491497}
+  - {fileID: -724609753857485350}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8743344372634595417}
   StringsBanks:
   - {fileID: -3136607966719763922}
   cacheVersion: 131860
-  cacheTime: 639236482091986277
+  cacheTime: 639236881297849758
   SerializableEventsDict:
   - key: event:/Ambience/SecondLayer
     index: 0
@@ -373,6 +429,10 @@ MonoBehaviour:
     index: 13
   - key: event:/SFX/EchoAttack
     index: 14
+  - key: event:/SFX/UI/ButtonHover
+    index: 15
+  - key: event:/SFX/UI/ButtonClick
+    index: 16
 --- !u!114 &2559985741230716839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -680,10 +740,10 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639236482091941069
+  lastModified: 639236881297818975
   FileSizes:
   - Name: Desktop
-    Value: 15584864
+    Value: 15620160
   Exists: 1
 --- !u!114 &9051849765404045527
 MonoBehaviour:
