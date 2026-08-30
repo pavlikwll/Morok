@@ -1,16 +1,43 @@
 fileFormatVersion: 2
-guid: 6310b297ecc49544ca4e8761db811a2c
+guid: ba614e9feb3aaef4b8129998767dee75
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7795734665440984258
-    second: Tall Npc homes_0
+      213: 7562203907637037784
+    second: cloud_lil_0
   - first:
-      213: 8036541599132277213
-    second: Tall Npc homes_1
+      213: -3099608521942227012
+    second: cloud_lil_1
   - first:
-      213: 4890751448807370057
-    second: Tall Npc homes_2
+      213: 8238275406866015406
+    second: cloud_lil_2
+  - first:
+      213: 1008763960995847733
+    second: cloud_lil_3
+  - first:
+      213: -8318309423792294845
+    second: cloud_lil_4
+  - first:
+      213: 6913992062442270566
+    second: cloud_lil_5
+  - first:
+      213: -4006156151126519418
+    second: cloud_lil_6
+  - first:
+      213: 7181481501248349454
+    second: cloud_lil_7
+  - first:
+      213: 1584925741898330564
+    second: cloud_lil_8
+  - first:
+      213: 7958537535281509315
+    second: cloud_lil_9
+  - first:
+      213: -7598613645713637511
+    second: cloud_lil_10
+  - first:
+      213: -5218007036069162301
+    second: cloud_lil_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -57,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,84 +129,93 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tall Npc homes_0
+      name: cloud_lil_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 257
-        width: 321
-        height: 255
-      alignment: 9
-      pivot: {x: 0.50779265, y: 0.0936028}
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e33013710acffc390800000000000000
-      internalID: -7795734665440984258
+      spriteID: 8dac6c1436852f860800000000000000
+      internalID: 7562203907637037784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tall Npc homes_1
+      name: cloud_lil_1
       rect:
         serializedVersion: 2
-        x: 321
-        y: 257
-        width: 321
-        height: 255
-      alignment: 9
-      pivot: {x: 0.48458576, y: 0.09898969}
+        x: 128
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd9dde64108878f60800000000000000
-      internalID: 8036541599132277213
+      spriteID: cb72cd2c87afbf4d0800000000000000
+      internalID: -3099608521942227012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tall Npc homes_2
+      name: cloud_lil_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 2
-        width: 321
-        height: 255
-      alignment: 9
-      pivot: {x: 0.4918414, y: 0.16279449}
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94de3e6c7807fd340800000000000000
-      internalID: 4890751448807370057
+      spriteID: ea4e51495db345270800000000000000
+      internalID: 8238275406866015406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud_lil_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e9f555a79dffd00800000000000000
+      internalID: 1008763960995847733
       vertices: []
       indices: 
       edges: []
@@ -188,7 +224,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 92ef9c1d18df12f4b8307e8c221b52fb
+    spriteID: 100d7c807359c66418e92414517aee79
     internalID: 0
     vertices: []
     indices: 
@@ -198,11 +234,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":321.0,"y":255.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Tall Npc homes_0: -7795734665440984258
-      Tall Npc homes_1: 8036541599132277213
-      Tall Npc homes_2: 4890751448807370057
+      cloud_lil_0: 7562203907637037784
+      cloud_lil_1: -3099608521942227012
+      cloud_lil_2: 8238275406866015406
+      cloud_lil_3: 1008763960995847733
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
