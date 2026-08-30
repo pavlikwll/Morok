@@ -257,10 +257,10 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639237007285899366
+  lastModified: 639237213700861207
   FileSizes:
   - Name: Desktop
-    Value: 1792
+    Value: 1832
   Exists: 1
 --- !u!114 &-3135900698280936948
 MonoBehaviour:
@@ -282,6 +282,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 890
   Exists: 1
+--- !u!114 &-2356595887637380589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/GameOver
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/SFX/GameOver
+  Guid:
+    Data1: -894960626
+    Data2: 1185865153
+    Data3: -873099867
+    Data4: 2026844469
+  Banks:
+  - {fileID: 8743344372634595417}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9070
 --- !u!114 &-724609753857485350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,13 +417,14 @@ MonoBehaviour:
   - {fileID: -7256795714205491497}
   - {fileID: -724609753857485350}
   - {fileID: 2345777079589021781}
+  - {fileID: -2356595887637380589}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8743344372634595417}
   StringsBanks:
   - {fileID: -3136607966719763922}
   cacheVersion: 131860
-  cacheTime: 639237007285899366
+  cacheTime: 639237213700861207
   SerializableEventsDict:
   - key: event:/Ambience/SecondLayer
     index: 0
@@ -434,6 +462,8 @@ MonoBehaviour:
     index: 16
   - key: event:/SFX/Jack/PlayerDamage
     index: 17
+  - key: event:/SFX/GameOver
+    index: 18
 --- !u!114 &2345777079589021781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -748,10 +778,10 @@ MonoBehaviour:
   Path: ../../Dokumente/FMod Exports/Morok_Sounddesign/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639237007285864801
+  lastModified: 639237213700825389
   FileSizes:
   - Name: Desktop
-    Value: 24180000
+    Value: 24306336
   Exists: 1
 --- !u!114 &9051849765404045527
 MonoBehaviour:
