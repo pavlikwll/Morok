@@ -13576,6 +13576,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 978835818}
+  - component: {fileID: 978835819}
   m_Layer: 0
   m_Name: LocalAmbiences
   m_TagString: Untagged
@@ -13598,6 +13599,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1170928670}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &978835819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978835817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1005381248
+      Data2: 1270722653
+      Data3: 1784607134
+      Data4: 384806329
+    Path: event:/Ambience/Ambience Controller
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params:
+  - Name: AmbienceBlend
+    Value: 1
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &988837372
 GameObject:
   m_ObjectHideFlags: 0
