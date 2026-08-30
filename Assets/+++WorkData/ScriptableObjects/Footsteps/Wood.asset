@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ed096f4f39ab4544942a2ff196f0ec4, type: 3}
-  m_Name: z
+  m_Name: Wood
   m_EditorClassIdentifier: Assembly-CSharp::FootstepSoundArea
   area: 2
-  fmodFootstepEvent: wood
+  fmodFootstepEvent: Wood

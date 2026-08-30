@@ -1,4 +1,5 @@
 using System;
+using FMODUnity;
 using UnityEngine;
 
 public class PlayerAreaBehaviour : MonoBehaviour
@@ -6,6 +7,13 @@ public class PlayerAreaBehaviour : MonoBehaviour
     [Header("Footstep Timer")] [SerializeField]
     private float foostepTime;
     private float _footstepTimer;
+
+    private StudioEventEmitter emitter;
+
+    private void Awake()
+    {
+         emitter = GetComponent<StudioEventEmitter>();
+    }
 
     private void Update()
     {
@@ -44,6 +52,7 @@ public class PlayerAreaBehaviour : MonoBehaviour
         }
 
         //emitter.Play();
+        FMOD.RESULT result = emitter.EventInstance.setParameterByNameWithLabel("Surface", selectedArea.footstepSoundArea.fmodFootstepEvent);
         
         if (selectedArea == null)
         {
