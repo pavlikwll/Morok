@@ -116,12 +116,12 @@ TextureImporter:
       name: GraveyardFenceSpritesheet_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,12 +138,12 @@ TextureImporter:
       name: GraveyardFenceSpritesheet_1
       rect:
         serializedVersion: 2
-        x: 47
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: GraveyardFenceSpritesheet_2
       rect:
         serializedVersion: 2
-        x: 239
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -179,59 +179,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9e49ef845e0fe9418aec8b93c82dc3e
-      internalID: -161697472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56c64d5bce3f6ab41b8f3d726d6cddfa
-      internalID: -1110109650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: GraveyardFenceSpritesheet_5
       rect:
         serializedVersion: 2
-        x: 47
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +204,12 @@ TextureImporter:
       name: GraveyardFenceSpritesheet_6
       rect:
         serializedVersion: 2
-        x: 239
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +226,12 @@ TextureImporter:
       name: GraveyardFenceSpritesheet_7
       rect:
         serializedVersion: 2
-        x: 271
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +248,12 @@ TextureImporter:
       name: GraveyardFenceSpritesheet_8
       rect:
         serializedVersion: 2
-        x: 15
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 128
+        y: 0
+        width: 27
+        height: 128
+      alignment: 9
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +270,12 @@ TextureImporter:
       name: GraveyardFenceSpritesheet_9
       rect:
         serializedVersion: 2
-        x: 111
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 229
+        y: 0
+        width: 27
+        height: 128
+      alignment: 9
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +292,12 @@ TextureImporter:
       name: GraveyardFenceSpritesheet_10
       rect:
         serializedVersion: 2
-        x: 143
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -350,644 +306,6 @@ TextureImporter:
       bones: []
       spriteID: f1206cd2a3d97d34bac87c724776366d
       internalID: -465295022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a16034cdbedf2e94dad7ddc1a3461d48
-      internalID: 1065655186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_12
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aff3cdf069c340d4e9a853e555855b32
-      internalID: 617337239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_13
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be3f1a5e3abbec445b902987ba5ecca6
-      internalID: 1442891774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4305cc2cb6caae44913c107631a2491
-      internalID: -2018851119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_15
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2199c68b5d1494c4d82f7e5534183f04
-      internalID: -1986581147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_16
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc4d5d48376ba254e8402c6d08a3bed5
-      internalID: 414162220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_17
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b9d267caa5428a4d83f79f7de5a817b
-      internalID: -232420153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_18
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6902cd012e9d424c922e6b868ce4072
-      internalID: 770424066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_19
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82a3d2b57a09f17489ef7c416748f5be
-      internalID: 557852233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_20
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a3bf5a121edc1643a10689cfe65e4ce
-      internalID: -353771226
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_21
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9aeb7c9c4ab5db9428ad6535a47eed4b
-      internalID: 877248825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_22
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5f553c1fe48c6c448ae32053e0b2e6e
-      internalID: -124345913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_23
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 261a07f9d8aac3f48aa920c3b80fd6e1
-      internalID: 516328140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_24
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7a1c6982d255c244950fec7d86f8aea
-      internalID: -742216088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_25
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0344a46200df2f54d9bd744d37fa01ac
-      internalID: -234068038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_26
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c33fa8d3bf53a641a3a079357e621f9
-      internalID: 1755713498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_27
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efbcc4fc12c7b934e8a6ffc2e40ee91d
-      internalID: -1296696609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_28
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6b422173d166da4bb4056c2b6a2a902
-      internalID: -1184016480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_29
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea0e323735ac51644a5892537787f042
-      internalID: -1146075306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_30
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0cc74e5e8667a334d93d0e81d2bd3c04
-      internalID: 1512170428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_31
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b82ed3263a4b6a4486e1ab52983f341
-      internalID: -2138108835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_32
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9df49a97987bda7428aa863b7d52ef1d
-      internalID: -2038730927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_33
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af0ee1733f5970f43b044e75f4e519c5
-      internalID: -1731189975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_34
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58bcf77cf8852484e9cb8fd48f63a2e8
-      internalID: -1204452048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_35
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3ab42abb219ba946b1449ae15f77fa2
-      internalID: -763357246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_36
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1402c7451846d6489927ab4555ac09a
-      internalID: 863454412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_37
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbd608fc16ae6da409f788d5d6192307
-      internalID: -1506993121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_38
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1685bb3efbe85204793608b7dea2831a
-      internalID: -2073434508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GraveyardFenceSpritesheet_39
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31ff849f9b735f74cb6e8ad22bb0ee5e
-      internalID: -2010747152
       vertices: []
       indices: 
       edges: []
@@ -1006,42 +324,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":15.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":1,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       GraveyardFenceSpritesheet_0: -7091813816916682359
       GraveyardFenceSpritesheet_1: -2101488875
       GraveyardFenceSpritesheet_10: -465295022
-      GraveyardFenceSpritesheet_11: 1065655186
-      GraveyardFenceSpritesheet_12: 617337239
-      GraveyardFenceSpritesheet_13: 1442891774
-      GraveyardFenceSpritesheet_14: -2018851119
-      GraveyardFenceSpritesheet_15: -1986581147
-      GraveyardFenceSpritesheet_16: 414162220
-      GraveyardFenceSpritesheet_17: -232420153
-      GraveyardFenceSpritesheet_18: 770424066
-      GraveyardFenceSpritesheet_19: 557852233
       GraveyardFenceSpritesheet_2: 95795720
-      GraveyardFenceSpritesheet_20: -353771226
-      GraveyardFenceSpritesheet_21: 877248825
-      GraveyardFenceSpritesheet_22: -124345913
-      GraveyardFenceSpritesheet_23: 516328140
-      GraveyardFenceSpritesheet_24: -742216088
-      GraveyardFenceSpritesheet_25: -234068038
-      GraveyardFenceSpritesheet_26: 1755713498
-      GraveyardFenceSpritesheet_27: -1296696609
-      GraveyardFenceSpritesheet_28: -1184016480
-      GraveyardFenceSpritesheet_29: -1146075306
       GraveyardFenceSpritesheet_3: -161697472
-      GraveyardFenceSpritesheet_30: 1512170428
-      GraveyardFenceSpritesheet_31: -2138108835
-      GraveyardFenceSpritesheet_32: -2038730927
-      GraveyardFenceSpritesheet_33: -1731189975
-      GraveyardFenceSpritesheet_34: -1204452048
-      GraveyardFenceSpritesheet_35: -763357246
-      GraveyardFenceSpritesheet_36: 863454412
-      GraveyardFenceSpritesheet_37: -1506993121
-      GraveyardFenceSpritesheet_38: -2073434508
-      GraveyardFenceSpritesheet_39: -2010747152
       GraveyardFenceSpritesheet_4: -1110109650
       GraveyardFenceSpritesheet_5: -166003706
       GraveyardFenceSpritesheet_6: -606093355
