@@ -14279,11 +14279,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1005381248
-      Data2: 1270722653
-      Data3: 1784607134
-      Data4: 384806329
-    Path: event:/Ambience/Ambience Controller
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 2
@@ -20274,7 +20274,7 @@ Transform:
   m_GameObject: {fileID: 1364541688}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 52.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
