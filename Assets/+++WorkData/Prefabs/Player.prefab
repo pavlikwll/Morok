@@ -366,7 +366,11 @@ GameObject:
   - component: {fileID: 4528492804175752069}
   - component: {fileID: 3807533962375050846}
   - component: {fileID: 5529621664707932490}
+<<<<<<< HEAD
   - component: {fileID: 3771620084668425466}
+=======
+  - component: {fileID: 1828880269775886841}
+>>>>>>> 6a13f3dde15c8cfef729f4fc83d9816211721820
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -444,7 +448,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: bb0721e545550994d90b9fe15fc27609, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -665,14 +669,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c23e415911d8bae4dac32f2ccfb024be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopNPCsForDialogue
+<<<<<<< HEAD
 --- !u!114 &3771620084668425466
 MonoBehaviour:
+=======
+--- !u!70 &1828880269775886841
+CapsuleCollider2D:
+>>>>>>> 6a13f3dde15c8cfef729f4fc83d9816211721820
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2431103263165601855}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -696,6 +706,37 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+=======
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.03291893, y: 0.67334366}
+  m_Size: {x: 0.85313034, y: 1.5446587}
+  m_Direction: 0
+>>>>>>> 6a13f3dde15c8cfef729f4fc83d9816211721820
 --- !u!1 &2605804018937151492
 GameObject:
   m_ObjectHideFlags: 0

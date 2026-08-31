@@ -64,11 +64,19 @@ public class NavMeshPatrol : MonoBehaviour
         _agent.updateRotation = false;
         _agent.updateUpAxis = false;
         
-        SetNextWaypoint();
+        if (canPatrol && waypoints.Count > 0 && _agent.isOnNavMesh)
+        {
+            SetNextWaypoint();
+        }
     }
 
     private void Update()
     {
+        if (_agent == null || !_agent.enabled || !_agent.isOnNavMesh)
+        {
+            return;
+        }
+        
         if (canPatrol)
         {
             if (_agent.isStopped) return;
@@ -166,12 +174,18 @@ public class NavMeshPatrol : MonoBehaviour
 
     public void StopPatrol()
     {
-        _agent.isStopped = true;
+        if (_agent != null && _agent.enabled && _agent.isOnNavMesh)
+        {
+            _agent.isStopped = true;
+        }
     }
     
     public void ResumePatrol()
     {
-        _agent.isStopped = false;
+        if (_agent != null && _agent.enabled && _agent.isOnNavMesh)
+        {
+            _agent.isStopped = false;
+        }
     }
     
     public void TogglePatrol()
@@ -190,14 +204,26 @@ public class NavMeshPatrol : MonoBehaviour
 
     private void SetNextWaypoint()
     {
-        if (randomOrder)
+        if (_agent == null || !_agent.enabled || !_agent.isOnNavMesh)
+        {
+            return;
+        }
+
+        if (waypoints == null || waypoints.Count == 0)
+        {
+            canPatrol = false;
+            return;
+        }
+        
+        if (randomOrder && waypoints.Count > 1)
         {
             int newWaypointIndex;
 
             do
             {
                 newWaypointIndex = Random.Range(0, waypoints.Count);
-            } while (newWaypointIndex == _currentWaypointIndex);
+            }
+            while (newWaypointIndex == _currentWaypointIndex);
 
             _currentWaypointIndex = newWaypointIndex;
         }
