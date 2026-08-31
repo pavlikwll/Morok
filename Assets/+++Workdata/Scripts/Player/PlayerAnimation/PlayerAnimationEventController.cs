@@ -20,4 +20,12 @@ public class PlayerAnimationEventController : MonoBehaviour
         attack1SideCollider.enabled = !attack1SideCollider.enabled;
     }
     #endregion
+
+
+    public void DeactivateAllColliders()
+    {
+        attack1DownCollider.enabled = false;
+        attack1SideCollider.enabled = false;
+        attack1UpCollider.enabled = false;
+    }
 }
