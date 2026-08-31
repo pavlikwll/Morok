@@ -24,19 +24,33 @@ public class Interaction : MonoBehaviour
     #region Interaction Functions
     public void Execute()
     {
-        //Fallback in case the index is out of range
-        if(interactionGroups.Length < interactionIndex)
+        if (interactionGroups == null || interactionGroups.Length == 0)
         {
-            Debug.LogError($"Interaction Index was {interactionIndex} out of range");
+            Debug.LogError(
+                $"Interaction '{interactableId}' has no interaction groups.",
+                this);
             return;
         }
-        
-        InteractionGroup currentInteraction = interactionGroups[interactionIndex];
-        currentInteraction.onInteracted?.Invoke();
-        if (currentInteraction.nextInteraction != -1)
+
+        if (interactionIndex < 0 || interactionIndex >= interactionGroups.Length)
         {
-            
-            SetInteractionIndex(currentInteraction.nextInteraction);
+            Debug.LogWarning(
+                $"Interaction index {interactionIndex} is invalid for " +
+                $"'{interactableId}'. Resetting to 0.",
+                this);
+
+            interactionIndex = 0;
+        }
+
+        interactionGroups[interactionIndex].onInteracted?.Invoke();
+
+        int nextInteraction =
+            interactionGroups[interactionIndex].nextInteraction;
+
+        if (nextInteraction >= 0 &&
+            nextInteraction < interactionGroups.Length)
+        {
+            interactionIndex = nextInteraction;
         }
     }
 
