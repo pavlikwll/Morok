@@ -51,6 +51,7 @@ public class Interaction : MonoBehaviour
             nextInteraction < interactionGroups.Length)
         {
             interactionIndex = nextInteraction;
+            SaveInteractionIndex();
         }
     }
 
