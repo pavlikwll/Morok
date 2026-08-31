@@ -31003,37 +31003,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ae735a5ff3f89b4390dc27cf0a23c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SortItemsToWorlds
---- !u!114 &2048931592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048931561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -256817949
-      Data2: 1133973417
-      Data3: -381033312
-      Data4: -1576065334
-    Path: event:/SFX/Jack/Footsteps
-  Event: 
-  EventPlayTrigger: 0
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1001 &2048973406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33258,6 +33227,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2725185301474072677, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725185301474072677, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2043833075
+      objectReference: {fileID: 0}
     - target: {fileID: 3039853922776213122, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
       propertyPath: blackscreen
       value: 
@@ -33274,6 +33251,14 @@ PrefabInstance:
       propertyPath: timerVisual2
       value: 
       objectReference: {fileID: 198318463}
+    - target: {fileID: 6051910300082928239, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051910300082928239, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6392115089480688684, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
       propertyPath: uiInput
       value: 
@@ -33337,10 +33322,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2431103263165601855, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2048931592}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
 --- !u!1001 &7666439551758594774
 PrefabInstance:
