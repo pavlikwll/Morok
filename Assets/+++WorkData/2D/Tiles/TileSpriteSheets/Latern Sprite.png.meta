@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,17 +116,25 @@ TextureImporter:
       name: Latern Sprite_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 64
+        x: 21
+        y: 3
+        width: 24
+        height: 123
       alignment: 9
-      pivot: {x: -0.0078125, y: 0}
+      pivot: {x: 0.50545406, y: 0.0018411129}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: -9, y: -60.5}
+        - {x: -8, y: -61.5}
+        - {x: 8, y: -61.5}
+        - {x: 9, y: -60.5}
+        - {x: 9, y: -47.5}
+        - {x: 8, y: -46.5}
+        - {x: -8, y: -46.5}
+        - {x: -9, y: -47.5}
+      tessellationDetail: 0
       bones: []
       spriteID: 4a8cd91f22e7cddb0800000000000000
       internalID: -4765795617117189980
