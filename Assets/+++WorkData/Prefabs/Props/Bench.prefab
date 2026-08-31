@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5104959975248701824}
   - component: {fileID: 1935502092625170799}
-  - component: {fileID: 5574270698812723113}
+  - component: {fileID: 9034529228547563455}
   m_Layer: 0
   m_Name: Bench
   m_TagString: Untagged
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5150712451162831050, guid: b7e4b9b0ecf6fdd439a3aa038fedfb1e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -92,7 +92,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
---- !u!60 &5574270698812723113
+--- !u!60 &9034529228547563455
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,7 +129,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.4932398, y: 0.3174599}
+    pivot: {x: 0.49787393, y: 0.036507856}
     oldSize: {x: 2.16, y: 1.52}
     newSize: {x: 2.16, y: 1.52}
     adaptiveTilingThreshold: 0.5
@@ -138,10 +138,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -1.0253979, y: 0.11746094}
-      - {x: -1.0253979, y: -0.48253906}
-      - {x: -0.7053979, y: -0.48253906}
-      - {x: 0.21460205, y: -0.48253906}
-      - {x: 1.054602, y: -0.48253906}
-      - {x: 1.054602, y: 0.11746094}
+    - - {x: -1.0354077, y: 0.54450804}
+      - {x: -1.0354077, y: -0.055491943}
+      - {x: -0.71540767, y: -0.055491943}
+      - {x: 0.20459229, y: -0.055491943}
+      - {x: 1.0445923, y: -0.055491943}
+      - {x: 1.0445923, y: 0.54450804}
   m_UseDelaunayMesh: 1
