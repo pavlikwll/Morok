@@ -25,27 +25,17 @@ public class Interaction : MonoBehaviour
     public void Execute()
     {
         //Fallback in case the index is out of range
-        if (interactionGroups == null || interactionGroups.Length == 0)
+        if(interactionGroups.Length < interactionIndex)
         {
-            Debug.LogError($"No Interaction Groups configured on '{name}'.", this);
+            Debug.LogError($"Interaction Index was {interactionIndex} out of range");
             return;
         }
-
-        if (interactionIndex < 0 || interactionIndex >= interactionGroups.Length)
-        {
-            Debug.LogError(
-                $"Interaction Index {interactionIndex} is out of range on '{name}'. " +
-                $"Available groups: {interactionGroups.Length}.",
-                this);
-            
-            return;
-        }
-
+        
         InteractionGroup currentInteraction = interactionGroups[interactionIndex];
         currentInteraction.onInteracted?.Invoke();
-        
         if (currentInteraction.nextInteraction != -1)
         {
+            
             SetInteractionIndex(currentInteraction.nextInteraction);
         }
     }

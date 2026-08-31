@@ -1668,117 +1668,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9035c791211a51d418f0b771756a37d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlot
---- !u!1001 &116942417
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 272419995}
-    m_Modifications:
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0.8673
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0.5389
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.69
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8547048998921768118, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_Name
-      value: E - Interaction
-      objectReference: {fileID: 0}
-    - target: {fileID: 8547048998921768118, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
---- !u!224 &116942418 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-  m_PrefabInstance: {fileID: 116942417}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &116942419 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8547048998921768118, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-  m_PrefabInstance: {fileID: 116942417}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &119949762
 GameObject:
   m_ObjectHideFlags: 0
@@ -2183,195 +2072,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 144602169}
   m_CullTransparentMesh: 1
---- !u!1 &150300194
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 150300195}
-  - component: {fileID: 150300199}
-  - component: {fileID: 150300198}
-  - component: {fileID: 150300197}
-  - component: {fileID: 150300196}
-  m_Layer: 0
-  m_Name: TP - x.1
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &150300195
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150300194}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.87, y: 0.06, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1332895197}
-  m_Father: {fileID: 1548968547}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &150300196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150300194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b41fd4946af24604c9729a459c1ea823, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Teleporter
-  destination: {fileID: 1437858339}
-  player: {fileID: 2048931561}
---- !u!114 &150300197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150300194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18542c639fbec2242a3ed8eae64fb7e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Interaction
-  interactableId: 
-  interactionGroups:
-  - interactionName: 
-    onInteracted:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 150300196}
-          m_TargetAssemblyTypeName: Teleporter, Assembly-CSharp
-          m_MethodName: Teleport
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    nextInteraction: 0
-  interactionIndex: 0
---- !u!114 &150300198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150300194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03b3ceeeaa7d7c7419705b88da3fb120, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SimpleInteractablen
-  OnInteracted:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 150300197}
-        m_TargetAssemblyTypeName: Interaction, Assembly-CSharp
-        m_MethodName: Execute
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnSelected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1861129904}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  OnUnselected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1861129904}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  canInteract: 1
---- !u!70 &150300199
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150300194}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1}
-  m_Direction: 0
 --- !u!1 &152282387
 GameObject:
   m_ObjectHideFlags: 0
@@ -3244,143 +2944,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5510375382177186106, guid: 2d26aeb28dff79041918433d054d6f99, type: 3}
   m_PrefabInstance: {fileID: 188945585}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &190907072
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 190907075}
-  - component: {fileID: 190907074}
-  - component: {fileID: 190907073}
-  m_Layer: 5
-  m_Name: Objective_CollectRadio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &190907073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190907072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Pick up the Radio.
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
-  m_sharedMaterial: {fileID: 1260715531048141648, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 4
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -862.2329, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &190907074
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190907072}
-  m_CullTransparentMesh: 1
---- !u!224 &190907075
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190907072}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 772280057}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -350}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &192489505
 GameObject:
   m_ObjectHideFlags: 0
@@ -5192,38 +4755,6 @@ Transform:
   - {fileID: 1749456679}
   m_Father: {fileID: 1429272373}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &272419994
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 272419995}
-  m_Layer: 0
-  m_Name: VisualRoot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &272419995
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 272419994}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 116942418}
-  m_Father: {fileID: 1437858339}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &279715288
 GameObject:
   m_ObjectHideFlags: 0
@@ -6406,6 +5937,839 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &480573276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 480573278}
+  - component: {fileID: 480573277}
+  m_Layer: 0
+  m_Name: InkEvents - Always active
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &480573277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480573276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3440223540ba754e83441e6818c3a55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InkEvents
+  inkEvents:
+  - name: ashwick_school_entered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: attach_telescope_aerial
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: attic_hatch_examined
+    onEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 592689438}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1049035280}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: batteries_discovered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: box_01_delivered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: box_02_delivered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: box_03_delivered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: box_04_delivered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1928429246}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+  - name: broken_quartz_voice_crystal_added
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: cassette_recording_distorts
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: cassette_recording_start
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: echo_symbol_appears_on_wall
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: edith_intro_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: emily_blue_sketchbook_added
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: emily_met
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: emily_sketchbook_quest_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: emily_sketchbook_quest_started
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: enable_first_reality_shift
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: enter_echo_world_first_time
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: father_attic_warning_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: father_finishes_current_task
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: first_hale_house_hint_discovered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: first_radio_contact_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: first_reality_shift_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: focus_mh_locker_initials
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: focus_unlabelled_cassette
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: give_sketchbook_to_emily
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: harris_intro_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: household_shopping_purchased
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: insert_radio_batteries
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: jack_picks_up_old_radio
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: jack_walks_away_from_emily
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: mh_initials_discovered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: mh_locker_looted
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_hale_name_discovered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_warning_note_added
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: mother_allows_attic
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: moving_boxes_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1314205857}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: objective_buy_household_shopping
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_explore_ashwick_school
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_find_emilys_sketchbook
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_find_radio_parts
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_find_your_room
+    onEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1049035280}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+  - name: objective_return_home
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_return_sketchbook_to_emily
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_return_to_jacks_room
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_talk_to_father
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: old_radio_added
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: old_radio_repaired
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: open_mh_locker
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: open_store_shopping
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: pause_short
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: player_control_off
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: player_control_on
+    onEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2048931568}
+          m_TargetAssemblyTypeName: PlayerInput, Assembly-CSharp
+          m_MethodName: EnableInput
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - name: radio_after_father_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_after_sketchbook_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_click_off
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_next_morning_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_parts_purchased
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_play_conversation_fragment_01
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_play_conversation_fragment_02
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_play_music_fragment
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_repair_begin
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_static_rises
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_switch_on
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_switches_off_itself
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_turn_knob_01
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_turn_knob_02
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_turn_knob_03
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_voice_very_quiet
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: receive_three_pounds
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: recording_read_several_names
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: recording_silence
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: remove_household_shopping_items
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: school_camera_examined
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: school_camera_is_broken
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: school_holidays_state
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: school_recording_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: second_radio_contact_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: shopping_list_received
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: shopping_quest_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_emily_corridor_drawing
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_michael_warning_note
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_reality_shift_prompt
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: spawn_first_echo_point
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: start_next_morning_transition
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: talk_to_father_about_radio_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: telescope_aerial_discovered
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: three_children_faded_photo_added
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlabelled_cassette_added
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_ashwick_school
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_ask_about_attic
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_ask_mother_for_money
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_attic_access
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_examine_emily_drawings
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_mh_locker_echo_world
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_play_school_recording
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_radio_repair
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_radio_second_examination
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_route_to_store
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_school_art_room
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_school_entrance_hall
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_school_lockers
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_school_main_corridor
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_second_radio_contact
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_open_ashwick_cemetery
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: use_mayors_seal
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: open_ashwick_cemetery_gate
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_find_michael_hale_grave
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_michael_hale_gravestone
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_gravestone_echo_symbol
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_voice_michael_clear
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_voice_chorus_overlay
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_echo_cemetery_shift
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: shift_to_echo_cemetery
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: open_michael_grave
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: reveal_staircase_beneath_grave
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_descend_beneath_grave
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: enter_underground_echo_chamber
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: reveal_michael_distorted_form
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_idle_animation_start
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_approach_michael
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_voice_chorus
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_voice_child
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: start_final_combat_sequence
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_remains_idle
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: spawn_nameless_echo_creatures
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: despawn_all_echo_creatures
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_stands_beside_transmitter
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_voice_monster
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: final_combat_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: unlock_final_choice_chamber
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: chapter_two_endings_started
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: enable_final_chamber_free_movement
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_choose_michaels_fate
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: enable_remove_michael_nameplate
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: enable_memory_anchor_transmitter
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_remove_nameplate_prompt
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: lock_final_chamber_interactions
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: remove_michael_nameplate
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: disable_all_memory_anchors
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: bad_ending_started
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: chamber_voices_rise
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: jack_hands_turn_transparent
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_disappears
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radios_play_jacks_voice
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: jack_dissolves_into_static
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: drop_michael_nameplate
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_nameplate_michael_hale
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: change_nameplate_to_jack
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: fade_to_black
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: ending_never_alone_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_memory_anchor_slots_empty
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_memory_anchor_slots_one_filled
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_memory_anchor_slots_two_filled
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_memory_anchor_slots_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: insert_music_box_cylinder
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: play_music_box_melody
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: memory_anchor_music_box_activated
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: insert_hale_family_photograph
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_hale_family_photograph_restored
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: memory_anchor_family_photo_activated
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: insert_emily_drawing
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: reveal_figures_on_emily_drawing
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: show_emily_drawing_remember_us
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: memory_anchor_emily_drawing_activated
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: memory_anchor_inserted
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: all_three_memory_anchors_inserted
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: good_ending_started
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_voice_child_only
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: jack_switches_radio_off
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: radio_click
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: michael_disappears_peacefully
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: ending_remember_me_complete
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: prologue_intro
+    onEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: objective_help_parents_move
+    onEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1314205857}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+--- !u!4 &480573278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480573276}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.90735, y: 0.67494, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &513502648 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3089178183124938224, guid: d72e9067e095bf44dbb220f527cb9166, type: 3}
@@ -6985,10 +7349,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1728122164}
     - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
-      propertyPath: avatars.Array.size
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
       propertyPath: inkAssets.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -6996,22 +7356,6 @@ PrefabInstance:
       propertyPath: 'inkAssets.Array.data[0]'
       value: 
       objectReference: {fileID: 4900000, guid: a69378cf1ef8ec6448e72aab08ef151c, type: 3}
-    - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
-      propertyPath: avatars.Array.data[8].avatarId
-      value: radio
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
-      propertyPath: avatars.Array.data[8].avatarFrames.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
-      propertyPath: 'avatars.Array.data[8].avatarFrames.Array.data[0]'
-      value: 
-      objectReference: {fileID: -6362549862341014049, guid: b424e9cb591a341d3a3764b139548beb, type: 3}
-    - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
-      propertyPath: 'avatars.Array.data[8].avatarFrames.Array.data[1]'
-      value: 
-      objectReference: {fileID: -6362549862341014049, guid: b424e9cb591a341d3a3764b139548beb, type: 3}
     - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
       propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -7235,906 +7579,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 581485803076861481, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 516891974}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
 --- !u!224 &516891972 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1970105947187398337, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
   m_PrefabInstance: {fileID: 516891971}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &516891973 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 581485803076861481, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
-  m_PrefabInstance: {fileID: 516891971}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &516891974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 516891973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3440223540ba754e83441e6818c3a55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InkEvents
-  inkEvents:
-  - name: ashwick_school_entered
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: attach_telescope_aerial
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: attic_hatch_examined
-    onEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 190907072}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - name: batteries_discovered
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: box_01_delivered
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: box_02_delivered
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: box_03_delivered
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: box_04_delivered
-    onEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1928429246}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-  - name: broken_quartz_voice_crystal_added
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: cassette_recording_distorts
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: cassette_recording_start
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: echo_symbol_appears_on_wall
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: edith_intro_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: emily_blue_sketchbook_added
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: emily_met
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: emily_sketchbook_quest_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: emily_sketchbook_quest_started
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: enable_first_reality_shift
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: enter_echo_world_first_time
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: father_attic_warning_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: father_finishes_current_task
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: first_hale_house_hint_discovered
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: first_radio_contact_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: first_reality_shift_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: focus_mh_locker_initials
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: focus_unlabelled_cassette
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: give_sketchbook_to_emily
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: harris_intro_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: household_shopping_purchased
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: insert_radio_batteries
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: jack_picks_up_old_radio
-    onEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 190907072}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1800816988}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - name: jack_walks_away_from_emily
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: mh_initials_discovered
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: mh_locker_looted
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: michael_hale_name_discovered
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: michael_warning_note_added
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: mother_allows_attic
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: moving_boxes_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1314205857}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - name: objective_buy_household_shopping
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: objective_explore_ashwick_school
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: objective_find_emilys_sketchbook
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: objective_find_radio_parts
-    onEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 190907072}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - name: objective_find_your_room
-    onEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1049035280}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-  - name: objective_return_home
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: objective_return_sketchbook_to_emily
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: objective_return_to_jacks_room
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: objective_talk_to_father
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: old_radio_added
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: old_radio_repaired
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: open_mh_locker
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: open_store_shopping
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: pause_short
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: player_control_off
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: player_control_on
-    onEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2048931568}
-          m_TargetAssemblyTypeName: PlayerInput, Assembly-CSharp
-          m_MethodName: EnableInput
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - name: radio_after_father_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_after_sketchbook_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_click_off
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_next_morning_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_parts_purchased
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_play_conversation_fragment_01
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_play_conversation_fragment_02
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_play_music_fragment
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_repair_begin
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_static_rises
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_switch_on
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_switches_off_itself
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_turn_knob_01
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_turn_knob_02
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_turn_knob_03
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_voice_very_quiet
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: receive_three_pounds
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: recording_read_several_names
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: recording_silence
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: remove_household_shopping_items
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: school_camera_examined
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: school_camera_is_broken
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: school_holidays_state
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: school_recording_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: second_radio_contact_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: shopping_list_received
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: shopping_quest_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: show_emily_corridor_drawing
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: show_michael_warning_note
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: show_reality_shift_prompt
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: spawn_first_echo_point
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: start_next_morning_transition
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: talk_to_father_about_radio_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: telescope_aerial_discovered
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: three_children_faded_photo_added
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlabelled_cassette_added
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_ashwick_school
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_ask_about_attic
-    onEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 592689438}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-  - name: unlock_ask_mother_for_money
-    onEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 895435373}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-  - name: unlock_attic_access
-    onEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1800816988}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 592689438}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 1548968546}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-  - name: unlock_examine_emily_drawings
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_mh_locker_echo_world
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_play_school_recording
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_radio_repair
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_radio_second_examination
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_route_to_store
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_school_art_room
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_school_entrance_hall
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_school_lockers
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_school_main_corridor
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_second_radio_contact
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: objective_open_ashwick_cemetery
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: use_mayors_seal
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: open_ashwick_cemetery_gate
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: objective_find_michael_hale_grave
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: show_michael_hale_gravestone
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: show_gravestone_echo_symbol
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_voice_michael_clear
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_voice_chorus_overlay
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_echo_cemetery_shift
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: shift_to_echo_cemetery
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: open_michael_grave
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: reveal_staircase_beneath_grave
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: objective_descend_beneath_grave
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: enter_underground_echo_chamber
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: reveal_michael_distorted_form
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: michael_idle_animation_start
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: objective_approach_michael
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: michael_voice_chorus
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: michael_voice_child
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: start_final_combat_sequence
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: michael_remains_idle
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: spawn_nameless_echo_creatures
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: despawn_all_echo_creatures
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: michael_stands_beside_transmitter
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: michael_voice_monster
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: final_combat_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: unlock_final_choice_chamber
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: chapter_two_endings_started
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: enable_final_chamber_free_movement
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: objective_choose_michaels_fate
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: enable_remove_michael_nameplate
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: enable_memory_anchor_transmitter
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: show_remove_nameplate_prompt
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: lock_final_chamber_interactions
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: remove_michael_nameplate
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: disable_all_memory_anchors
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: bad_ending_started
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: chamber_voices_rise
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: jack_hands_turn_transparent
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: michael_disappears
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radios_play_jacks_voice
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: jack_dissolves_into_static
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: drop_michael_nameplate
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: show_nameplate_michael_hale
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: change_nameplate_to_jack
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: fade_to_black
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: ending_never_alone_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: show_memory_anchor_slots_empty
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: show_memory_anchor_slots_one_filled
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: show_memory_anchor_slots_two_filled
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: show_memory_anchor_slots_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: insert_music_box_cylinder
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: play_music_box_melody
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: memory_anchor_music_box_activated
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: insert_hale_family_photograph
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: show_hale_family_photograph_restored
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: memory_anchor_family_photo_activated
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: insert_emily_drawing
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: reveal_figures_on_emily_drawing
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: show_emily_drawing_remember_us
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: memory_anchor_emily_drawing_activated
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: memory_anchor_inserted
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: all_three_memory_anchors_inserted
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: good_ending_started
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: michael_voice_child_only
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: jack_switches_radio_off
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: radio_click
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: michael_disappears_peacefully
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: ending_remember_me_complete
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: prologue_intro
-    onEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: objective_help_parents_move
-    onEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1314205857}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
 --- !u!1001 &521584454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8330,7 +7781,6 @@ Transform:
   m_Children:
   - {fileID: 1843038466}
   - {fileID: 1928429247}
-  - {fileID: 1548968547}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &534691638 stripped
@@ -9178,10 +8628,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 772280057}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -250}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 913, y: 917}
+  m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &592689440
 MonoBehaviour:
@@ -10457,7 +9907,7 @@ Transform:
   m_GameObject: {fileID: 679022889}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -44.72, y: 40.18, z: 0}
+  m_LocalPosition: {x: -44.72, y: 40.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11735,7 +11185,6 @@ GameObject:
   m_Component:
   - component: {fileID: 772280057}
   - component: {fileID: 772280056}
-  - component: {fileID: 772280058}
   m_Layer: 5
   m_Name: QuestlogManager
   m_TagString: Untagged
@@ -11772,39 +11221,13 @@ RectTransform:
   - {fileID: 1049035281}
   - {fileID: 592689439}
   - {fileID: 1800816989}
-  - {fileID: 190907075}
-  - {fileID: 895435376}
   m_Father: {fileID: 1672832593}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -958, y: -139}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 1, y: 1}
---- !u!114 &772280058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772280055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GridLayoutGroup
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_StartCorner: 1
-  m_StartAxis: 0
-  m_CellSize: {x: 100, y: 100}
-  m_Spacing: {x: 0, y: 0}
-  m_Constraint: 0
-  m_ConstraintCount: 2
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &773066875
 GameObject:
   m_ObjectHideFlags: 0
@@ -13876,143 +13299,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 1
---- !u!1 &895435373
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 895435376}
-  - component: {fileID: 895435375}
-  - component: {fileID: 895435374}
-  m_Layer: 5
-  m_Name: Objective_AskForMoney
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &895435374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 895435373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Ask Mother for money to buy parts for the old Radio to repair it.
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
-  m_sharedMaterial: {fileID: 1260715531048141648, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 4
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -862.2329, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &895435375
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 895435373}
-  m_CullTransparentMesh: 1
---- !u!224 &895435376
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 895435373}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 772280057}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -350}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &905551035
 GameObject:
   m_ObjectHideFlags: 0
@@ -15869,10 +15155,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 772280057}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -150}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 913, y: 917}
+  m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1049035282
 MonoBehaviour:
@@ -20105,10 +19391,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 772280057}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 913, y: 917}
+  m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1317550420
 GameObject:
@@ -20240,7 +19526,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c15cc9659f2855b4dbea12710cb1c38a, type: 2}
   - {fileID: 11400000, guid: 28ddd7810a7070049b2e49eb9415e67f, type: 2}
   - {fileID: 11400000, guid: f59814ea8abf8a044a6a3731c6d67886, type: 2}
-  - {fileID: 11400000, guid: a1f7bdb49429644a7b07e0314a478c89, type: 2}
   storyInventorySlots:
   - {fileID: 786253426}
   - {fileID: 1949348708}
@@ -20457,38 +19742,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9035c791211a51d418f0b771756a37d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventorySlot
---- !u!1 &1332895196
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1332895197}
-  m_Layer: 0
-  m_Name: VisualRoot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1332895197
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332895196}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1861129903}
-  m_Father: {fileID: 150300195}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1336313572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22148,195 +21401,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1435159419}
   m_CullTransparentMesh: 1
---- !u!1 &1437858338
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1437858339}
-  - component: {fileID: 1437858343}
-  - component: {fileID: 1437858342}
-  - component: {fileID: 1437858341}
-  - component: {fileID: 1437858340}
-  m_Layer: 0
-  m_Name: TP - x.2
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1437858339
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437858338}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.88, y: 9.908, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 272419995}
-  m_Father: {fileID: 1548968547}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1437858340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437858338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b41fd4946af24604c9729a459c1ea823, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Teleporter
-  destination: {fileID: 150300195}
-  player: {fileID: 2048931561}
---- !u!114 &1437858341
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437858338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18542c639fbec2242a3ed8eae64fb7e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Interaction
-  interactableId: 
-  interactionGroups:
-  - interactionName: 
-    onInteracted:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1437858340}
-          m_TargetAssemblyTypeName: Teleporter, Assembly-CSharp
-          m_MethodName: Teleport
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    nextInteraction: 0
-  interactionIndex: 0
---- !u!114 &1437858342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437858338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03b3ceeeaa7d7c7419705b88da3fb120, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SimpleInteractablen
-  OnInteracted:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1437858341}
-        m_TargetAssemblyTypeName: Interaction, Assembly-CSharp
-        m_MethodName: Execute
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnSelected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 116942419}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  OnUnselected:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 116942419}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  canInteract: 1
---- !u!70 &1437858343
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437858338}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.74, y: 0.5}
-  m_Direction: 0
 --- !u!1 &1444954305
 GameObject:
   m_ObjectHideFlags: 0
@@ -24313,39 +23377,6 @@ Transform:
   - {fileID: 2067188262}
   - {fileID: 2100045277}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1548968546
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1548968547}
-  m_Layer: 0
-  m_Name: Attic
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1548968547
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1548968546}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.4, y: 53.9, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 150300195}
-  - {fileID: 1437858339}
-  m_Father: {fileID: 533292729}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1551132741
 GameObject:
@@ -27957,10 +26988,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 772280057}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -350}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 913, y: 917}
+  m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1800816990
 MonoBehaviour:
@@ -29124,101 +28155,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837096017}
   m_CullTransparentMesh: 1
---- !u!1 &1840344970
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1840344973}
-  - component: {fileID: 1840344972}
-  - component: {fileID: 1840344971}
-  m_Layer: 0
-  m_Name: RoomFound
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1840344971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840344970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3baa20bd9f1c94b71bf73c00438bfbf3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DisableObjectOnTrigger
-  activationType: 0
-  objectsToDisable:
-  - {fileID: 1049035280}
-  oneTimeUse: 1
---- !u!61 &1840344972
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840344970}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!4 &1840344973
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840344970}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.76, y: 51.9, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1843038465
 GameObject:
   m_ObjectHideFlags: 0
@@ -29516,117 +28452,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1001 &1861129902
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1332895197}
-    m_Modifications:
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0.8673
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0.5389
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8547048998921768118, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_Name
-      value: E - Interaction
-      objectReference: {fileID: 0}
-    - target: {fileID: 8547048998921768118, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
---- !u!224 &1861129903 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6480783526700161944, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-  m_PrefabInstance: {fileID: 1861129902}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1861129904 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8547048998921768118, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
-  m_PrefabInstance: {fileID: 1861129902}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1876483802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34573,4 +33398,4 @@ SceneRoots:
   - {fileID: 662424364}
   - {fileID: 1542206062}
   - {fileID: 533292729}
-  - {fileID: 1840344973}
+  - {fileID: 480573278}
