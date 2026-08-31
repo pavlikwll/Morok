@@ -2700,6 +2700,7 @@ GameObject:
   - component: {fileID: 1260146269}
   - component: {fileID: 1260146271}
   - component: {fileID: 1260146270}
+  - component: {fileID: 1260146274}
   m_Layer: 0
   m_Name: EnemySprite
   m_TagString: Untagged
@@ -2852,6 +2853,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 539282850}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1260146274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260146268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a198cc50bfd8a54499171de9e7c9e60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODAnimationEvent
 --- !u!1 &1261352120
 GameObject:
   m_ObjectHideFlags: 0
@@ -4651,6 +4664,7 @@ GameObject:
   - component: {fileID: 1748732292}
   - component: {fileID: 1748732290}
   - component: {fileID: 1748732291}
+  - component: {fileID: 1748732294}
   m_Layer: 0
   m_Name: EnemySprite
   m_TagString: Untagged
@@ -4769,6 +4783,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1226797187}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1748732294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748732289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a198cc50bfd8a54499171de9e7c9e60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODAnimationEvent
 --- !u!1 &1765124110
 GameObject:
   m_ObjectHideFlags: 0
@@ -5062,6 +5088,7 @@ GameObject:
   - component: {fileID: 2007033424}
   - component: {fileID: 2007033422}
   - component: {fileID: 2007033423}
+  - component: {fileID: 2007033426}
   m_Layer: 0
   m_Name: EnemySprite
   m_TagString: Untagged
@@ -5180,6 +5207,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1635110555}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2007033426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007033421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a198cc50bfd8a54499171de9e7c9e60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODAnimationEvent
 --- !u!1 &2016211707
 GameObject:
   m_ObjectHideFlags: 0
