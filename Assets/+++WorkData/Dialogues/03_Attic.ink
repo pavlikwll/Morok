@@ -40,10 +40,10 @@ Jack: He’d probably say this one’s still perfectly good. #avatar:jack #voice
         Jack: Huh… #avatar:jack #voice:jack_018
         ~ Event("jack_picks_up_old_radio")
         Jack: That’s nice, but no batteries and someone’s snapped the aerial. #avatar:jack #voice:jack_019
-        ~ Event("old_radio_added")
         ~ Event("unlock_radio_second_examination")
     - else:
         Jack: Grandad would’ve tried fixing it. So will I. #avatar:jack #voice:jack_020
+        ~ Event("old_radio_added")
         ~ Event("objective_find_radio_parts")
         ~ Event("unlock_ask_mother_for_money")
 }
@@ -54,12 +54,12 @@ Jack: He’d probably say this one’s still perfectly good. #avatar:jack #voice
 Jack: Huh… #avatar:jack #voice:jack_018
 ~ Event("jack_picks_up_old_radio")
 Jack: That’s nice, but no batteries and someone’s snapped the aerial. #avatar:jack #voice:jack_019
-~ Event("old_radio_added")
 ~ Event("unlock_radio_second_examination")
 -> END
 
 = examine_radio_again
 Jack: Grandad would’ve tried fixing it. So will I. #avatar:jack #voice:jack_020
+~ Event("old_radio_added")
 ~ Event("objective_find_radio_parts")
 ~ Event("unlock_ask_mother_for_money")
 -> END

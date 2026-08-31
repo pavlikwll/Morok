@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9fb40fdca323ff43bee7802842a5b01, type: 3}
-  m_Name: TEST Story Item
+  m_Name: OldRadio
   m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
   itemType: 0
-  id: TESTStoryItem
-  stackingCap: 10
-  sprite: {fileID: -4144017195030236670, guid: eb0831a5a7f23864298ee0078173fb84, type: 3}
-  displayName: Story
-  description: story item
+  id: old_radio
+  stackingCap: 1
+  sprite: {fileID: -6362549862341014049, guid: b424e9cb591a341d3a3764b139548beb, type: 3}
+  displayName: Old Radio
+  description: An old portable radio with no batteries and a broken aerial
