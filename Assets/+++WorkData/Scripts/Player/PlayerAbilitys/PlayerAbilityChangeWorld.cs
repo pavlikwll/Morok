@@ -28,7 +28,7 @@ public class PlayerAbilityChangeWorld : MonoBehaviour
         _sortItemsToWorlds = GetComponent<SortItemsToWorlds>();
 
         _inWorldOne = true;
-        worldChangeAllowed  = true;
+        worldChangeAllowed  = false;
     }
     
     private void OnEnable()
