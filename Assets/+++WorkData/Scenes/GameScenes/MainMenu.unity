@@ -985,7 +985,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 84}
-  m_SizeDelta: {x: 1300, y: 1400}
+  m_SizeDelta: {x: 1400, y: 1400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &712142834
 MonoBehaviour:
@@ -1007,16 +1007,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Jakob Weihrauch
-
-    Julia Staebel
-
-    Maximilian Grabau
-
-    Taisiia
-    Lieiepa
-
-    Volodymyr Pavlik'
+  m_text: "Game Design: \nTaisiia Lieiepa, Volodymyr Pavlik\n\r\nLevel Design:\nJulia
+    Staebel, Volodymyr Pavlik\n\r\nProgramming:\nMaximilian Grabau\n\r\nUI / UX Design:\nMaximilian
+    Grabau\n\r\nArt Department:\nTaisiia Lieiepa, Julia Staebel, Volodymyr Pavlik\n\r\nSound
+    Design:\nJakob Weihrauch"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f360b0e19dc609949b1772e13c2936a9, type: 2}
   m_sharedMaterial: {fileID: 1260715531048141648, guid: f360b0e19dc609949b1772e13c2936a9, type: 2}
@@ -1043,8 +1037,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 116.5
-  m_fontSizeBase: 116.5
+  m_fontSize: 67.59
+  m_fontSizeBase: 67.59
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1053,12 +1047,12 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 8.92
+  m_characterSpacing: 4.7
   m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 28.41
+  m_wordSpacing: -21.86
+  m_lineSpacing: 2.8
   m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
+  m_paragraphSpacing: -14.28
   m_charWidthMaxAdj: 0
   m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
