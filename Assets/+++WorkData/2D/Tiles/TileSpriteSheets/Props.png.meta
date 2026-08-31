@@ -257,17 +257,17 @@ TextureImporter:
       name: Props_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 575
-        width: 38
-        height: 34
+        x: 46
+        y: 576
+        width: 36
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 69f7fe10ef393d460800000000000000
       internalID: 7265313343042191254
@@ -279,17 +279,17 @@ TextureImporter:
       name: Props_1
       rect:
         serializedVersion: 2
-        x: 107
-        y: 575
-        width: 47
-        height: 43
-      alignment: 9
-      pivot: {x: 0.48936167, y: 0.069767445}
+        x: 108
+        y: 576
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 86533f54161746cb0800000000000000
       internalID: -4871644234308700824
@@ -301,17 +301,17 @@ TextureImporter:
       name: Props_2
       rect:
         serializedVersion: 2
-        x: 161
-        y: 575
-        width: 29
-        height: 32
+        x: 162
+        y: 576
+        width: 27
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: ad974821d541e9760800000000000000
       internalID: 7466427622202046938
@@ -323,17 +323,17 @@ TextureImporter:
       name: Props_3
       rect:
         serializedVersion: 2
-        x: 204
-        y: 575
-        width: 42
-        height: 21
+        x: 205
+        y: 576
+        width: 40
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 9fe90a49e9c1f4e30800000000000000
       internalID: 4489838820935638777
@@ -345,17 +345,17 @@ TextureImporter:
       name: Props_4
       rect:
         serializedVersion: 2
-        x: 257
-        y: 575
-        width: 62
-        height: 29
+        x: 258
+        y: 576
+        width: 60
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: d2634dfc79f4906e0800000000000000
       internalID: -1870876656750283219
@@ -367,17 +367,17 @@ TextureImporter:
       name: Props_5
       rect:
         serializedVersion: 2
-        x: 360
-        y: 575
-        width: 17
-        height: 13
+        x: 361
+        y: 576
+        width: 15
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 739818dc730eb68c0800000000000000
       internalID: -4004860913340282569
@@ -389,17 +389,17 @@ TextureImporter:
       name: Props_6
       rect:
         serializedVersion: 2
-        x: 395
-        y: 575
-        width: 42
-        height: 31
+        x: 396
+        y: 576
+        width: 40
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: fdd04754c9ea3b7a0800000000000000
       internalID: -6362549862341014049
@@ -411,17 +411,17 @@ TextureImporter:
       name: Props_7
       rect:
         serializedVersion: 2
-        x: 460
-        y: 575
-        width: 40
-        height: 41
+        x: 461
+        y: 576
+        width: 38
+        height: 39
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: fa86e9f59b8d8e180800000000000000
       internalID: -9085773957535209297
@@ -433,17 +433,17 @@ TextureImporter:
       name: Props_8
       rect:
         serializedVersion: 2
-        x: 550
-        y: 479
-        width: 52
-        height: 130
+        x: 551
+        y: 480
+        width: 50
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 22e142fd4e54d3f30800000000000000
       internalID: 4556875247267356194
@@ -455,17 +455,17 @@ TextureImporter:
       name: Props_9
       rect:
         serializedVersion: 2
-        x: 33
-        y: 481
-        width: 62
-        height: 62
+        x: 34
+        y: 482
+        width: 60
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: a5bc72ac35618ad40800000000000000
       internalID: 5595747086137543514
@@ -477,17 +477,17 @@ TextureImporter:
       name: Props_10
       rect:
         serializedVersion: 2
-        x: 138
-        y: 479
-        width: 12
-        height: 71
+        x: 139
+        y: 480
+        width: 10
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 3d735ef44bf87a140800000000000000
       internalID: 4730907938173302739
@@ -499,17 +499,17 @@ TextureImporter:
       name: Props_11
       rect:
         serializedVersion: 2
-        x: 259
-        y: 481
-        width: 91
-        height: 62
+        x: 260
+        y: 482
+        width: 89
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 411d19658f33c3a50800000000000000
       internalID: 6502129103713456404
@@ -521,17 +521,17 @@ TextureImporter:
       name: Props_12
       rect:
         serializedVersion: 2
-        x: 395
-        y: 511
-        width: 44
-        height: 46
+        x: 396
+        y: 512
+        width: 42
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: e0b289925cc60eff0800000000000000
       internalID: -8887605192545522
@@ -543,17 +543,17 @@ TextureImporter:
       name: Props_13
       rect:
         serializedVersion: 2
-        x: 191
-        y: 479
-        width: 34
-        height: 7
+        x: 192
+        y: 480
+        width: 32
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 37536d63c5575a240800000000000000
       internalID: 4802373616577951091
@@ -565,17 +565,17 @@ TextureImporter:
       name: Props_14
       rect:
         serializedVersion: 2
-        x: 394
-        y: 458
-        width: 12
-        height: 12
+        x: 395
+        y: 459
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 0eef2e6bb420a9590800000000000000
       internalID: -7666812891430715680
@@ -587,17 +587,17 @@ TextureImporter:
       name: Props_15
       rect:
         serializedVersion: 2
-        x: 426
-        y: 458
-        width: 12
-        height: 12
+        x: 427
+        y: 459
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 50bc7a7f73e42a660800000000000000
       internalID: 7395559540380912389
@@ -609,17 +609,17 @@ TextureImporter:
       name: Props_16
       rect:
         serializedVersion: 2
-        x: 31
-        y: 383
-        width: 34
-        height: 66
+        x: 32
+        y: 384
+        width: 32
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 2e0db35e02d872720800000000000000
       internalID: 2821378863995277538
@@ -631,17 +631,17 @@ TextureImporter:
       name: Props_17
       rect:
         serializedVersion: 2
-        x: 102
-        y: 383
-        width: 27
-        height: 34
+        x: 103
+        y: 384
+        width: 25
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: e5cce3fa866d37860800000000000000
       internalID: 7526595147371301982
@@ -653,17 +653,17 @@ TextureImporter:
       name: Props_18
       rect:
         serializedVersion: 2
-        x: 159
-        y: 383
-        width: 15
-        height: 27
+        x: 160
+        y: 384
+        width: 13
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 126e1c99b4c158cb0800000000000000
       internalID: -4862449111648836063
@@ -675,17 +675,17 @@ TextureImporter:
       name: Props_19
       rect:
         serializedVersion: 2
-        x: 107
-        y: 319
-        width: 10
-        height: 39
+        x: 108
+        y: 320
+        width: 8
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 0d35c02aa6405b330800000000000000
       internalID: 3725889122750714832
@@ -697,17 +697,17 @@ TextureImporter:
       name: Props_20
       rect:
         serializedVersion: 2
-        x: 139
-        y: 287
-        width: 10
-        height: 39
+        x: 140
+        y: 288
+        width: 8
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: a2cb84f8af0f755d0800000000000000
       internalID: -3073723261720675286
@@ -719,17 +719,17 @@ TextureImporter:
       name: Props_21
       rect:
         serializedVersion: 2
-        x: 171
-        y: 287
-        width: 10
-        height: 39
+        x: 172
+        y: 288
+        width: 8
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: b6b334d173e7f0320800000000000000
       internalID: 2526376691157384043
@@ -741,17 +741,17 @@ TextureImporter:
       name: Props_22
       rect:
         serializedVersion: 2
-        x: 234
-        y: 287
-        width: 22
-        height: 88
+        x: 235
+        y: 288
+        width: 20
+        height: 86
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: fba516aa00a9bfaa0800000000000000
       internalID: -6126133540458243393
@@ -763,17 +763,21 @@ TextureImporter:
       name: Props_23
       rect:
         serializedVersion: 2
-        x: 288
-        y: 287
-        width: 63
-        height: 78
+        x: 289
+        y: 288
+        width: 61
+        height: 76
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: -30.5, y: -38}
+        - {x: 30.5, y: -38}
+        - {x: 30.5, y: 24}
+        - {x: -29.5, y: 24}
+      tessellationDetail: 0
       bones: []
       spriteID: e9b57f44f72643940800000000000000
       internalID: 5274949362315123614
@@ -785,17 +789,21 @@ TextureImporter:
       name: Props_24
       rect:
         serializedVersion: 2
-        x: 383
-        y: 287
-        width: 32
-        height: 65
+        x: 384
+        y: 288
+        width: 30
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: -15, y: -31.5}
+        - {x: 15, y: -31.5}
+        - {x: 15, y: 21.5}
+        - {x: -15, y: 21.5}
+      tessellationDetail: 0
       bones: []
       spriteID: b9e4691b2fd7a3550800000000000000
       internalID: 6141359523188067995
@@ -807,17 +815,17 @@ TextureImporter:
       name: Props_25
       rect:
         serializedVersion: 2
-        x: 107
-        y: 298
-        width: 10
-        height: 12
+        x: 108
+        y: 299
+        width: 8
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 6003b99073f30cd20800000000000000
       internalID: 3296704432852119558
@@ -829,17 +837,21 @@ TextureImporter:
       name: Props_26
       rect:
         serializedVersion: 2
-        x: 449
-        y: 287
-        width: 62
-        height: 29
+        x: 450
+        y: 288
+        width: 60
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: -30, y: -13.5}
+        - {x: 30, y: -13.5}
+        - {x: 30, y: 8.5}
+        - {x: -30, y: 8.5}
+      tessellationDetail: 0
       bones: []
       spriteID: 4c940b483dcfeba50800000000000000
       internalID: 6538941694382983620
@@ -851,17 +863,21 @@ TextureImporter:
       name: Props_27
       rect:
         serializedVersion: 2
-        x: 546
-        y: 287
-        width: 28
-        height: 28
+        x: 547
+        y: 288
+        width: 26
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: -13, y: -13}
+        - {x: 13, y: -13}
+        - {x: 13, y: 10}
+        - {x: -13, y: 10}
+      tessellationDetail: 0
       bones: []
       spriteID: 3022ef70bde49b8d0800000000000000
       internalID: -2830144188186746365
@@ -873,17 +889,24 @@ TextureImporter:
       name: Props_28
       rect:
         serializedVersion: 2
-        x: 31
-        y: 159
-        width: 42
-        height: 94
+        x: 32
+        y: 160
+        width: 40
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: -20, y: -40}
+        - {x: -15, y: -46}
+        - {x: 15, y: -46}
+        - {x: 20, y: -41}
+        - {x: 20, y: 13}
+        - {x: 16, y: 19}
+        - {x: -20, y: 19}
+      tessellationDetail: 0
       bones: []
       spriteID: 5791ff303aad7a490800000000000000
       internalID: -7734973441303963275
@@ -895,17 +918,17 @@ TextureImporter:
       name: Props_29
       rect:
         serializedVersion: 2
-        x: 261
-        y: 227
-        width: 11
-        height: 24
+        x: 262
+        y: 228
+        width: 9
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: b1a9b0604df56bfc0800000000000000
       internalID: -3479488297858000357
@@ -917,17 +940,17 @@ TextureImporter:
       name: Props_30
       rect:
         serializedVersion: 2
-        x: 273
-        y: 227
-        width: 9
-        height: 21
+        x: 274
+        y: 228
+        width: 7
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 6dbe4571db3415c70800000000000000
       internalID: 8958015613235948502
@@ -939,17 +962,17 @@ TextureImporter:
       name: Props_31
       rect:
         serializedVersion: 2
-        x: 351
-        y: 227
-        width: 33
-        height: 24
+        x: 352
+        y: 228
+        width: 31
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: e6c08ff71db004140800000000000000
       internalID: 4701771005397830766
@@ -961,17 +984,17 @@ TextureImporter:
       name: Props_32
       rect:
         serializedVersion: 2
-        x: 398
-        y: 224
-        width: 36
-        height: 33
+        x: 399
+        y: 225
+        width: 34
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 2451a19d8c1618ec0800000000000000
       internalID: -3566461914637003454
@@ -983,17 +1006,17 @@ TextureImporter:
       name: Props_33
       rect:
         serializedVersion: 2
-        x: 446
-        y: 223
-        width: 38
-        height: 35
+        x: 447
+        y: 224
+        width: 36
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: fb8f55e3c66b68a00800000000000000
       internalID: 758494163277052095
@@ -1005,17 +1028,21 @@ TextureImporter:
       name: Props_34
       rect:
         serializedVersion: 2
-        x: 104
-        y: 159
-        width: 47
-        height: 40
+        x: 105
+        y: 160
+        width: 45
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: -22.5, y: -19}
+        - {x: 22.5, y: -19}
+        - {x: 22.5, y: 0}
+        - {x: -22.5, y: 0}
+      tessellationDetail: 0
       bones: []
       spriteID: efd820e4c2c6e2c20800000000000000
       internalID: 3183600924140670462
@@ -1027,17 +1054,23 @@ TextureImporter:
       name: Props_35
       rect:
         serializedVersion: 2
-        x: 194
-        y: 171
-        width: 58
-        height: 35
+        x: 195
+        y: 172
+        width: 56
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: -27, y: -7.5}
+        - {x: 22, y: -16.5}
+        - {x: 27, y: -6.5}
+        - {x: 28, y: 4.5}
+        - {x: -28, y: 11.5}
+        - {x: -28, y: 5.5}
+      tessellationDetail: 0
       bones: []
       spriteID: 05c3e5233bf6b51a0800000000000000
       internalID: -6819734395287618480
@@ -1049,17 +1082,17 @@ TextureImporter:
       name: Props_36
       rect:
         serializedVersion: 2
-        x: 288
-        y: 159
-        width: 32
-        height: 28
+        x: 289
+        y: 160
+        width: 30
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: be45f2c1d7c944d20800000000000000
       internalID: 3261904091280790763
@@ -1071,17 +1104,17 @@ TextureImporter:
       name: Props_37
       rect:
         serializedVersion: 2
-        x: 33
-        y: 64
-        width: 63
-        height: 54
+        x: 34
+        y: 65
+        width: 61
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: ddba547bdf4fb6620800000000000000
       internalID: 2768575766488001501
@@ -1093,17 +1126,17 @@ TextureImporter:
       name: Props_38
       rect:
         serializedVersion: 2
-        x: 133
-        y: 100
-        width: 22
-        height: 24
+        x: 134
+        y: 101
+        width: 20
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 54c2a0726551e0150800000000000000
       internalID: 5840629226512460869
@@ -1115,17 +1148,17 @@ TextureImporter:
       name: Props_39
       rect:
         serializedVersion: 2
-        x: 164
-        y: 95
-        width: 24
-        height: 36
+        x: 165
+        y: 96
+        width: 22
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 17fcc20f7f3f5a5f0800000000000000
       internalID: -745921917048008847
@@ -1137,17 +1170,17 @@ TextureImporter:
       name: Props_40
       rect:
         serializedVersion: 2
-        x: 223
-        y: 64
-        width: 34
-        height: 65
+        x: 224
+        y: 65
+        width: 32
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 80bd6a1ff6f1bb6f0800000000000000
       internalID: -667905554078311672
@@ -1159,17 +1192,17 @@ TextureImporter:
       name: Props_41
       rect:
         serializedVersion: 2
-        x: 287
-        y: 64
-        width: 34
-        height: 54
+        x: 288
+        y: 65
+        width: 32
+        height: 52
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: ba897f76db236ea60800000000000000
       internalID: 7702900001738299563
@@ -1181,17 +1214,17 @@ TextureImporter:
       name: Props_42
       rect:
         serializedVersion: 2
-        x: 351
-        y: 64
-        width: 34
-        height: 58
+        x: 352
+        y: 65
+        width: 32
+        height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: aeadda509e52cf250800000000000000
       internalID: 5979696087994063594
@@ -1203,17 +1236,17 @@ TextureImporter:
       name: Props_43
       rect:
         serializedVersion: 2
-        x: 409
-        y: 64
-        width: 46
-        height: 51
+        x: 410
+        y: 65
+        width: 44
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 324de24bd432d8d40800000000000000
       internalID: 5588161529279075363
@@ -1225,17 +1258,17 @@ TextureImporter:
       name: Props_44
       rect:
         serializedVersion: 2
-        x: 466
-        y: 64
-        width: 28
-        height: 51
+        x: 467
+        y: 65
+        width: 26
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 5a9ce4d9135c08e10800000000000000
       internalID: 2197973435040057765
@@ -1247,17 +1280,17 @@ TextureImporter:
       name: Props_45
       rect:
         serializedVersion: 2
-        x: 496
-        y: 64
-        width: 96
-        height: 51
+        x: 497
+        y: 65
+        width: 94
+        height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: fa8568ebf48d5fe40800000000000000
       internalID: 5689691541262981295
@@ -1269,17 +1302,17 @@ TextureImporter:
       name: Props_46
       rect:
         serializedVersion: 2
-        x: 607
-        y: 95
-        width: 33
-        height: 34
+        x: 608
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 35c87158b8fa89cf0800000000000000
       internalID: -245253165923464109
@@ -1291,17 +1324,17 @@ TextureImporter:
       name: Props_47
       rect:
         serializedVersion: 2
-        x: 133
-        y: 64
-        width: 22
-        height: 27
+        x: 134
+        y: 65
+        width: 20
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: a2eb99616e75874d0800000000000000
       internalID: -3136660494730281430
@@ -1321,7 +1354,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Props_0: 7265313343042191254
       Props_1: -4871644234308700824
