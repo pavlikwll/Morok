@@ -15841,11 +15841,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3899836398079172444, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.337
+      value: 3.18
       objectReference: {fileID: 0}
     - target: {fileID: 3899836398079172444, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.134
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 4136819094958985174, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
       propertyPath: timerVisual
