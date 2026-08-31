@@ -1097,6 +1097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 72000649}
   - component: {fileID: 72000648}
+  - component: {fileID: 72000650}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_4 (4)
   m_TagString: Untagged
@@ -1162,7 +1163,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &72000649
 Transform:
   m_ObjectHideFlags: 0
@@ -1178,6 +1179,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &72000650
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72000647}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.15625, y: -0.40625}
+      - {x: 0.15625, y: 0.4375}
+      - {x: -0.1875, y: 0.4375}
+  m_UseDelaunayMesh: 1
 --- !u!1 &78722009
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,6 +1331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 94320647}
   - component: {fileID: 94320646}
+  - component: {fileID: 94320648}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_19 (2)
   m_TagString: Untagged
@@ -1344,7 +1397,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &94320647
 Transform:
   m_ObjectHideFlags: 0
@@ -1360,6 +1413,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &94320648
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94320645}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.1875, y: -0.40625}
+      - {x: 0.1875, y: 0.1875}
+      - {x: -0.1875, y: 0.1875}
+  m_UseDelaunayMesh: 1
 --- !u!1 &94659375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2724,7 +2828,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &221275742
 Transform:
   m_ObjectHideFlags: 0
@@ -4384,6 +4488,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2586173995783212227, guid: f17c9e2d36cb2254c8be5e5acad8e3c6, type: 3}
   m_PrefabInstance: {fileID: 307750675}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &308278494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 308278495}
+  m_Layer: 0
+  m_Name: SchoolDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &308278495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308278494}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1216362968}
+  m_Father: {fileID: 798105641}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &326393112
 GameObject:
   m_ObjectHideFlags: 0
@@ -5593,6 +5729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 370411756}
   - component: {fileID: 370411755}
+  - component: {fileID: 370411757}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_18 (1)
   m_TagString: Untagged
@@ -5658,7 +5795,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &370411756
 Transform:
   m_ObjectHideFlags: 0
@@ -5674,6 +5811,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &370411757
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370411754}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.3125}
+      - {x: 0.15625, y: -0.3125}
+      - {x: 0.15625, y: 0.03125}
+      - {x: -0.1875, y: 0.03125}
+  m_UseDelaunayMesh: 1
 --- !u!1 &377379454
 GameObject:
   m_ObjectHideFlags: 0
@@ -6431,6 +6619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 412835755}
   - component: {fileID: 412835754}
+  - component: {fileID: 412835756}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_16 (1)
   m_TagString: Untagged
@@ -6496,7 +6685,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &412835755
 Transform:
   m_ObjectHideFlags: 0
@@ -6512,6 +6701,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &412835756
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412835753}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.15625, y: -0.28125}
+      - {x: 0.15625, y: -0.28125}
+      - {x: 0.15625, y: 0}
+      - {x: -0.15625, y: 0}
+  m_UseDelaunayMesh: 1
 --- !u!1 &421934291
 GameObject:
   m_ObjectHideFlags: 0
@@ -6522,6 +6762,7 @@ GameObject:
   m_Component:
   - component: {fileID: 421934293}
   - component: {fileID: 421934292}
+  - component: {fileID: 421934294}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_18 (9)
   m_TagString: Untagged
@@ -6587,7 +6828,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &421934293
 Transform:
   m_ObjectHideFlags: 0
@@ -6603,6 +6844,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &421934294
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421934291}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.3125}
+      - {x: 0.15625, y: -0.3125}
+      - {x: 0.15625, y: 0.03125}
+      - {x: -0.1875, y: 0.03125}
+  m_UseDelaunayMesh: 1
 --- !u!1 &422016396
 GameObject:
   m_ObjectHideFlags: 0
@@ -7244,6 +7536,7 @@ GameObject:
   m_Component:
   - component: {fileID: 453025944}
   - component: {fileID: 453025943}
+  - component: {fileID: 453025945}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_18 (4)
   m_TagString: Untagged
@@ -7309,7 +7602,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &453025944
 Transform:
   m_ObjectHideFlags: 0
@@ -7325,6 +7618,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &453025945
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453025942}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.3125}
+      - {x: 0.15625, y: -0.3125}
+      - {x: 0.15625, y: 0.03125}
+      - {x: -0.1875, y: 0.03125}
+  m_UseDelaunayMesh: 1
 --- !u!1 &453229371
 GameObject:
   m_ObjectHideFlags: 0
@@ -9691,7 +10035,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &546974130
 Transform:
   m_ObjectHideFlags: 0
@@ -11387,6 +11731,7 @@ GameObject:
   m_Component:
   - component: {fileID: 616008519}
   - component: {fileID: 616008518}
+  - component: {fileID: 616008520}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_19 (4)
   m_TagString: Untagged
@@ -11452,7 +11797,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &616008519
 Transform:
   m_ObjectHideFlags: 0
@@ -11468,6 +11813,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &616008520
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616008517}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.1875, y: -0.40625}
+      - {x: 0.1875, y: 0.1875}
+      - {x: -0.1875, y: 0.1875}
+  m_UseDelaunayMesh: 1
 --- !u!1 &622055763
 GameObject:
   m_ObjectHideFlags: 0
@@ -11478,6 +11874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 622055765}
   - component: {fileID: 622055764}
+  - component: {fileID: 622055766}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_4
   m_TagString: Untagged
@@ -11543,7 +11940,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &622055765
 Transform:
   m_ObjectHideFlags: 0
@@ -11559,6 +11956,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &622055766
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622055763}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.15625, y: -0.40625}
+      - {x: 0.15625, y: 0.4375}
+      - {x: -0.1875, y: 0.4375}
+  m_UseDelaunayMesh: 1
 --- !u!1 &628761973
 GameObject:
   m_ObjectHideFlags: 0
@@ -12461,6 +12909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 679827835}
   - component: {fileID: 679827834}
+  - component: {fileID: 679827836}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_16 (2)
   m_TagString: Untagged
@@ -12526,7 +12975,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &679827835
 Transform:
   m_ObjectHideFlags: 0
@@ -12542,6 +12991,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &679827836
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679827833}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.15625, y: -0.28125}
+      - {x: 0.15625, y: -0.28125}
+      - {x: 0.15625, y: 0}
+      - {x: -0.15625, y: 0}
+  m_UseDelaunayMesh: 1
 --- !u!1001 &684743168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12614,6 +13114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 688477331}
   - component: {fileID: 688477330}
+  - component: {fileID: 688477332}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_16 (3)
   m_TagString: Untagged
@@ -12679,7 +13180,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &688477331
 Transform:
   m_ObjectHideFlags: 0
@@ -12695,6 +13196,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &688477332
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688477329}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.15625, y: -0.28125}
+      - {x: 0.15625, y: -0.28125}
+      - {x: 0.15625, y: 0}
+      - {x: -0.15625, y: 0}
+  m_UseDelaunayMesh: 1
 --- !u!1 &688959922
 GameObject:
   m_ObjectHideFlags: 0
@@ -12887,6 +13439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 689616221}
   - component: {fileID: 689616220}
+  - component: {fileID: 689616222}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_18 (2)
   m_TagString: Untagged
@@ -12952,7 +13505,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &689616221
 Transform:
   m_ObjectHideFlags: 0
@@ -12968,6 +13521,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &689616222
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689616219}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.3125}
+      - {x: 0.15625, y: -0.3125}
+      - {x: 0.15625, y: 0.03125}
+      - {x: -0.1875, y: 0.03125}
+  m_UseDelaunayMesh: 1
 --- !u!1 &692274201
 GameObject:
   m_ObjectHideFlags: 0
@@ -14363,6 +14967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 761642634}
   - component: {fileID: 761642633}
+  - component: {fileID: 761642635}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_18 (6)
   m_TagString: Untagged
@@ -14428,7 +15033,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &761642634
 Transform:
   m_ObjectHideFlags: 0
@@ -14444,6 +15049,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &761642635
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761642632}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.3125}
+      - {x: 0.15625, y: -0.3125}
+      - {x: 0.15625, y: 0.03125}
+      - {x: -0.1875, y: 0.03125}
+  m_UseDelaunayMesh: 1
 --- !u!1 &776854423
 GameObject:
   m_ObjectHideFlags: 0
@@ -14454,6 +15110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 776854425}
   - component: {fileID: 776854424}
+  - component: {fileID: 776854426}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_7 (1)
   m_TagString: Untagged
@@ -14519,7 +15176,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &776854425
 Transform:
   m_ObjectHideFlags: 0
@@ -14535,6 +15192,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &776854426
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776854423}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.25, y: -0.4375}
+      - {x: 0.21875, y: -0.4375}
+      - {x: 0.21875, y: 0.46875}
+      - {x: -0.25, y: 0.46875}
+  m_UseDelaunayMesh: 1
 --- !u!1 &776865638
 GameObject:
   m_ObjectHideFlags: 0
@@ -14649,7 +15357,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &781629626
 Transform:
   m_ObjectHideFlags: 0
@@ -15091,6 +15799,207 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1001 &795436706
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 200132679747927660, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 200132679747927660, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.633
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431103263165601855, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725185301474072677, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2725185301474072677, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039853922776213122, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039853922776213122, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: blackscreen
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039853922776213122, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: _worldLoadUnloadManager
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899836398079172444, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.337
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899836398079172444, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.134
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136819094958985174, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: timerVisual
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4136819094958985174, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: timerVisual2
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051910300082928239, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051910300082928239, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336092557343778579, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357399783251714304, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_Intensity
+      value: 2.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357399783251714304, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 0.192
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357399783251714304, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_PointLightOuterAngle
+      value: 66.76304
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357399783251714304, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_PointLightInnerRadius
+      value: 1.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 6357399783251714304, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 6392115089480688684, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: uiInput
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6392115089480688684, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: gameOverUIManager
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6392115089480688684, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: pauseMenuUIManager
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542131891377757960, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 42.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542131891377757960, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542131891377757960, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542131891377757960, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542131891377757960, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542131891377757960, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542131891377757960, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542131891377757960, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542131891377757960, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542131891377757960, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257404079579694272, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7604232668926517323, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: totalHealthbar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7604232668926517323, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: currentHealthbar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772766607293574774, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_Intensity
+      value: 2.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772766607293574774, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 0.192
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772766607293574774, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_PointLightOuterAngle
+      value: 66.76304
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772766607293574774, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_PointLightInnerRadius
+      value: 1.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772766607293574774, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 8139657752358852952, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930087669297280850, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_Intensity
+      value: 2.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930087669297280850, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 0.192
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930087669297280850, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_PointLightOuterAngle
+      value: 66.76304
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930087669297280850, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_PointLightInnerRadius
+      value: 1.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 8930087669297280850, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 2.78
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
 --- !u!1 &798105640
 GameObject:
   m_ObjectHideFlags: 0
@@ -15122,6 +16031,7 @@ Transform:
   m_Children:
   - {fileID: 1171590024}
   - {fileID: 1673191326}
+  - {fileID: 308278495}
   - {fileID: 776865639}
   - {fileID: 1281772276}
   - {fileID: 1261274263}
@@ -15383,6 +16293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 814421547}
   - component: {fileID: 814421546}
+  - component: {fileID: 814421548}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_5 (2)
   m_TagString: Untagged
@@ -15448,7 +16359,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &814421547
 Transform:
   m_ObjectHideFlags: 0
@@ -15464,6 +16375,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &814421548
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814421545}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.15625, y: -0.40625}
+      - {x: 0.15625, y: 0.4375}
+      - {x: -0.1875, y: 0.4375}
+  m_UseDelaunayMesh: 1
 --- !u!1 &817585880
 GameObject:
   m_ObjectHideFlags: 0
@@ -15861,6 +16823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 840019504}
   - component: {fileID: 840019503}
+  - component: {fileID: 840019505}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_5 (1)
   m_TagString: Untagged
@@ -15926,7 +16889,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &840019504
 Transform:
   m_ObjectHideFlags: 0
@@ -15942,6 +16905,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &840019505
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840019502}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.15625, y: -0.40625}
+      - {x: 0.15625, y: 0.4375}
+      - {x: -0.1875, y: 0.4375}
+  m_UseDelaunayMesh: 1
 --- !u!1 &840044114
 GameObject:
   m_ObjectHideFlags: 0
@@ -16981,6 +17995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 878884964}
   - component: {fileID: 878884963}
+  - component: {fileID: 878884965}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_18 (5)
   m_TagString: Untagged
@@ -17046,7 +18061,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &878884964
 Transform:
   m_ObjectHideFlags: 0
@@ -17062,6 +18077,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &878884965
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878884962}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.3125}
+      - {x: 0.15625, y: -0.3125}
+      - {x: 0.15625, y: 0.03125}
+      - {x: -0.1875, y: 0.03125}
+  m_UseDelaunayMesh: 1
 --- !u!1001 &885352129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17225,6 +18291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 890795215}
   - component: {fileID: 890795214}
+  - component: {fileID: 890795216}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_7
   m_TagString: Untagged
@@ -17290,7 +18357,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &890795215
 Transform:
   m_ObjectHideFlags: 0
@@ -17306,6 +18373,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &890795216
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890795213}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.25, y: -0.4375}
+      - {x: 0.21875, y: -0.4375}
+      - {x: 0.21875, y: 0.46875}
+      - {x: -0.25, y: 0.46875}
+  m_UseDelaunayMesh: 1
 --- !u!1 &891806612
 GameObject:
   m_ObjectHideFlags: 0
@@ -17553,6 +18671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 910355943}
   - component: {fileID: 910355942}
+  - component: {fileID: 910355944}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_6
   m_TagString: Untagged
@@ -17618,7 +18737,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &910355943
 Transform:
   m_ObjectHideFlags: 0
@@ -17634,6 +18753,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &910355944
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910355941}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.09375, y: -0.5}
+      - {x: 0.09375, y: -0.5}
+      - {x: 0.09375, y: 0}
+      - {x: -0.09375, y: 0}
+  m_UseDelaunayMesh: 1
 --- !u!1 &913695807
 GameObject:
   m_ObjectHideFlags: 0
@@ -18752,6 +19922,7 @@ GameObject:
   m_Component:
   - component: {fileID: 976062600}
   - component: {fileID: 976062599}
+  - component: {fileID: 976062601}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_19 (5)
   m_TagString: Untagged
@@ -18817,7 +19988,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &976062600
 Transform:
   m_ObjectHideFlags: 0
@@ -18833,6 +20004,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &976062601
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976062598}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.1875, y: -0.40625}
+      - {x: 0.1875, y: 0.1875}
+      - {x: -0.1875, y: 0.1875}
+  m_UseDelaunayMesh: 1
 --- !u!1 &977068215
 GameObject:
   m_ObjectHideFlags: 0
@@ -18843,6 +20065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 977068217}
   - component: {fileID: 977068216}
+  - component: {fileID: 977068218}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_18
   m_TagString: Untagged
@@ -18908,7 +20131,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &977068217
 Transform:
   m_ObjectHideFlags: 0
@@ -18924,6 +20147,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &977068218
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977068215}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.3125}
+      - {x: 0.15625, y: -0.3125}
+      - {x: 0.15625, y: 0.03125}
+      - {x: -0.1875, y: 0.03125}
+  m_UseDelaunayMesh: 1
 --- !u!1001 &978198626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19178,6 +20452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 991238912}
   - component: {fileID: 991238911}
+  - component: {fileID: 991238913}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_4 (2)
   m_TagString: Untagged
@@ -19243,7 +20518,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &991238912
 Transform:
   m_ObjectHideFlags: 0
@@ -19259,6 +20534,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &991238913
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991238910}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.15625, y: -0.40625}
+      - {x: 0.15625, y: 0.4375}
+      - {x: -0.1875, y: 0.4375}
+  m_UseDelaunayMesh: 1
 --- !u!1 &996038520
 GameObject:
   m_ObjectHideFlags: 0
@@ -20112,6 +21438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1044128596}
   - component: {fileID: 1044128595}
+  - component: {fileID: 1044128597}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_18 (3)
   m_TagString: Untagged
@@ -20177,7 +21504,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1044128596
 Transform:
   m_ObjectHideFlags: 0
@@ -20193,6 +21520,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1044128597
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044128594}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.3125}
+      - {x: 0.15625, y: -0.3125}
+      - {x: 0.15625, y: 0.03125}
+      - {x: -0.1875, y: 0.03125}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1045383338
 GameObject:
   m_ObjectHideFlags: 0
@@ -20268,7 +21646,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1045383340
 Transform:
   m_ObjectHideFlags: 0
@@ -26891,16 +28269,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 45, y: 17, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 30
-      m_TileSpriteIndex: 30
-      m_TileMatrixIndex: 1
-      m_TileColorIndex: 19
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 50, y: 17, z: 0}
     second:
       serializedVersion: 2
@@ -29703,8 +31071,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 3caa46f221f69b449be2cae276ea8ee8, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 499
     m_Data: {fileID: 11400000, guid: aaebe3b938030524fb81a9feb64ddd65, type: 2}
   - m_RefCount: 18
@@ -29818,8 +31186,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 38535036, guid: ab44474e5eb78df459b1e1adfcc1fb0b, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 499
     m_Data: {fileID: -1721378090, guid: ab44474e5eb78df459b1e1adfcc1fb0b, type: 3}
   - m_RefCount: 18
@@ -29891,7 +31259,7 @@ Tilemap:
       e31: 0
       e32: 7.99e-43
       e33: 7.95e-43
-  - m_RefCount: 828
+  - m_RefCount: 827
     m_Data:
       e00: 1
       e01: 0
@@ -29948,7 +31316,7 @@ Tilemap:
     m_Data: {r: 1.351103e+28, g: 1.351103e+28, b: 1.351103e+28, a: 1.351103e+28}
   - m_RefCount: 0
     m_Data: {r: 1.351103e+28, g: 1.351103e+28, b: 1.351103e+28, a: 1.351103e+28}
-  - m_RefCount: 828
+  - m_RefCount: 827
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -31068,6 +32436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1151569193}
   - component: {fileID: 1151569192}
+  - component: {fileID: 1151569194}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_0
   m_TagString: Untagged
@@ -31133,7 +32502,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1151569193
 Transform:
   m_ObjectHideFlags: 0
@@ -31149,6 +32518,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1151569194
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151569191}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5109559, y: 0.08002424}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.26095593, y: -0.017524242}
+      - {x: 0.27029407, y: -0.017524242}
+      - {x: 0.23904407, y: 0.16997576}
+      - {x: -0.22970593, y: 0.16997576}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1151935620
 GameObject:
   m_ObjectHideFlags: 0
@@ -32203,6 +33623,97 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3697986271826370246, guid: 1198f25268068234b833765c6fc75ad0, type: 3}
   m_PrefabInstance: {fileID: 1214406217}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1216362967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1216362968}
+  - component: {fileID: 1216362969}
+  m_Layer: 0
+  m_Name: Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1216362968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216362967}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 50.7667, y: 1.3483, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 308278495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1216362969
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216362967}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -3073629855190547287, guid: 5961ca311b2497a4d9b821b9f46fd3fe, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 1
 --- !u!1001 &1225765102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32421,7 +33932,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1228616449
 Transform:
   m_ObjectHideFlags: 0
@@ -32803,6 +34314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1263910156}
   - component: {fileID: 1263910155}
+  - component: {fileID: 1263910157}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_19
   m_TagString: Untagged
@@ -32868,7 +34380,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1263910156
 Transform:
   m_ObjectHideFlags: 0
@@ -32884,6 +34396,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1263910157
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263910154}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.1875, y: -0.40625}
+      - {x: 0.1875, y: 0.1875}
+      - {x: -0.1875, y: 0.1875}
+  m_UseDelaunayMesh: 1
 --- !u!1001 &1264996879
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33265,7 +34828,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1274367661
 Transform:
   m_ObjectHideFlags: 0
@@ -34125,6 +35688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1364947431}
   - component: {fileID: 1364947430}
+  - component: {fileID: 1364947432}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_18 (11)
   m_TagString: Untagged
@@ -34190,7 +35754,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1364947431
 Transform:
   m_ObjectHideFlags: 0
@@ -34206,6 +35770,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1364947432
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364947429}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.3125}
+      - {x: 0.15625, y: -0.3125}
+      - {x: 0.15625, y: 0.03125}
+      - {x: -0.1875, y: 0.03125}
+  m_UseDelaunayMesh: 1
 --- !u!1001 &1369407580
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34624,6 +36239,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1394669962}
   - component: {fileID: 1394669961}
+  - component: {fileID: 1394669963}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_19 (1)
   m_TagString: Untagged
@@ -34689,7 +36305,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1394669962
 Transform:
   m_ObjectHideFlags: 0
@@ -34705,6 +36321,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1394669963
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394669960}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.1875, y: -0.40625}
+      - {x: 0.1875, y: 0.1875}
+      - {x: -0.1875, y: 0.1875}
+  m_UseDelaunayMesh: 1
 --- !u!1001 &1399426796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34930,6 +36597,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1402746501}
   - component: {fileID: 1402746500}
+  - component: {fileID: 1402746502}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_18 (10)
   m_TagString: Untagged
@@ -34995,7 +36663,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1402746501
 Transform:
   m_ObjectHideFlags: 0
@@ -35011,6 +36679,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1402746502
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402746499}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.3125}
+      - {x: 0.15625, y: -0.3125}
+      - {x: 0.15625, y: 0.03125}
+      - {x: -0.1875, y: 0.03125}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1405581803
 GameObject:
   m_ObjectHideFlags: 0
@@ -35021,6 +36740,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1405581805}
   - component: {fileID: 1405581804}
+  - component: {fileID: 1405581806}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_4 (3)
   m_TagString: Untagged
@@ -35086,7 +36806,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1405581805
 Transform:
   m_ObjectHideFlags: 0
@@ -35102,6 +36822,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1405581806
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405581803}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.15625, y: -0.40625}
+      - {x: 0.15625, y: 0.4375}
+      - {x: -0.1875, y: 0.4375}
+  m_UseDelaunayMesh: 1
 --- !u!1001 &1407375885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43560,6 +45331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1484477159}
   - component: {fileID: 1484477158}
+  - component: {fileID: 1484477160}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_19 (3)
   m_TagString: Untagged
@@ -43625,7 +45397,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1484477159
 Transform:
   m_ObjectHideFlags: 0
@@ -43641,6 +45413,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1484477160
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484477157}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.1875, y: -0.40625}
+      - {x: 0.1875, y: 0.1875}
+      - {x: -0.1875, y: 0.1875}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1486995028
 GameObject:
   m_ObjectHideFlags: 0
@@ -46288,6 +48111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1570313444}
   - component: {fileID: 1570313443}
+  - component: {fileID: 1570313445}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_16 (4)
   m_TagString: Untagged
@@ -46353,7 +48177,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1570313444
 Transform:
   m_ObjectHideFlags: 0
@@ -46369,6 +48193,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1570313445
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570313442}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.15625, y: -0.28125}
+      - {x: 0.15625, y: -0.28125}
+      - {x: 0.15625, y: 0}
+      - {x: -0.15625, y: 0}
+  m_UseDelaunayMesh: 1
 --- !u!1001 &1576446320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46834,7 +48709,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1587725033
 Transform:
   m_ObjectHideFlags: 0
@@ -47384,6 +49259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1609281141}
   - component: {fileID: 1609281140}
+  - component: {fileID: 1609281142}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_3
   m_TagString: Untagged
@@ -47449,7 +49325,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1609281141
 Transform:
   m_ObjectHideFlags: 0
@@ -47465,6 +49341,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1609281142
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609281139}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.4926958, y: 0.0836761}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.21144581, y: -0.0211761}
+      - {x: 0.19480419, y: -0.0211761}
+      - {x: 0.19480419, y: 0.2600739}
+      - {x: -0.21144581, y: 0.2600739}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1615166659
 GameObject:
   m_ObjectHideFlags: 0
@@ -48036,6 +49963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637885793}
   - component: {fileID: 1637885792}
+  - component: {fileID: 1637885794}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_12
   m_TagString: Untagged
@@ -48101,7 +50029,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1637885793
 Transform:
   m_ObjectHideFlags: 0
@@ -48117,6 +50045,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1637885794
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637885791}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.375, y: -0.25}
+      - {x: 0.375, y: -0.25}
+      - {x: 0.375, y: 0.0625}
+      - {x: -0.375, y: 0.0625}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1641572497
 GameObject:
   m_ObjectHideFlags: 0
@@ -71185,16 +73164,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 45, y: 17, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 52
-      m_TileSpriteIndex: 43
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 17
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 46, y: 17, z: 0}
     second:
       serializedVersion: 2
@@ -72086,16 +74055,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: 44, y: 18, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 51
-      m_TileSpriteIndex: 42
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 17
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 45, y: 18, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 51
@@ -106858,9 +108817,9 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 10
     m_Data: {fileID: 11400000, guid: 951659e57bd1d134fa0a65375413fb5f, type: 2}
-  - m_RefCount: 14
+  - m_RefCount: 13
     m_Data: {fileID: 11400000, guid: 19208ebbc076b2a4c8b37891654bfe10, type: 2}
-  - m_RefCount: 18
+  - m_RefCount: 17
     m_Data: {fileID: 11400000, guid: ce287f582861855449b857b4ad087c70, type: 2}
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: 8e1eb56cb3058c849a70c315718d6eaa, type: 2}
@@ -106959,9 +108918,9 @@ Tilemap:
     m_Data: {fileID: 602898718, guid: 0353c6b6d3b78b84e901bc18a35f7517, type: 3}
   - m_RefCount: 10
     m_Data: {fileID: -1391072797, guid: ab44474e5eb78df459b1e1adfcc1fb0b, type: 3}
-  - m_RefCount: 14
+  - m_RefCount: 13
     m_Data: {fileID: 6635880450535801837, guid: 122669c9f872fe6479c199d819d292ad, type: 3}
-  - m_RefCount: 18
+  - m_RefCount: 17
     m_Data: {fileID: 1085757661, guid: ab44474e5eb78df459b1e1adfcc1fb0b, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -728163270334919254, guid: 2f46427e3e649494a9cdc9b86ed57175, type: 3}
@@ -106994,7 +108953,7 @@ Tilemap:
   - m_RefCount: 2
     m_Data: {fileID: -649464361, guid: 2f46427e3e649494a9cdc9b86ed57175, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 5571
+  - m_RefCount: 5569
     m_Data:
       e00: 1
       e01: 0
@@ -107065,7 +109024,7 @@ Tilemap:
     m_Data: {r: 1e-45, g: 1e-45, b: 1e-45, a: 1e-45}
   - m_RefCount: 0
     m_Data: {r: 0, g: 0, b: 0, a: 0}
-  - m_RefCount: 5639
+  - m_RefCount: 5637
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -107101,6 +109060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1787022574}
   - component: {fileID: 1787022573}
+  - component: {fileID: 1787022575}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_5 (3)
   m_TagString: Untagged
@@ -107166,7 +109126,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1787022574
 Transform:
   m_ObjectHideFlags: 0
@@ -107182,6 +109142,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1787022575
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787022572}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.15625, y: -0.40625}
+      - {x: 0.15625, y: 0.4375}
+      - {x: -0.1875, y: 0.4375}
+  m_UseDelaunayMesh: 1
 --- !u!1001 &1793262067
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -107323,7 +109334,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1815266434
 Transform:
   m_ObjectHideFlags: 0
@@ -108110,18 +110121,19 @@ PolygonCollider2D:
       - {x: 49.891266, y: 20.950804}
       - {x: 55.01471, y: 23.110685}
       - {x: 55.009117, y: 24.993874}
-      - {x: 57.312172, y: 25.000671}
-      - {x: 57.315437, y: 25.077446}
-      - {x: 55.014366, y: 25.102674}
+      - {x: 57.224907, y: 24.982372}
+      - {x: 57.22388, y: 25.078854}
+      - {x: 57.224308, y: 26.796982}
+      - {x: 55.02916, y: 26.799297}
       - {x: 55.013557, y: 29.68778}
-      - {x: 55.176758, y: 29.693178}
+      - {x: 55.025574, y: 29.970356}
       - {x: 55.191162, y: 29.99518}
       - {x: 55.469513, y: 29.933619}
       - {x: 61.98551, y: 29.976429}
-      - {x: 62.00055, y: 27.075224}
-      - {x: 61.99041, y: 25.12679}
-      - {x: 57.725594, y: 25.095194}
-      - {x: 57.72786, y: 24.982996}
+      - {x: 61.998856, y: 26.80316}
+      - {x: 61.430214, y: 26.804144}
+      - {x: 57.81107, y: 26.81429}
+      - {x: 57.819614, y: 24.967531}
       - {x: 61.98741, y: 24.971342}
       - {x: 62.011635, y: 22.980564}
       - {x: 55.02852, y: 23.003658}
@@ -108478,7 +110490,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1862141625
 Transform:
   m_ObjectHideFlags: 0
@@ -108840,6 +110852,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1884788689}
   - component: {fileID: 1884788688}
+  - component: {fileID: 1884788690}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_16
   m_TagString: Untagged
@@ -108905,7 +110918,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1884788689
 Transform:
   m_ObjectHideFlags: 0
@@ -108921,6 +110934,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1884788690
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884788687}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.15625, y: -0.28125}
+      - {x: 0.15625, y: -0.28125}
+      - {x: 0.15625, y: 0}
+      - {x: -0.15625, y: 0}
+  m_UseDelaunayMesh: 1
 --- !u!1 &1885008588
 GameObject:
   m_ObjectHideFlags: 0
@@ -108931,6 +110995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1885008590}
   - component: {fileID: 1885008589}
+  - component: {fileID: 1885008591}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_5
   m_TagString: Untagged
@@ -108996,7 +111061,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1885008590
 Transform:
   m_ObjectHideFlags: 0
@@ -109012,6 +111077,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1885008591
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885008588}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.40625}
+      - {x: 0.15625, y: -0.40625}
+      - {x: 0.15625, y: 0.4375}
+      - {x: -0.1875, y: 0.4375}
+  m_UseDelaunayMesh: 1
 --- !u!1001 &1886638417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -109665,6 +111781,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1922835772}
   - component: {fileID: 1922835771}
+  - component: {fileID: 1922835773}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_18 (8)
   m_TagString: Untagged
@@ -109730,7 +111847,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1922835772
 Transform:
   m_ObjectHideFlags: 0
@@ -109746,6 +111863,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1922835773
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922835770}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.3125}
+      - {x: 0.15625, y: -0.3125}
+      - {x: 0.15625, y: 0.03125}
+      - {x: -0.1875, y: 0.03125}
+  m_UseDelaunayMesh: 1
 --- !u!1001 &1928107690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -110117,7 +112285,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1949056463
 Transform:
   m_ObjectHideFlags: 0
@@ -111143,6 +113311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2017964364}
   - component: {fileID: 2017964363}
+  - component: {fileID: 2017964365}
   m_Layer: 0
   m_Name: School Furniture Tiles Sprite Sheet_18 (7)
   m_TagString: Untagged
@@ -111208,7 +113377,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &2017964364
 Transform:
   m_ObjectHideFlags: 0
@@ -111224,6 +113393,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 125533069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &2017964365
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017964362}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.1875, y: -0.3125}
+      - {x: 0.15625, y: -0.3125}
+      - {x: 0.15625, y: 0.03125}
+      - {x: -0.1875, y: 0.03125}
+  m_UseDelaunayMesh: 1
 --- !u!1 &2025975995
 GameObject:
   m_ObjectHideFlags: 0
@@ -113490,3 +115710,4 @@ SceneRoots:
   - {fileID: 1966682731}
   - {fileID: 798105641}
   - {fileID: 1855557096}
+  - {fileID: 795436706}
