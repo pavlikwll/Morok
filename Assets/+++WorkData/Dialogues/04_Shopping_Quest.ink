@@ -11,7 +11,7 @@ Jack: I’ll show you when it’s working. #avatar:jack #voice:jack_025
 Mother: Tell you what. #avatar:mother #voice:mother_012
 Mother: I need some milk, a loaf of bread, and some washing powder. #avatar:mother #voice:mother_013
 Mother: Pop down to Store and bring those back. #avatar:mother #voice:mother_014
-~ Add_Money(300)
+~ Add_State("money_pence", 300)
 ~ Event("receive_three_pounds")
 ~ Event("shopping_list_received")
 Mother: Whatever you’ve got left, you can keep. #avatar:mother #voice:mother_015

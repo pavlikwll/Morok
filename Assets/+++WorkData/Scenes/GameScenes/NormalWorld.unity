@@ -55110,7 +55110,7 @@ Transform:
   m_GameObject: {fileID: 1442050021}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 33.75, y: -18.26, z: 0}
+  m_LocalPosition: {x: 33.75, y: -18.161, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -58400,7 +58400,7 @@ Transform:
   m_GameObject: {fileID: 1536504825}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 41.46, y: -18.06, z: 0}
+  m_LocalPosition: {x: 41.46, y: -19.217, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -131170,13 +131170,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC - Harris
       objectReference: {fileID: 0}
+    - target: {fileID: 7553459457875468398, guid: 90040577d0fe24eb2b9200984847a8bd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.499
+      objectReference: {fileID: 0}
     - target: {fileID: 8232269287729928333, guid: 90040577d0fe24eb2b9200984847a8bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.91
+      value: 46.979
       objectReference: {fileID: 0}
     - target: {fileID: 8232269287729928333, guid: 90040577d0fe24eb2b9200984847a8bd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.8
+      value: -14.085
       objectReference: {fileID: 0}
     - target: {fileID: 8232269287729928333, guid: 90040577d0fe24eb2b9200984847a8bd, type: 3}
       propertyPath: m_LocalPosition.z

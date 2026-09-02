@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9fb40fdca323ff43bee7802842a5b01, type: 3}
-  m_Name: TEST Photograph Item
+  m_Name: WashingPowder
   m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
-  itemType: 3
-  id: TESTPhotographItem
+  itemType: 0
+  id: washing_powder
   stackingCap: 10
-  sprite: {fileID: 3388254563885850365, guid: 4214b005d869dad4db7a38719015dcba, type: 3}
-  displayName: Photograph
-  description: photograph item
+  sprite: {fileID: -1402437254593986141, guid: a0d8b9abad04f3342b1b0f812f5e00fb, type: 3}
+  displayName: Washing Powder
+  description: Washing powder for Mum. Not exactly the exciting part of the shopping
+    list.
