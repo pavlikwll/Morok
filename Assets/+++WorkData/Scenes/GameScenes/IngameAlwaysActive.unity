@@ -1169,6 +1169,7 @@ GameObject:
   - component: {fileID: 84334977}
   - component: {fileID: 84334976}
   - component: {fileID: 84334975}
+  - component: {fileID: 84334979}
   m_Layer: 0
   m_Name: TP - x.2
   m_TagString: Untagged
@@ -1185,7 +1186,7 @@ Transform:
   m_GameObject: {fileID: 84334973}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 41.46, y: 17.15, z: 0}
+  m_LocalPosition: {x: 41.48, y: 15.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1277,6 +1278,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 84334979}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnSelected:
     m_PersistentCalls:
       m_Calls:
@@ -1345,6 +1358,37 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!114 &84334979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84334973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -399448013
+      Data2: 1242595543
+      Data3: -1639946095
+      Data4: 1626201654
+    Path: event:/SFX/SFX DoorOpen
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &90323180
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3153,6 +3197,7 @@ GameObject:
   - component: {fileID: 172174144}
   - component: {fileID: 172174143}
   - component: {fileID: 172174142}
+  - component: {fileID: 172174146}
   m_Layer: 0
   m_Name: TP - x.1
   m_TagString: Untagged
@@ -3261,6 +3306,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 172174146}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnSelected:
     m_PersistentCalls:
       m_Calls:
@@ -3329,6 +3386,37 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!114 &172174146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172174140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -399448013
+      Data2: 1242595543
+      Data3: -1639946095
+      Data4: 1626201654
+    Path: event:/SFX/SFX DoorOpen
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &173357349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5118,6 +5206,7 @@ GameObject:
   - component: {fileID: 258581662}
   - component: {fileID: 258581661}
   - component: {fileID: 258581660}
+  - component: {fileID: 258581664}
   m_Layer: 0
   m_Name: TP - x.1
   m_TagString: Untagged
@@ -5226,6 +5315,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 258581664}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnSelected:
     m_PersistentCalls:
       m_Calls:
@@ -5294,6 +5395,37 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!114 &258581664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258581658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -399448013
+      Data2: 1242595543
+      Data3: -1639946095
+      Data4: 1626201654
+    Path: event:/SFX/SFX DoorOpen
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!224 &259897657 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3089178183124938224, guid: d72e9067e095bf44dbb220f527cb9166, type: 3}
@@ -5756,67 +5888,6 @@ Transform:
   - {fileID: 1749456679}
   m_Father: {fileID: 1429272373}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &277648064
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2008398228}
-    m_Modifications:
-    - target: {fileID: 466243350383415416, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
-      propertyPath: m_Name
-      value: Heal - Interactable (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3623465908612660890, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
-      propertyPath: interactionGroups.Array.data[0].onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2048931582}
-    - target: {fileID: 5376846644864696094, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.363
-      objectReference: {fileID: 0}
-    - target: {fileID: 5376846644864696094, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.167
-      objectReference: {fileID: 0}
-    - target: {fileID: 5376846644864696094, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5376846644864696094, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5376846644864696094, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5376846644864696094, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5376846644864696094, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5376846644864696094, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5376846644864696094, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5376846644864696094, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
 --- !u!1 &279715288
 GameObject:
   m_ObjectHideFlags: 0
@@ -7980,6 +8051,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1780541888230269305, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.011
+      objectReference: {fileID: 0}
     - target: {fileID: 2343722064333639321, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
       propertyPath: m_Name
       value: Batteries
@@ -8075,6 +8150,10 @@ PrefabInstance:
     - target: {fileID: 6261285125222498086, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
       propertyPath: m_Size.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6896674204999965875, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6930579936977714708, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
       propertyPath: interactionGroups.Array.data[0].onInteracted.m_PersistentCalls.m_Calls.Array.size
@@ -9737,7 +9816,7 @@ PrefabInstance:
       objectReference: {fileID: 1728122164}
     - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
       propertyPath: avatars.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
       propertyPath: inkAssets.Array.size
@@ -9752,7 +9831,15 @@ PrefabInstance:
       value: radio
       objectReference: {fileID: 0}
     - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
+      propertyPath: avatars.Array.data[9].avatarId
+      value: edith
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
       propertyPath: avatars.Array.data[8].avatarFrames.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
+      propertyPath: avatars.Array.data[9].avatarFrames.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
@@ -9763,6 +9850,10 @@ PrefabInstance:
       propertyPath: 'avatars.Array.data[8].avatarFrames.Array.data[1]'
       value: 
       objectReference: {fileID: 166389369, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
+    - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
+      propertyPath: 'avatars.Array.data[9].avatarFrames.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2141490783731536781, guid: a332eb3866b70574c9051e04db37d257, type: 3}
     - target: {fileID: 7020390249500257011, guid: 0e0e1792c3d1dde4aad0b5c184fd6784, type: 3}
       propertyPath: onDialogueEnd.m_PersistentCalls.m_Calls.Array.size
       value: 3
@@ -11304,6 +11395,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592689438}
   m_CullTransparentMesh: 1
+--- !u!1 &597058175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 597058176}
+  m_Layer: 0
+  m_Name: ObjectLights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &597058176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597058175}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 674446483}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &598889284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12604,6 +12726,7 @@ Transform:
   - {fileID: 1746158648}
   - {fileID: 1917111295}
   - {fileID: 1170707012}
+  - {fileID: 597058176}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &676133902 stripped
@@ -12635,6 +12758,7 @@ GameObject:
   - component: {fileID: 679022893}
   - component: {fileID: 679022892}
   - component: {fileID: 679022891}
+  - component: {fileID: 679022895}
   m_Layer: 0
   m_Name: TP - x.2
   m_TagString: Untagged
@@ -12743,6 +12867,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 679022895}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnSelected:
     m_PersistentCalls:
       m_Calls:
@@ -12811,6 +12947,37 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!114 &679022895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679022889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -399448013
+      Data2: 1242595543
+      Data3: -1639946095
+      Data4: 1626201654
+    Path: event:/SFX/SFX DoorOpen
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &682701178
 GameObject:
   m_ObjectHideFlags: 0
@@ -13874,6 +14041,7 @@ GameObject:
   - component: {fileID: 764233026}
   - component: {fileID: 764233025}
   - component: {fileID: 764233029}
+  - component: {fileID: 764233030}
   m_Layer: 0
   m_Name: TP - x.1
   m_TagString: Untagged
@@ -13943,6 +14111,18 @@ MonoBehaviour:
       - m_Target: {fileID: 764233025}
         m_TargetAssemblyTypeName: Interaction, Assembly-CSharp
         m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 764233030}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14050,6 +14230,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Teleporter
   destination: {fileID: 1509987167}
   player: {fileID: 2048931561}
+--- !u!114 &764233030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764233024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -399448013
+      Data2: 1242595543
+      Data3: -1639946095
+      Data4: 1626201654
+    Path: event:/SFX/SFX DoorOpen
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &770363722
 GameObject:
   m_ObjectHideFlags: 0
@@ -27273,6 +27484,7 @@ GameObject:
   - component: {fileID: 1509987165}
   - component: {fileID: 1509987164}
   - component: {fileID: 1509987168}
+  - component: {fileID: 1509987169}
   m_Layer: 0
   m_Name: TP - x.2
   m_TagString: Untagged
@@ -27342,6 +27554,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1509987164}
         m_TargetAssemblyTypeName: Interaction, Assembly-CSharp
         m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1509987169}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -27449,6 +27673,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Teleporter
   destination: {fileID: 764233028}
   player: {fileID: 2048931561}
+--- !u!114 &1509987169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509987163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -399448013
+      Data2: 1242595543
+      Data3: -1639946095
+      Data4: 1626201654
+    Path: event:/SFX/SFX DoorOpen
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1511381124
 GameObject:
   m_ObjectHideFlags: 0
@@ -29920,11 +30175,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d72e9067e095bf44dbb220f527cb9166, type: 3}
---- !u!4 &1698581652 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5376846644864696094, guid: d37c80ea5bf9f074db7a2607ca673e8a, type: 3}
-  m_PrefabInstance: {fileID: 277648064}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1699993554 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3089178183124938224, guid: d72e9067e095bf44dbb220f527cb9166, type: 3}
@@ -31231,7 +31481,7 @@ Transform:
   m_GameObject: {fileID: 1746158647}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.52, y: 18.77, z: -10}
+  m_LocalPosition: {x: -14.08, y: 17.94, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34601,7 +34851,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.4
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000f36ad279
@@ -35807,7 +36057,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 25723345}
-  - {fileID: 1698581652}
   - {fileID: 1821599710}
   - {fileID: 1480950309}
   - {fileID: 847956647}
@@ -36426,19 +36675,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 513604111059417031, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7098174
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 513604111059417031, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 513604111059417031, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 513604111059417031, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7043857
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 513604111059417031, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -36450,7 +36699,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 513604111059417031, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 89.56
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780541888230269305, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780541888230269305, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780541888230269305, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2343722064333639321, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
       propertyPath: m_Name
@@ -36547,6 +36808,10 @@ PrefabInstance:
     - target: {fileID: 6261285125222498086, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
       propertyPath: m_Size.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6896674204999965875, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6930579936977714708, guid: c961810c2f6a1f148bde024591ac6c9f, type: 3}
       propertyPath: interactionGroups.Array.data[0].onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -39036,7 +39301,7 @@ Transform:
   m_GameObject: {fileID: 2145309083}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.52, y: 18.77, z: -10}
+  m_LocalPosition: {x: -14.08, y: 17.94, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39226,11 +39491,11 @@ PrefabInstance:
       objectReference: {fileID: 920664495}
     - target: {fileID: 6542131891377757960, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.52
+      value: -14.08
       objectReference: {fileID: 0}
     - target: {fileID: 6542131891377757960, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.77
+      value: 17.94
       objectReference: {fileID: 0}
     - target: {fileID: 6542131891377757960, guid: 714bf21fab25b4caf8dc0c811f64dbd7, type: 3}
       propertyPath: m_LocalPosition.z
