@@ -11716,13 +11716,14 @@ GameObject:
   - component: {fileID: 457239477}
   - component: {fileID: 457239479}
   - component: {fileID: 457239478}
+  - component: {fileID: 457239480}
   m_Layer: 0
   m_Name: DrawingExamine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &457239476
 Transform:
   m_ObjectHideFlags: 0
@@ -11732,12 +11733,12 @@ Transform:
   m_GameObject: {fileID: 457239475}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 43.96, y: 19.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1859913769}
-  m_Father: {fileID: 742985618}
+  m_Father: {fileID: 1790426610}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &457239477
 CapsuleCollider2D:
@@ -11821,6 +11822,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InkDialogue
   dialoguePath: examine_emily_drawings
+--- !u!114 &457239480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457239475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f9f32e60261824790adde102ede3f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueInteractable
+  OnInteracted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 457239478}
+        m_TargetAssemblyTypeName: Interaction, Assembly-CSharp
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnSelected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1181479584}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  OnUnselected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1181479584}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  canInteract: 1
+  singleInteractable: 0
 --- !u!1 &458405713
 GameObject:
   m_ObjectHideFlags: 0
@@ -21588,7 +21648,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 309249977}
-  - {fileID: 457239476}
   m_Father: {fileID: 1790426610}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &742985619
@@ -21692,18 +21751,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 457239475}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
   OnSelected:
     m_PersistentCalls:
       m_Calls:
@@ -21758,6 +21805,18 @@ MonoBehaviour:
           m_TargetAssemblyTypeName: InkDialogue, Assembly-CSharp
           m_MethodName: StartDialogue
           m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 457239475}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -50275,6 +50334,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 1
+--- !u!1 &1181479584 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8547048998921768118, guid: 4e3d2bc5cd1853948941c806b6ab2809, type: 3}
+  m_PrefabInstance: {fileID: 1859913768}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1181900021
 GameObject:
   m_ObjectHideFlags: 0
@@ -98612,8 +98676,8 @@ Tilemap:
   - first: {x: 46, y: 22, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 38
-      m_TileSpriteIndex: 39
+      m_TileIndex: 50
+      m_TileSpriteIndex: 41
       m_TileMatrixIndex: 0
       m_TileColorIndex: 17
       m_TileObjectToInstantiateIndex: 65535
@@ -98632,8 +98696,8 @@ Tilemap:
   - first: {x: 48, y: 22, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 38
-      m_TileSpriteIndex: 39
+      m_TileIndex: 50
+      m_TileSpriteIndex: 41
       m_TileMatrixIndex: 0
       m_TileColorIndex: 17
       m_TileObjectToInstantiateIndex: 65535
@@ -130426,7 +130490,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 0a889eb098ee262419a4f0f4be0cc6ed, type: 2}
   - m_RefCount: 553
     m_Data: {fileID: 11400000, guid: aaebe3b938030524fb81a9feb64ddd65, type: 2}
-  - m_RefCount: 3
+  - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 898763db99273a84d82a9792c8cf25cd, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 2acdf1acd1ecd8d478ba0ed016abdfa8, type: 2}
@@ -130450,7 +130514,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 1cb6c80f52ee85443968e2caaa5fdb69, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 10
+  - m_RefCount: 12
     m_Data: {fileID: 11400000, guid: 951659e57bd1d134fa0a65375413fb5f, type: 2}
   - m_RefCount: 13
     m_Data: {fileID: 11400000, guid: 19208ebbc076b2a4c8b37891654bfe10, type: 2}
@@ -130547,11 +130611,11 @@ Tilemap:
     m_Data: {fileID: -9141065258101492428, guid: 2f46427e3e649494a9cdc9b86ed57175, type: 3}
   - m_RefCount: 26
     m_Data: {fileID: -50482295, guid: 2f46427e3e649494a9cdc9b86ed57175, type: 3}
-  - m_RefCount: 3
+  - m_RefCount: 1
     m_Data: {fileID: -261349347, guid: ab44474e5eb78df459b1e1adfcc1fb0b, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 602898718, guid: 0353c6b6d3b78b84e901bc18a35f7517, type: 3}
-  - m_RefCount: 10
+  - m_RefCount: 12
     m_Data: {fileID: -1391072797, guid: ab44474e5eb78df459b1e1adfcc1fb0b, type: 3}
   - m_RefCount: 13
     m_Data: {fileID: 6635880450535801837, guid: 122669c9f872fe6479c199d819d292ad, type: 3}
@@ -130957,6 +131021,7 @@ Transform:
   - {fileID: 420299854}
   - {fileID: 1563289170}
   - {fileID: 1095750245}
+  - {fileID: 457239476}
   - {fileID: 742985618}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

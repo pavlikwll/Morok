@@ -47933,7 +47933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18542c639fbec2242a3ed8eae64fb7e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interaction
-  interactableId: 
+  interactableId: Finch_1
   interactionGroups:
   - interactionName: Finch
     onInteracted:
