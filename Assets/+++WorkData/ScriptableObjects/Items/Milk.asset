@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9fb40fdca323ff43bee7802842a5b01, type: 3}
-  m_Name: TEST Story Item 1
+  m_Name: Milk
   m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
   itemType: 0
-  id: TESTStoryItem1
+  id: milk
   stackingCap: 10
-  sprite: {fileID: 21300000, guid: 7b16c19a426040a468cd912e3816cc68, type: 3}
-  displayName: Story1
-  description: story item1
+  sprite: {fileID: 788889129021856440, guid: a0d8b9abad04f3342b1b0f812f5e00fb, type: 3}
+  displayName: Milk
+  description: A bottle of milk. Mum asked me to bring one home.

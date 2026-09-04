@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9fb40fdca323ff43bee7802842a5b01, type: 3}
-  m_Name: TEST Notes Item
+  m_Name: LoafofBread
   m_EditorClassIdentifier: Assembly-CSharp::ItemDefinition
-  itemType: 2
-  id: TESTNotesItem
+  itemType: 0
+  id: bread
   stackingCap: 10
-  sprite: {fileID: 2349344280030101066, guid: a22bc10f9dc5d554b94926829f0a7883, type: 3}
-  displayName: Notes
-  description: notes item
+  sprite: {fileID: -1232417964054883485, guid: a0d8b9abad04f3342b1b0f812f5e00fb, type: 3}
+  displayName: Loaf of Bread
+  description: A fresh loaf of bread from the local shop.

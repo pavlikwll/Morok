@@ -12,11 +12,11 @@ Edith: Never mind me, dear. #avatar:edith #voice:edith_004
 
 === harris_shop ===
 = introduction
-Harris: Afternoon. #avatar:harris
-Harris: You must be the new family. #avatar:harris
+Harris: Afternoon. #avatar:harris #voice:harris_001
+Harris: You must be the new family. #avatar:harris #voice:harris_002
 Jack: Is it really that obvious? #avatar:jack #voice:jack_029
-Harris: Son, I know everyone in Ashwick. #avatar:harris
-Harris: Well… almost everyone. #avatar:harris
+Harris: Son, I know everyone in Ashwick. #avatar:harris #voice:harris_003
+Harris: Well… almost everyone. #avatar:harris #voice:harris_004
 ~ Event("harris_intro_complete")
 ~ Event("open_store_shopping")
 -> END
